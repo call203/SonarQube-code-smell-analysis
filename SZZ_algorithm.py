@@ -18,6 +18,7 @@ def  get_fix_commits():
     bug_id_regex = r'(#\d+|gh-\d+)' 
     fix_keywords = ['fix', 'fixed', 'fixes']  
 
+
     for commit in commits:
         commit_message = commit.message.lower()
         if re.search(bug_id_regex, commit_message) and any(keyword in commit_message for keyword in fix_keywords):
@@ -30,30 +31,31 @@ def  get_fix_commits():
 
 def search_candidate_commit_szz(bug_fix_commit):
     all_candidate_commits = []
-    # verifichiamo se il commit ha effettivamente un parent da confrontare, altrimenti non possiamo fare il
-    # confronto
+
     if bug_fix_commit.parents is not None:
         parent_commit = bug_fix_commit.parents[0]
         diff = repo.git.diff(bug_fix_commit.hexsha, parent_commit.hexsha, '-U0', '--histogram')
         
         changes_dict = generate_changes_dict(diff)
 
-        all_candidate_commits = get_all_candidate_commits(parent_commit, changes_dict)
+        all_candidate_commits = get_recent_candidate_commits(parent_commit, changes_dict)
 
     return all_candidate_commits
 
 
 
 
-def get_all_candidate_commits(parent_commit, changes_dict):
-    all_candidate_commits = set()
+def get_recent_candidate_commits(parent_commit, changes_dict):
 
+    recent_commit = None
     for file_path, line_numbers in changes_dict.items():
         blame_result = repo.git.blame(parent_commit.hexsha, file_path, "--line-porcelain")
         candidate_commits = get_candidate_commits(blame_result, file_path, changes_dict)
-        all_candidate_commits = all_candidate_commits.union(candidate_commits)
-
-    return all_candidate_commits   
+        for commit in candidate_commits:
+            if recent_commit is None or commit_is_more_recent(commit[0],recent_commit[0]):
+                recent_commit = commit
+        
+    return recent_commit  
 
 
 
@@ -68,9 +70,24 @@ def get_candidate_commits(blame_result, file_path, changes_dict):
     for match in matches:
         commit_hash, first_number, second_number, third_number, author = match
         if int(second_number) in changes_dict.get(file_path, []):
-            commit_set.add((commit_hash, author))
+            commit_obj = repo.commit(commit_hash)
+            commit_date = commit_obj.committed_datetime
 
+            if args.recent:  
+                if most_recent_commit is None or commit_is_more_recent(commit_date, most_recent_commit[2]):
+                    most_recent_commit = (commit_hash, author,commit_date)
+            else:
+                
+                commit_set.add((commit_hash, author,commit_date))
+
+    if args.recent and most_recent_commit is not None:
+        commit_set = {most_recent_commit}
     return commit_set
+
+
+
+def commit_is_more_recent(commit1_datetime, commit2_datetime):
+    return commit1_datetime > commit2_datetime
 
 
 
@@ -119,10 +136,11 @@ def match_comment(line):
 
 def print_candidate_commit(total_candidate_commits):
     for element, value in total_candidate_commits.items():
-        print('\nCommit ', element)
+        print('\nCommit ', element, element.committed_datetime)
         print('Commit candidati')
-        for com in value:
-            print(com)
+        if value: 
+            for com in value:
+                print(com)
 
 
 
@@ -133,18 +151,21 @@ def ssz():
     print(len(fixed_commits))
     for commit in fixed_commits:
         total_candidate_commit[commit]  = search_candidate_commit_szz(commit)
+       
     print_candidate_commit(total_candidate_commit)
         
-        
+    
         
     
     
-repo = None;
+repo = None
 args = None
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="""Insert repository name""")
     parser.add_argument('--repo-path', type=str, help="The absolute path to a local copy of the git repository from "
                                                       "where the git log is taken.")
+    parser.add_argument('-r', '--recent', action='store_true',
+                        help="Show only the most recent commit for each bug-fix commit")
     args = parser.parse_args()
     path_to_repo = args.repo_path
     repo = git.Repo(path_to_repo)
