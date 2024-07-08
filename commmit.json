@@ -1,1 +1,476 @@
-[{"sha": "ff740789a5ef722e52b6328417ed148a93a2b926", "node_id": "C_kwDOAIbxo9oAKGZmNzQwNzg5YTVlZjcyMmU1MmI2MzI4NDE3ZWQxNDhhOTNhMmI5MjY", "commit": {"author": {"name": "Jacco van den Berg", "email": "jaccoberg2281@gmail.com", "date": "2024-05-24T14:15:28Z"}, "committer": {"name": "GitHub", "email": "noreply@github.com", "date": "2024-05-24T14:15:28Z"}, "message": "Fix drawing angle lines on reversed radial scale (#11788)\n\n* Fix drawing angle lines on reversed radial scale\r\n\r\n* add test\r\n\r\n* Show ticks in test\r\n\r\n---------\r\n\r\nCo-authored-by: Jacco van den Berg <jacco@jem-id.nl>", "tree": {"sha": "5615d9e790212ef2afa5903968ed8e3f4278ee71", "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/5615d9e790212ef2afa5903968ed8e3f4278ee71"}, "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/ff740789a5ef722e52b6328417ed148a93a2b926", "comment_count": 0, "verification": {"verified": true, "reason": "valid", "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmUKEACRC1aQ7uu5UhlAAAgvQQABeoGIagCoAUx2AdneP1NaCO\neEDXN5zWmbiKWAXaxx4z1KgG6xm8wnq5osY54NKbV93VFSNkk+h5cu/YmSzsv+na\ntOHmKbmSIhqHpqWx+Fl5i4QCIKTqNQSsNm9757hKsi0Mdo9Ek9Oho9vHvpRPg3CW\nLcGpDmnFVKYaa9KioChUQJZEJOhWhH3ra1P9kIDGM2g+CNJytEqzOpmJ4XLfoBG7\n8SuyyWURfwfCugqNKNjCcFY2cdpMxxu3PE/8gAFP7QW2MiGV45Hhv81Dy/oaaPST\nZFEQKzgptl0EsCN6dgwyO+Ult3yY+G99MM3hnT+nWtN1deey3PW6ohHZZKrKhVYV\nQiNobjfXOz/QBVzOG9HfAZKtYWnB0CDrpU/4/Anu/LLS9VVk0ZTssFcYLU1huYwf\nuj4uxUQQXIl5+v9NM9xeoO1PyUP/7O6ftbfWgGuH6+z9A7Z02hah3s/R3WqYNJUT\n6wLvKpoJCyQvgvOgrT2+2til5/hOlHOghUfWS0RiJdJbAs+5rEfTdIqgS4W5PILV\nW+dKlRI3rpD5tXosfJX9vvEyHwKFhaJ6lfrYmR2D0AW+GhUiHdJ/+gnP4OikYItD\nR1wQDH5XVPDmKmFqdqGIpGiu2vXWI+p/ugqagNNwIH4o/4UzOynwdGjLKa8mMe/k\nQm6uTjsXT0H9bsFjZQTA\n=SJ0s\n-----END PGP SIGNATURE-----\n", "payload": "tree 5615d9e790212ef2afa5903968ed8e3f4278ee71\nparent 228a4856037cafcaa955eccde31e79968c94a8c8\nauthor Jacco van den Berg <jaccoberg2281@gmail.com> 1716560128 +0200\ncommitter GitHub <noreply@github.com> 1716560128 +0200\n\nFix drawing angle lines on reversed radial scale (#11788)\n\n* Fix drawing angle lines on reversed radial scale\r\n\r\n* add test\r\n\r\n* Show ticks in test\r\n\r\n---------\r\n\r\nCo-authored-by: Jacco van den Berg <jacco@jem-id.nl>"}}, "url": "https://api.github.com/repos/chartjs/Chart.js/commits/ff740789a5ef722e52b6328417ed148a93a2b926", "html_url": "https://github.com/chartjs/Chart.js/commit/ff740789a5ef722e52b6328417ed148a93a2b926", "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/ff740789a5ef722e52b6328417ed148a93a2b926/comments", "author": {"login": "LeeLenaleee", "id": 39033624, "node_id": "MDQ6VXNlcjM5MDMzNjI0", "avatar_url": "https://avatars.githubusercontent.com/u/39033624?v=4", "gravatar_id": "", "url": "https://api.github.com/users/LeeLenaleee", "html_url": "https://github.com/LeeLenaleee", "followers_url": "https://api.github.com/users/LeeLenaleee/followers", "following_url": "https://api.github.com/users/LeeLenaleee/following{/other_user}", "gists_url": "https://api.github.com/users/LeeLenaleee/gists{/gist_id}", "starred_url": "https://api.github.com/users/LeeLenaleee/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/LeeLenaleee/subscriptions", "organizations_url": "https://api.github.com/users/LeeLenaleee/orgs", "repos_url": "https://api.github.com/users/LeeLenaleee/repos", "events_url": "https://api.github.com/users/LeeLenaleee/events{/privacy}", "received_events_url": "https://api.github.com/users/LeeLenaleee/received_events", "type": "User", "site_admin": false}, "committer": {"login": "web-flow", "id": 19864447, "node_id": "MDQ6VXNlcjE5ODY0NDQ3", "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4", "gravatar_id": "", "url": "https://api.github.com/users/web-flow", "html_url": "https://github.com/web-flow", "followers_url": "https://api.github.com/users/web-flow/followers", "following_url": "https://api.github.com/users/web-flow/following{/other_user}", "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}", "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions", "organizations_url": "https://api.github.com/users/web-flow/orgs", "repos_url": "https://api.github.com/users/web-flow/repos", "events_url": "https://api.github.com/users/web-flow/events{/privacy}", "received_events_url": "https://api.github.com/users/web-flow/received_events", "type": "User", "site_admin": false}, "parents": [{"sha": "228a4856037cafcaa955eccde31e79968c94a8c8", "url": "https://api.github.com/repos/chartjs/Chart.js/commits/228a4856037cafcaa955eccde31e79968c94a8c8", "html_url": "https://github.com/chartjs/Chart.js/commit/228a4856037cafcaa955eccde31e79968c94a8c8"}]}, {"sha": "5c9e5c66d2a5328338d38c271e2852de3642575c", "node_id": "C_kwDOAIbxo9oAKDVjOWU1YzY2ZDJhNTMyODMzOGQzOGMyNzFlMjg1MmRlMzY0MjU3NWM", "commit": {"author": {"name": "Jon Dufresne", "email": "jon.dufresne@gmail.com", "date": "2024-05-21T10:10:07Z"}, "committer": {"name": "GitHub", "email": "noreply@github.com", "date": "2024-05-21T10:10:07Z"}, "message": "Fix some typos (#11781)", "tree": {"sha": "d492dea12ff720d1a7a1a7cba1bd22b14fbd5895", "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/d492dea12ff720d1a7a1a7cba1bd22b14fbd5895"}, "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/5c9e5c66d2a5328338d38c271e2852de3642575c", "comment_count": 0, "verification": {"verified": true, "reason": "valid", "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmTHL/CRC1aQ7uu5UhlAAAOBUQAEFqPTAW2AITZ2DAg3WHByhn\nFvqbGYp0bebHcZD31diUCttkdjk08BqQTJRIAsoWsNNtk5OVbj8W+vd4g70V3W+u\nYDSv290n+L2YIG88xdMUSIACem8QjaFIkDa4mRxt3cxAzu1O6TvIKJ7dHyQM09qL\nKou2t9lA7IT6U5urTdCzqjDnDwlnZY77VqqFW6QS7FA2d/AcmIe3CuUKl6uf1Zkp\nqVdZOvF8bMIGBLVz+RwtCWQ7LT1deIocp9mo7+YxOdcKubaszyRpZEPLTzyGReBT\ngTbsIGc6OP732yr7davS0iMYFWSHtcY0wWOgi4+EhDWn7j6TsABxC31DZjkAT1dT\nCVuk5zknRl2wuWNq9HMESvZqICmU5iwhAzq+Ccb6SVRAzUwIJNQyGUj9xOdUcToU\nyeoBKWFxlHRj9nAMBvw7hOPA6W69ToCFRKJjK6sjtIw44dUIXLOlzw8gk9yU2zDm\n8LZtWa2LXEubSzVk/XyuKL5rjCnxDqvLiUJ5mQ2faJVFE+gN0xXKUSNz9tN/SRPi\n0GyNz0ToZfbU3kQVUDfSLdUmskR3bspzlGLkn9UNvBEplbSXih4VE1uAOQFjeQQ9\ndNVkejN7/QQREGOkbRXKwKWkhseVO7jW3Sx+k+txvmm8GujKf8LoBrXHe3u8yaEd\ngDyS9NS+i5FB1usOds/N\n=Zi+X\n-----END PGP SIGNATURE-----\n", "payload": "tree d492dea12ff720d1a7a1a7cba1bd22b14fbd5895\nparent 3d0801299283cb6cb8e777e0cd45e6172cc43966\nauthor Jon Dufresne <jon.dufresne@gmail.com> 1716286207 -0700\ncommitter GitHub <noreply@github.com> 1716286207 +0200\n\nFix some typos (#11781)\n\n"}}, "url": "https://api.github.com/repos/chartjs/Chart.js/commits/5c9e5c66d2a5328338d38c271e2852de3642575c", "html_url": "https://github.com/chartjs/Chart.js/commit/5c9e5c66d2a5328338d38c271e2852de3642575c", "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/5c9e5c66d2a5328338d38c271e2852de3642575c/comments", "author": {"login": "jdufresne", "id": 347634, "node_id": "MDQ6VXNlcjM0NzYzNA==", "avatar_url": "https://avatars.githubusercontent.com/u/347634?v=4", "gravatar_id": "", "url": "https://api.github.com/users/jdufresne", "html_url": "https://github.com/jdufresne", "followers_url": "https://api.github.com/users/jdufresne/followers", "following_url": "https://api.github.com/users/jdufresne/following{/other_user}", "gists_url": "https://api.github.com/users/jdufresne/gists{/gist_id}", "starred_url": "https://api.github.com/users/jdufresne/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/jdufresne/subscriptions", "organizations_url": "https://api.github.com/users/jdufresne/orgs", "repos_url": "https://api.github.com/users/jdufresne/repos", "events_url": "https://api.github.com/users/jdufresne/events{/privacy}", "received_events_url": "https://api.github.com/users/jdufresne/received_events", "type": "User", "site_admin": false}, "committer": {"login": "web-flow", "id": 19864447, "node_id": "MDQ6VXNlcjE5ODY0NDQ3", "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4", "gravatar_id": "", "url": "https://api.github.com/users/web-flow", "html_url": "https://github.com/web-flow", "followers_url": "https://api.github.com/users/web-flow/followers", "following_url": "https://api.github.com/users/web-flow/following{/other_user}", "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}", "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions", "organizations_url": "https://api.github.com/users/web-flow/orgs", "repos_url": "https://api.github.com/users/web-flow/repos", "events_url": "https://api.github.com/users/web-flow/events{/privacy}", "received_events_url": "https://api.github.com/users/web-flow/received_events", "type": "User", "site_admin": false}, "parents": [{"sha": "3d0801299283cb6cb8e777e0cd45e6172cc43966", "url": "https://api.github.com/repos/chartjs/Chart.js/commits/3d0801299283cb6cb8e777e0cd45e6172cc43966", "html_url": "https://github.com/chartjs/Chart.js/commit/3d0801299283cb6cb8e777e0cd45e6172cc43966"}]}, {"sha": "f785882aeb6831ff90247a4845a7f8d26353b65f", "node_id": "C_kwDOAIbxo9oAKGY3ODU4ODJhZWI2ODMxZmY5MDI0N2E0ODQ1YTdmOGQyNjM1M2I2NWY", "commit": {"author": {"name": "EricWittrock", "email": "92955915+EricWittrock@users.noreply.github.com", "date": "2024-04-29T04:42:05Z"}, "committer": {"name": "GitHub", "email": "noreply@github.com", "date": "2024-04-29T04:42:05Z"}, "message": "Fix error when object prototype is frozen (#11754)", "tree": {"sha": "afb06d084d10284124fb02c77483ffbd3a5aaaec", "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/afb06d084d10284124fb02c77483ffbd3a5aaaec"}, "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/f785882aeb6831ff90247a4845a7f8d26353b65f", "comment_count": 0, "verification": {"verified": true, "reason": "valid", "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmLyUdCRC1aQ7uu5UhlAAAHIkQAAxLRYmexJnjV3BrPIm68OV8\nUasER2Vcdmb1MP2REldFxeGcWb4Av8brjtVh+L0iiDub4IS+QaYBsj4De6EQRYRX\nxNrJazO9ycB+H9R90F+932VNz2R+XYPYS+bR10nRMm71pzifP7VRTdLVEYQv3dFi\nsbGFbTklKs+W3NK5o11K6tM1OYtY9PqYyc8c4cztY9WX4mSYbcd4fB35w/dXPG8+\n0aWdiWOQx0UD/YOYl+slaRfZ8lmrWoXUyNElEdHR1Zf2b3ulqUiCeP4fV2fo9uBy\nOuIwD1d3sHo7YQ2Lc4Q57+AuClQgKBSFSbwl4N4nfOO32tS85br/4GWI7L7ODSM6\nAN9lyWHPfI0aixyZMYnvg6iGXuCZaFXydxEyZyzzTg3Z5QaRXZ2BL5cxcOehNwPU\nnaIuILNr+iaeiifnIjNmuPe5Wo51V+BGfR4S32WQAyVbPa9rnPa4KhaQ8kU6kIG2\nTP3M0akzlKx83jmIKgdFJlbHTpSDLF5Aa29UK6+uTpmY0pcB26wtDkB1N2AZIoPU\nkWf7dIkwsNjucq6DhzaVGEebrKAuVCf8+9IWlKyeaZ6Ogsw9rcwgQ4ByIU6Mrk7C\ne6mWxghzip2VSFdUPSx60v9ubG5U/1Ese/ABFYSJPhtLQt3TIgTuq/3ze0Cl8VI+\nUZkcNsBNtNu68QO2W6Jc\n=fpMW\n-----END PGP SIGNATURE-----\n", "payload": "tree afb06d084d10284124fb02c77483ffbd3a5aaaec\nparent 6daf4ba4e3993118e4a5f4b7783003eba2511864\nauthor EricWittrock <92955915+EricWittrock@users.noreply.github.com> 1714365725 -0500\ncommitter GitHub <noreply@github.com> 1714365725 +0200\n\nFix error when object prototype is frozen (#11754)\n\n"}}, "url": "https://api.github.com/repos/chartjs/Chart.js/commits/f785882aeb6831ff90247a4845a7f8d26353b65f", "html_url": "https://github.com/chartjs/Chart.js/commit/f785882aeb6831ff90247a4845a7f8d26353b65f", "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/f785882aeb6831ff90247a4845a7f8d26353b65f/comments", "author": {"login": "EricWittrock", "id": 92955915, "node_id": "U_kgDOBYplCw", "avatar_url": "https://avatars.githubusercontent.com/u/92955915?v=4", "gravatar_id": "", "url": "https://api.github.com/users/EricWittrock", "html_url": "https://github.com/EricWittrock", "followers_url": "https://api.github.com/users/EricWittrock/followers", "following_url": "https://api.github.com/users/EricWittrock/following{/other_user}", "gists_url": "https://api.github.com/users/EricWittrock/gists{/gist_id}", "starred_url": "https://api.github.com/users/EricWittrock/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/EricWittrock/subscriptions", "organizations_url": "https://api.github.com/users/EricWittrock/orgs", "repos_url": "https://api.github.com/users/EricWittrock/repos", "events_url": "https://api.github.com/users/EricWittrock/events{/privacy}", "received_events_url": "https://api.github.com/users/EricWittrock/received_events", "type": "User", "site_admin": false}, "committer": {"login": "web-flow", "id": 19864447, "node_id": "MDQ6VXNlcjE5ODY0NDQ3", "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4", "gravatar_id": "", "url": "https://api.github.com/users/web-flow", "html_url": "https://github.com/web-flow", "followers_url": "https://api.github.com/users/web-flow/followers", "following_url": "https://api.github.com/users/web-flow/following{/other_user}", "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}", "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions", "organizations_url": "https://api.github.com/users/web-flow/orgs", "repos_url": "https://api.github.com/users/web-flow/repos", "events_url": "https://api.github.com/users/web-flow/events{/privacy}", "received_events_url": "https://api.github.com/users/web-flow/received_events", "type": "User", "site_admin": false}, "parents": [{"sha": "6daf4ba4e3993118e4a5f4b7783003eba2511864", "url": "https://api.github.com/repos/chartjs/Chart.js/commits/6daf4ba4e3993118e4a5f4b7783003eba2511864", "html_url": "https://github.com/chartjs/Chart.js/commit/6daf4ba4e3993118e4a5f4b7783003eba2511864"}]}, {"sha": "4068bd8c47497c3e05688d0c939b711e8c5e1c33", "node_id": "C_kwDOAIbxo9oAKDQwNjhiZDhjNDc0OTdjM2UwNTY4OGQwYzkzOWI3MTFlOGM1ZTFjMzM", "commit": {"author": {"name": "Megaemce", "email": "1651451+Megaemce@users.noreply.github.com", "date": "2024-02-24T19:30:35Z"}, "committer": {"name": "GitHub", "email": "noreply@github.com", "date": "2024-02-24T19:30:35Z"}, "message": "fix #11503, autoskipping 0 ticks when min is below 0 (#11682)", "tree": {"sha": "7ce8d2f2c1e8ab8fbbb1c3b8dfd9f2f2c0bb6688", "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/7ce8d2f2c1e8ab8fbbb1c3b8dfd9f2f2c0bb6688"}, "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/4068bd8c47497c3e05688d0c939b711e8c5e1c33", "comment_count": 0, "verification": {"verified": true, "reason": "valid", "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl2kPbCRC1aQ7uu5UhlAAAW6kQAFNdIZxLBVaiMBm1LigEqqWG\nI0FlJP0vWmEiJeUusLPzQTkWWmFxF2BZwCxhMBrCZuTHc+0fW4CZs/enrEtNozUU\nm5auoKb2DENNRECNcNt9yx0QA5eJ8Fv+DOju0IObP4h0SMAszpx75PaAFtnT+ccL\n/RoBL3KIcvlweXo/0RiD/yLeiO/GssEhHQ32PeHFA5ThVWKDGJY3fx/eoCachim4\nbZCrLZCktZSw5NOEhpQBlgEwCFFhONCXl6viUDPwhXwXXTFE3+GwM1k7Fnh3keCC\nLZN/DC9iR8I86RvNYTRE64R1n0c8gzsMHrqN31UCHyEFlmjA3LflHzyBGwYxEgU8\nByYSBx8uORz4qae3Hu5Sq4hGNCmCRvhqA9j0v04FcK3Jgk5zSSirMXhdQ6fmZnt9\nogHOBeBuw0GTWRzVZXN3VFmIOPiutNaqo+krWPdcDQreDdZHZrqqFDCMTR/Cre7/\nTaxxNSeI4//k0DJycLiJ2qnZHElzyOjP0k5j+1MOF8oxzWkiW3tx9dY9HjS6qvDx\nhhR3rb4cpkNaT8huzm7qBchnLSfnoQXxeZgfbDYWkwnun8IZ//0sO/xcbbJxPVnl\nUxT0N9NlQs0hMIs5jLiNbSLbiISQLf+K+EXFZWA4ZYT5jXFnhQEbHFis4BbYaIup\nWQ+ZxHeWsb53mZ64UBKz\n=1e0e\n-----END PGP SIGNATURE-----\n", "payload": "tree 7ce8d2f2c1e8ab8fbbb1c3b8dfd9f2f2c0bb6688\nparent ef5e4d4692a3e7fc3d24b6e780f18652287907ca\nauthor Megaemce <1651451+Megaemce@users.noreply.github.com> 1708803035 +0700\ncommitter GitHub <noreply@github.com> 1708803035 +0100\n\nfix #11503, autoskipping 0 ticks when min is below 0 (#11682)\n\n"}}, "url": "https://api.github.com/repos/chartjs/Chart.js/commits/4068bd8c47497c3e05688d0c939b711e8c5e1c33", "html_url": "https://github.com/chartjs/Chart.js/commit/4068bd8c47497c3e05688d0c939b711e8c5e1c33", "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/4068bd8c47497c3e05688d0c939b711e8c5e1c33/comments", "author": {"login": "Megaemce", "id": 1651451, "node_id": "MDQ6VXNlcjE2NTE0NTE=", "avatar_url": "https://avatars.githubusercontent.com/u/1651451?v=4", "gravatar_id": "", "url": "https://api.github.com/users/Megaemce", "html_url": "https://github.com/Megaemce", "followers_url": "https://api.github.com/users/Megaemce/followers", "following_url": "https://api.github.com/users/Megaemce/following{/other_user}", "gists_url": "https://api.github.com/users/Megaemce/gists{/gist_id}", "starred_url": "https://api.github.com/users/Megaemce/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/Megaemce/subscriptions", "organizations_url": "https://api.github.com/users/Megaemce/orgs", "repos_url": "https://api.github.com/users/Megaemce/repos", "events_url": "https://api.github.com/users/Megaemce/events{/privacy}", "received_events_url": "https://api.github.com/users/Megaemce/received_events", "type": "User", "site_admin": false}, "committer": {"login": "web-flow", "id": 19864447, "node_id": "MDQ6VXNlcjE5ODY0NDQ3", "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4", "gravatar_id": "", "url": "https://api.github.com/users/web-flow", "html_url": "https://github.com/web-flow", "followers_url": "https://api.github.com/users/web-flow/followers", "following_url": "https://api.github.com/users/web-flow/following{/other_user}", "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}", "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions", "organizations_url": "https://api.github.com/users/web-flow/orgs", "repos_url": "https://api.github.com/users/web-flow/repos", "events_url": "https://api.github.com/users/web-flow/events{/privacy}", "received_events_url": "https://api.github.com/users/web-flow/received_events", "type": "User", "site_admin": false}, "parents": [{"sha": "ef5e4d4692a3e7fc3d24b6e780f18652287907ca", "url": "https://api.github.com/repos/chartjs/Chart.js/commits/ef5e4d4692a3e7fc3d24b6e780f18652287907ca", "html_url": "https://github.com/chartjs/Chart.js/commit/ef5e4d4692a3e7fc3d24b6e780f18652287907ca"}]}, {"sha": "ef5e4d4692a3e7fc3d24b6e780f18652287907ca", "node_id": "C_kwDOAIbxo9oAKGVmNWU0ZDQ2OTJhM2U3ZmMzZDI0YjZlNzgwZjE4NjUyMjg3OTA3Y2E", "commit": {"author": {"name": "mirumi", "email": "mail@mirumi.tech", "date": "2024-02-18T12:31:37Z"}, "committer": {"name": "GitHub", "email": "noreply@github.com", "date": "2024-02-18T12:31:37Z"}, "message": "docs(types): fix description in index.d.ts (#11674)", "tree": {"sha": "d1972af98abcca15cd3408639e6952ed61fa04fa", "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/d1972af98abcca15cd3408639e6952ed61fa04fa"}, "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/ef5e4d4692a3e7fc3d24b6e780f18652287907ca", "comment_count": 0, "verification": {"verified": true, "reason": "valid", "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl0fipCRC1aQ7uu5UhlAAA44IQACSscQk4yq97pbhomaexi0VD\nn1idv294DTlF2sRJpqJt7MGiIp2U1xkd/vrKZ7ZYWaS/7rJ/M3dJ7WctpNy1ULbU\nNsBIk9BV1KOupcoTi5HuGiaCpEkv80RA9qSx1Mqx9N1bLAcKamP3gqbnOvnx0GpL\nyY+otN60ro9rvvF849PQxo4x3sXaZcu2xM7yBZGB/A4WVxlVka7kVAdReGwsQG1c\nuAzWbOrMvar5D1bTDkjbOWiN0cNjQSX2O0G6DeI9JjFvwjyb7oCdfH72b71ktCgc\n6ZbH9kc+qT2sfZI3v9f+oJHIYcudII9WDKaKeVHOlL7zwROxU7fQYCsPVmWEizj8\nfs5w2fEJjvzqP9Hx+j+xw9J2IEXne4U2/Db43SOnbJb+FcqBFvJAZH/KbT8JBcD+\nV9E/Rq+xk2/1vpnsxpoN1lKXJknuiHZZpT/F0o2HUnwbwMzL39SIrqHBK65MzXup\nQ1eByuKj981n14kFDoUp37Adf+My62PleWTOmU5X3ZoSYUOcy8po6JutsWCddl3Z\nTf7dEv5uSPn7IAMMZEt7JHG6uUo7lmYmAmuxVCxAyQH9K8aiJxikZotPSAFBBI+P\n6dMaFe4Lm7fyrpffjcnHjpKN2CRWGNJ88plyDlEqEIPFxcaaqTWuVb16MGP0tg1I\noA6e05i2rwJIHbNuAnTZ\n=r8k3\n-----END PGP SIGNATURE-----\n", "payload": "tree d1972af98abcca15cd3408639e6952ed61fa04fa\nparent bfce645fd35a14c83e55d7545e4e486ad156b3db\nauthor mirumi <mail@mirumi.tech> 1708259497 +0900\ncommitter GitHub <noreply@github.com> 1708259497 +0100\n\ndocs(types): fix description in index.d.ts (#11674)\n\n"}}, "url": "https://api.github.com/repos/chartjs/Chart.js/commits/ef5e4d4692a3e7fc3d24b6e780f18652287907ca", "html_url": "https://github.com/chartjs/Chart.js/commit/ef5e4d4692a3e7fc3d24b6e780f18652287907ca", "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/ef5e4d4692a3e7fc3d24b6e780f18652287907ca/comments", "author": {"login": "mirumirumi", "id": 88871226, "node_id": "MDQ6VXNlcjg4ODcxMjI2", "avatar_url": "https://avatars.githubusercontent.com/u/88871226?v=4", "gravatar_id": "", "url": "https://api.github.com/users/mirumirumi", "html_url": "https://github.com/mirumirumi", "followers_url": "https://api.github.com/users/mirumirumi/followers", "following_url": "https://api.github.com/users/mirumirumi/following{/other_user}", "gists_url": "https://api.github.com/users/mirumirumi/gists{/gist_id}", "starred_url": "https://api.github.com/users/mirumirumi/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/mirumirumi/subscriptions", "organizations_url": "https://api.github.com/users/mirumirumi/orgs", "repos_url": "https://api.github.com/users/mirumirumi/repos", "events_url": "https://api.github.com/users/mirumirumi/events{/privacy}", "received_events_url": "https://api.github.com/users/mirumirumi/received_events", "type": "User", "site_admin": false}, "committer": {"login": "web-flow", "id": 19864447, "node_id": "MDQ6VXNlcjE5ODY0NDQ3", "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4", "gravatar_id": "", "url": "https://api.github.com/users/web-flow", "html_url": "https://github.com/web-flow", "followers_url": "https://api.github.com/users/web-flow/followers", "following_url": "https://api.github.com/users/web-flow/following{/other_user}", "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}", "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions", "organizations_url": "https://api.github.com/users/web-flow/orgs", "repos_url": "https://api.github.com/users/web-flow/repos", "events_url": "https://api.github.com/users/web-flow/events{/privacy}", "received_events_url": "https://api.github.com/users/web-flow/received_events", "type": "User", "site_admin": false}, "parents": [{"sha": "bfce645fd35a14c83e55d7545e4e486ad156b3db", "url": "https://api.github.com/repos/chartjs/Chart.js/commits/bfce645fd35a14c83e55d7545e4e486ad156b3db", "html_url": "https://github.com/chartjs/Chart.js/commit/bfce645fd35a14c83e55d7545e4e486ad156b3db"}]}, {"sha": "dff44828db94467f153a5da22b464317fcb3bcca", "node_id": "C_kwDOAIbxo9oAKGRmZjQ0ODI4ZGI5NDQ2N2YxNTNhNWRhMjJiNDY0MzE3ZmNiM2JjY2E", "commit": {"author": {"name": "Hyun-je Alex Moon", "email": "smoonsf@gmail.com", "date": "2023-12-27T06:18:14Z"}, "committer": {"name": "GitHub", "email": "noreply@github.com", "date": "2023-12-27T06:18:14Z"}, "message": "fix(#11615): fix calculating caretX position on stacked bar with index interaction. (#11616)", "tree": {"sha": "18502e9e94a41b1dd4f295fb2f02dc4d7881b83a", "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/18502e9e94a41b1dd4f295fb2f02dc4d7881b83a"}, "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/dff44828db94467f153a5da22b464317fcb3bcca", "comment_count": 0, "verification": {"verified": true, "reason": "valid", "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJli8GmCRBK7hj4Ov3rIwAAHhwIAIO414O4J3WHSZkbD9k90q2o\nmJp/gxVzJXt9HYmkW01Jakrm+/KmfKtvRRGyQErVgBuJ1uWJFg9Sc1+0KVEgbBJ9\nEPIv6+83qlLYxj4/pTjqyb9YQl4XTEzIV5QLNxIRUr8yFA21uvzydP+Scx6IGSG9\n5yvWETh9qmQERBzuiZtc4Im3o+herweYfF2IZ7K19QyUpb3HAFqAMTT/QxWn0adx\nmHVPDcRZeiGedQavjoSUXe+OBdrnoiH0YgEKL5tEF9Kfrvl/kRuUFy/bIl1iLPVX\nBLv9SJdPhIfvU92gd0RsfULJy50+++ODPwW/WfSiI05chMDa/TxPrmZPwTVOY1g=\n=hEom\n-----END PGP SIGNATURE-----\n", "payload": "tree 18502e9e94a41b1dd4f295fb2f02dc4d7881b83a\nparent 84e7238a647623a3dd1f1c699752c4c364a68b1e\nauthor Hyun-je Alex Moon <smoonsf@gmail.com> 1703657894 +0900\ncommitter GitHub <noreply@github.com> 1703657894 +0100\n\nfix(#11615): fix calculating caretX position on stacked bar with index interaction. (#11616)\n\n"}}, "url": "https://api.github.com/repos/chartjs/Chart.js/commits/dff44828db94467f153a5da22b464317fcb3bcca", "html_url": "https://github.com/chartjs/Chart.js/commit/dff44828db94467f153a5da22b464317fcb3bcca", "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/dff44828db94467f153a5da22b464317fcb3bcca/comments", "author": {"login": "smoonsf", "id": 10011118, "node_id": "MDQ6VXNlcjEwMDExMTE4", "avatar_url": "https://avatars.githubusercontent.com/u/10011118?v=4", "gravatar_id": "", "url": "https://api.github.com/users/smoonsf", "html_url": "https://github.com/smoonsf", "followers_url": "https://api.github.com/users/smoonsf/followers", "following_url": "https://api.github.com/users/smoonsf/following{/other_user}", "gists_url": "https://api.github.com/users/smoonsf/gists{/gist_id}", "starred_url": "https://api.github.com/users/smoonsf/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/smoonsf/subscriptions", "organizations_url": "https://api.github.com/users/smoonsf/orgs", "repos_url": "https://api.github.com/users/smoonsf/repos", "events_url": "https://api.github.com/users/smoonsf/events{/privacy}", "received_events_url": "https://api.github.com/users/smoonsf/received_events", "type": "User", "site_admin": false}, "committer": {"login": "web-flow", "id": 19864447, "node_id": "MDQ6VXNlcjE5ODY0NDQ3", "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4", "gravatar_id": "", "url": "https://api.github.com/users/web-flow", "html_url": "https://github.com/web-flow", "followers_url": "https://api.github.com/users/web-flow/followers", "following_url": "https://api.github.com/users/web-flow/following{/other_user}", "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}", "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}", "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions", "organizations_url": "https://api.github.com/users/web-flow/orgs", "repos_url": "https://api.github.com/users/web-flow/repos", "events_url": "https://api.github.com/users/web-flow/events{/privacy}", "received_events_url": "https://api.github.com/users/web-flow/received_events", "type": "User", "site_admin": false}, "parents": [{"sha": "84e7238a647623a3dd1f1c699752c4c364a68b1e", "url": "https://api.github.com/repos/chartjs/Chart.js/commits/84e7238a647623a3dd1f1c699752c4c364a68b1e", "html_url": "https://github.com/chartjs/Chart.js/commit/84e7238a647623a3dd1f1c699752c4c364a68b1e"}]}]
+[
+  {
+    "sha": "ff740789a5ef722e52b6328417ed148a93a2b926",
+    "node_id": "C_kwDOAIbxo9oAKGZmNzQwNzg5YTVlZjcyMmU1MmI2MzI4NDE3ZWQxNDhhOTNhMmI5MjY",
+    "commit": {
+      "author": {
+        "name": "Jacco van den Berg",
+        "email": "jaccoberg2281@gmail.com",
+        "date": "2024-05-24T14:15:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-24T14:15:28Z"
+      },
+      "message": "Fix drawing angle lines on reversed radial scale (#11788)\n\n* Fix drawing angle lines on reversed radial scale\r\n\r\n* add test\r\n\r\n* Show ticks in test\r\n\r\n---------\r\n\r\nCo-authored-by: Jacco van den Berg <jacco@jem-id.nl>",
+      "tree": {
+        "sha": "5615d9e790212ef2afa5903968ed8e3f4278ee71",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/5615d9e790212ef2afa5903968ed8e3f4278ee71"
+      },
+      "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/ff740789a5ef722e52b6328417ed148a93a2b926",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmUKEACRC1aQ7uu5UhlAAAgvQQABeoGIagCoAUx2AdneP1NaCO\neEDXN5zWmbiKWAXaxx4z1KgG6xm8wnq5osY54NKbV93VFSNkk+h5cu/YmSzsv+na\ntOHmKbmSIhqHpqWx+Fl5i4QCIKTqNQSsNm9757hKsi0Mdo9Ek9Oho9vHvpRPg3CW\nLcGpDmnFVKYaa9KioChUQJZEJOhWhH3ra1P9kIDGM2g+CNJytEqzOpmJ4XLfoBG7\n8SuyyWURfwfCugqNKNjCcFY2cdpMxxu3PE/8gAFP7QW2MiGV45Hhv81Dy/oaaPST\nZFEQKzgptl0EsCN6dgwyO+Ult3yY+G99MM3hnT+nWtN1deey3PW6ohHZZKrKhVYV\nQiNobjfXOz/QBVzOG9HfAZKtYWnB0CDrpU/4/Anu/LLS9VVk0ZTssFcYLU1huYwf\nuj4uxUQQXIl5+v9NM9xeoO1PyUP/7O6ftbfWgGuH6+z9A7Z02hah3s/R3WqYNJUT\n6wLvKpoJCyQvgvOgrT2+2til5/hOlHOghUfWS0RiJdJbAs+5rEfTdIqgS4W5PILV\nW+dKlRI3rpD5tXosfJX9vvEyHwKFhaJ6lfrYmR2D0AW+GhUiHdJ/+gnP4OikYItD\nR1wQDH5XVPDmKmFqdqGIpGiu2vXWI+p/ugqagNNwIH4o/4UzOynwdGjLKa8mMe/k\nQm6uTjsXT0H9bsFjZQTA\n=SJ0s\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5615d9e790212ef2afa5903968ed8e3f4278ee71\nparent 228a4856037cafcaa955eccde31e79968c94a8c8\nauthor Jacco van den Berg <jaccoberg2281@gmail.com> 1716560128 +0200\ncommitter GitHub <noreply@github.com> 1716560128 +0200\n\nFix drawing angle lines on reversed radial scale (#11788)\n\n* Fix drawing angle lines on reversed radial scale\r\n\r\n* add test\r\n\r\n* Show ticks in test\r\n\r\n---------\r\n\r\nCo-authored-by: Jacco van den Berg <jacco@jem-id.nl>"
+      }
+    },
+    "url": "https://api.github.com/repos/chartjs/Chart.js/commits/ff740789a5ef722e52b6328417ed148a93a2b926",
+    "html_url": "https://github.com/chartjs/Chart.js/commit/ff740789a5ef722e52b6328417ed148a93a2b926",
+    "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/ff740789a5ef722e52b6328417ed148a93a2b926/comments",
+    "author": {
+      "login": "LeeLenaleee",
+      "id": 39033624,
+      "node_id": "MDQ6VXNlcjM5MDMzNjI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39033624?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LeeLenaleee",
+      "html_url": "https://github.com/LeeLenaleee",
+      "followers_url": "https://api.github.com/users/LeeLenaleee/followers",
+      "following_url": "https://api.github.com/users/LeeLenaleee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LeeLenaleee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LeeLenaleee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LeeLenaleee/subscriptions",
+      "organizations_url": "https://api.github.com/users/LeeLenaleee/orgs",
+      "repos_url": "https://api.github.com/users/LeeLenaleee/repos",
+      "events_url": "https://api.github.com/users/LeeLenaleee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LeeLenaleee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "228a4856037cafcaa955eccde31e79968c94a8c8",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/commits/228a4856037cafcaa955eccde31e79968c94a8c8",
+        "html_url": "https://github.com/chartjs/Chart.js/commit/228a4856037cafcaa955eccde31e79968c94a8c8"
+      }
+    ]
+  },
+  {
+    "sha": "5c9e5c66d2a5328338d38c271e2852de3642575c",
+    "node_id": "C_kwDOAIbxo9oAKDVjOWU1YzY2ZDJhNTMyODMzOGQzOGMyNzFlMjg1MmRlMzY0MjU3NWM",
+    "commit": {
+      "author": {
+        "name": "Jon Dufresne",
+        "email": "jon.dufresne@gmail.com",
+        "date": "2024-05-21T10:10:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-21T10:10:07Z"
+      },
+      "message": "Fix some typos (#11781)",
+      "tree": {
+        "sha": "d492dea12ff720d1a7a1a7cba1bd22b14fbd5895",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/d492dea12ff720d1a7a1a7cba1bd22b14fbd5895"
+      },
+      "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/5c9e5c66d2a5328338d38c271e2852de3642575c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmTHL/CRC1aQ7uu5UhlAAAOBUQAEFqPTAW2AITZ2DAg3WHByhn\nFvqbGYp0bebHcZD31diUCttkdjk08BqQTJRIAsoWsNNtk5OVbj8W+vd4g70V3W+u\nYDSv290n+L2YIG88xdMUSIACem8QjaFIkDa4mRxt3cxAzu1O6TvIKJ7dHyQM09qL\nKou2t9lA7IT6U5urTdCzqjDnDwlnZY77VqqFW6QS7FA2d/AcmIe3CuUKl6uf1Zkp\nqVdZOvF8bMIGBLVz+RwtCWQ7LT1deIocp9mo7+YxOdcKubaszyRpZEPLTzyGReBT\ngTbsIGc6OP732yr7davS0iMYFWSHtcY0wWOgi4+EhDWn7j6TsABxC31DZjkAT1dT\nCVuk5zknRl2wuWNq9HMESvZqICmU5iwhAzq+Ccb6SVRAzUwIJNQyGUj9xOdUcToU\nyeoBKWFxlHRj9nAMBvw7hOPA6W69ToCFRKJjK6sjtIw44dUIXLOlzw8gk9yU2zDm\n8LZtWa2LXEubSzVk/XyuKL5rjCnxDqvLiUJ5mQ2faJVFE+gN0xXKUSNz9tN/SRPi\n0GyNz0ToZfbU3kQVUDfSLdUmskR3bspzlGLkn9UNvBEplbSXih4VE1uAOQFjeQQ9\ndNVkejN7/QQREGOkbRXKwKWkhseVO7jW3Sx+k+txvmm8GujKf8LoBrXHe3u8yaEd\ngDyS9NS+i5FB1usOds/N\n=Zi+X\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d492dea12ff720d1a7a1a7cba1bd22b14fbd5895\nparent 3d0801299283cb6cb8e777e0cd45e6172cc43966\nauthor Jon Dufresne <jon.dufresne@gmail.com> 1716286207 -0700\ncommitter GitHub <noreply@github.com> 1716286207 +0200\n\nFix some typos (#11781)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/chartjs/Chart.js/commits/5c9e5c66d2a5328338d38c271e2852de3642575c",
+    "html_url": "https://github.com/chartjs/Chart.js/commit/5c9e5c66d2a5328338d38c271e2852de3642575c",
+    "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/5c9e5c66d2a5328338d38c271e2852de3642575c/comments",
+    "author": {
+      "login": "jdufresne",
+      "id": 347634,
+      "node_id": "MDQ6VXNlcjM0NzYzNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/347634?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jdufresne",
+      "html_url": "https://github.com/jdufresne",
+      "followers_url": "https://api.github.com/users/jdufresne/followers",
+      "following_url": "https://api.github.com/users/jdufresne/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jdufresne/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jdufresne/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jdufresne/subscriptions",
+      "organizations_url": "https://api.github.com/users/jdufresne/orgs",
+      "repos_url": "https://api.github.com/users/jdufresne/repos",
+      "events_url": "https://api.github.com/users/jdufresne/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jdufresne/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3d0801299283cb6cb8e777e0cd45e6172cc43966",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/commits/3d0801299283cb6cb8e777e0cd45e6172cc43966",
+        "html_url": "https://github.com/chartjs/Chart.js/commit/3d0801299283cb6cb8e777e0cd45e6172cc43966"
+      }
+    ]
+  },
+  {
+    "sha": "f785882aeb6831ff90247a4845a7f8d26353b65f",
+    "node_id": "C_kwDOAIbxo9oAKGY3ODU4ODJhZWI2ODMxZmY5MDI0N2E0ODQ1YTdmOGQyNjM1M2I2NWY",
+    "commit": {
+      "author": {
+        "name": "EricWittrock",
+        "email": "92955915+EricWittrock@users.noreply.github.com",
+        "date": "2024-04-29T04:42:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-04-29T04:42:05Z"
+      },
+      "message": "Fix error when object prototype is frozen (#11754)",
+      "tree": {
+        "sha": "afb06d084d10284124fb02c77483ffbd3a5aaaec",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/afb06d084d10284124fb02c77483ffbd3a5aaaec"
+      },
+      "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/f785882aeb6831ff90247a4845a7f8d26353b65f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmLyUdCRC1aQ7uu5UhlAAAHIkQAAxLRYmexJnjV3BrPIm68OV8\nUasER2Vcdmb1MP2REldFxeGcWb4Av8brjtVh+L0iiDub4IS+QaYBsj4De6EQRYRX\nxNrJazO9ycB+H9R90F+932VNz2R+XYPYS+bR10nRMm71pzifP7VRTdLVEYQv3dFi\nsbGFbTklKs+W3NK5o11K6tM1OYtY9PqYyc8c4cztY9WX4mSYbcd4fB35w/dXPG8+\n0aWdiWOQx0UD/YOYl+slaRfZ8lmrWoXUyNElEdHR1Zf2b3ulqUiCeP4fV2fo9uBy\nOuIwD1d3sHo7YQ2Lc4Q57+AuClQgKBSFSbwl4N4nfOO32tS85br/4GWI7L7ODSM6\nAN9lyWHPfI0aixyZMYnvg6iGXuCZaFXydxEyZyzzTg3Z5QaRXZ2BL5cxcOehNwPU\nnaIuILNr+iaeiifnIjNmuPe5Wo51V+BGfR4S32WQAyVbPa9rnPa4KhaQ8kU6kIG2\nTP3M0akzlKx83jmIKgdFJlbHTpSDLF5Aa29UK6+uTpmY0pcB26wtDkB1N2AZIoPU\nkWf7dIkwsNjucq6DhzaVGEebrKAuVCf8+9IWlKyeaZ6Ogsw9rcwgQ4ByIU6Mrk7C\ne6mWxghzip2VSFdUPSx60v9ubG5U/1Ese/ABFYSJPhtLQt3TIgTuq/3ze0Cl8VI+\nUZkcNsBNtNu68QO2W6Jc\n=fpMW\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree afb06d084d10284124fb02c77483ffbd3a5aaaec\nparent 6daf4ba4e3993118e4a5f4b7783003eba2511864\nauthor EricWittrock <92955915+EricWittrock@users.noreply.github.com> 1714365725 -0500\ncommitter GitHub <noreply@github.com> 1714365725 +0200\n\nFix error when object prototype is frozen (#11754)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/chartjs/Chart.js/commits/f785882aeb6831ff90247a4845a7f8d26353b65f",
+    "html_url": "https://github.com/chartjs/Chart.js/commit/f785882aeb6831ff90247a4845a7f8d26353b65f",
+    "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/f785882aeb6831ff90247a4845a7f8d26353b65f/comments",
+    "author": {
+      "login": "EricWittrock",
+      "id": 92955915,
+      "node_id": "U_kgDOBYplCw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92955915?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricWittrock",
+      "html_url": "https://github.com/EricWittrock",
+      "followers_url": "https://api.github.com/users/EricWittrock/followers",
+      "following_url": "https://api.github.com/users/EricWittrock/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricWittrock/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricWittrock/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricWittrock/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricWittrock/orgs",
+      "repos_url": "https://api.github.com/users/EricWittrock/repos",
+      "events_url": "https://api.github.com/users/EricWittrock/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricWittrock/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6daf4ba4e3993118e4a5f4b7783003eba2511864",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/commits/6daf4ba4e3993118e4a5f4b7783003eba2511864",
+        "html_url": "https://github.com/chartjs/Chart.js/commit/6daf4ba4e3993118e4a5f4b7783003eba2511864"
+      }
+    ]
+  },
+  {
+    "sha": "4068bd8c47497c3e05688d0c939b711e8c5e1c33",
+    "node_id": "C_kwDOAIbxo9oAKDQwNjhiZDhjNDc0OTdjM2UwNTY4OGQwYzkzOWI3MTFlOGM1ZTFjMzM",
+    "commit": {
+      "author": {
+        "name": "Megaemce",
+        "email": "1651451+Megaemce@users.noreply.github.com",
+        "date": "2024-02-24T19:30:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-02-24T19:30:35Z"
+      },
+      "message": "fix #11503, autoskipping 0 ticks when min is below 0 (#11682)",
+      "tree": {
+        "sha": "7ce8d2f2c1e8ab8fbbb1c3b8dfd9f2f2c0bb6688",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/7ce8d2f2c1e8ab8fbbb1c3b8dfd9f2f2c0bb6688"
+      },
+      "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/4068bd8c47497c3e05688d0c939b711e8c5e1c33",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl2kPbCRC1aQ7uu5UhlAAAW6kQAFNdIZxLBVaiMBm1LigEqqWG\nI0FlJP0vWmEiJeUusLPzQTkWWmFxF2BZwCxhMBrCZuTHc+0fW4CZs/enrEtNozUU\nm5auoKb2DENNRECNcNt9yx0QA5eJ8Fv+DOju0IObP4h0SMAszpx75PaAFtnT+ccL\n/RoBL3KIcvlweXo/0RiD/yLeiO/GssEhHQ32PeHFA5ThVWKDGJY3fx/eoCachim4\nbZCrLZCktZSw5NOEhpQBlgEwCFFhONCXl6viUDPwhXwXXTFE3+GwM1k7Fnh3keCC\nLZN/DC9iR8I86RvNYTRE64R1n0c8gzsMHrqN31UCHyEFlmjA3LflHzyBGwYxEgU8\nByYSBx8uORz4qae3Hu5Sq4hGNCmCRvhqA9j0v04FcK3Jgk5zSSirMXhdQ6fmZnt9\nogHOBeBuw0GTWRzVZXN3VFmIOPiutNaqo+krWPdcDQreDdZHZrqqFDCMTR/Cre7/\nTaxxNSeI4//k0DJycLiJ2qnZHElzyOjP0k5j+1MOF8oxzWkiW3tx9dY9HjS6qvDx\nhhR3rb4cpkNaT8huzm7qBchnLSfnoQXxeZgfbDYWkwnun8IZ//0sO/xcbbJxPVnl\nUxT0N9NlQs0hMIs5jLiNbSLbiISQLf+K+EXFZWA4ZYT5jXFnhQEbHFis4BbYaIup\nWQ+ZxHeWsb53mZ64UBKz\n=1e0e\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7ce8d2f2c1e8ab8fbbb1c3b8dfd9f2f2c0bb6688\nparent ef5e4d4692a3e7fc3d24b6e780f18652287907ca\nauthor Megaemce <1651451+Megaemce@users.noreply.github.com> 1708803035 +0700\ncommitter GitHub <noreply@github.com> 1708803035 +0100\n\nfix #11503, autoskipping 0 ticks when min is below 0 (#11682)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/chartjs/Chart.js/commits/4068bd8c47497c3e05688d0c939b711e8c5e1c33",
+    "html_url": "https://github.com/chartjs/Chart.js/commit/4068bd8c47497c3e05688d0c939b711e8c5e1c33",
+    "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/4068bd8c47497c3e05688d0c939b711e8c5e1c33/comments",
+    "author": {
+      "login": "Megaemce",
+      "id": 1651451,
+      "node_id": "MDQ6VXNlcjE2NTE0NTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1651451?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Megaemce",
+      "html_url": "https://github.com/Megaemce",
+      "followers_url": "https://api.github.com/users/Megaemce/followers",
+      "following_url": "https://api.github.com/users/Megaemce/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Megaemce/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Megaemce/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Megaemce/subscriptions",
+      "organizations_url": "https://api.github.com/users/Megaemce/orgs",
+      "repos_url": "https://api.github.com/users/Megaemce/repos",
+      "events_url": "https://api.github.com/users/Megaemce/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Megaemce/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef5e4d4692a3e7fc3d24b6e780f18652287907ca",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/commits/ef5e4d4692a3e7fc3d24b6e780f18652287907ca",
+        "html_url": "https://github.com/chartjs/Chart.js/commit/ef5e4d4692a3e7fc3d24b6e780f18652287907ca"
+      }
+    ]
+  },
+  {
+    "sha": "ef5e4d4692a3e7fc3d24b6e780f18652287907ca",
+    "node_id": "C_kwDOAIbxo9oAKGVmNWU0ZDQ2OTJhM2U3ZmMzZDI0YjZlNzgwZjE4NjUyMjg3OTA3Y2E",
+    "commit": {
+      "author": {
+        "name": "mirumi",
+        "email": "mail@mirumi.tech",
+        "date": "2024-02-18T12:31:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-02-18T12:31:37Z"
+      },
+      "message": "docs(types): fix description in index.d.ts (#11674)",
+      "tree": {
+        "sha": "d1972af98abcca15cd3408639e6952ed61fa04fa",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/d1972af98abcca15cd3408639e6952ed61fa04fa"
+      },
+      "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/ef5e4d4692a3e7fc3d24b6e780f18652287907ca",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl0fipCRC1aQ7uu5UhlAAA44IQACSscQk4yq97pbhomaexi0VD\nn1idv294DTlF2sRJpqJt7MGiIp2U1xkd/vrKZ7ZYWaS/7rJ/M3dJ7WctpNy1ULbU\nNsBIk9BV1KOupcoTi5HuGiaCpEkv80RA9qSx1Mqx9N1bLAcKamP3gqbnOvnx0GpL\nyY+otN60ro9rvvF849PQxo4x3sXaZcu2xM7yBZGB/A4WVxlVka7kVAdReGwsQG1c\nuAzWbOrMvar5D1bTDkjbOWiN0cNjQSX2O0G6DeI9JjFvwjyb7oCdfH72b71ktCgc\n6ZbH9kc+qT2sfZI3v9f+oJHIYcudII9WDKaKeVHOlL7zwROxU7fQYCsPVmWEizj8\nfs5w2fEJjvzqP9Hx+j+xw9J2IEXne4U2/Db43SOnbJb+FcqBFvJAZH/KbT8JBcD+\nV9E/Rq+xk2/1vpnsxpoN1lKXJknuiHZZpT/F0o2HUnwbwMzL39SIrqHBK65MzXup\nQ1eByuKj981n14kFDoUp37Adf+My62PleWTOmU5X3ZoSYUOcy8po6JutsWCddl3Z\nTf7dEv5uSPn7IAMMZEt7JHG6uUo7lmYmAmuxVCxAyQH9K8aiJxikZotPSAFBBI+P\n6dMaFe4Lm7fyrpffjcnHjpKN2CRWGNJ88plyDlEqEIPFxcaaqTWuVb16MGP0tg1I\noA6e05i2rwJIHbNuAnTZ\n=r8k3\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d1972af98abcca15cd3408639e6952ed61fa04fa\nparent bfce645fd35a14c83e55d7545e4e486ad156b3db\nauthor mirumi <mail@mirumi.tech> 1708259497 +0900\ncommitter GitHub <noreply@github.com> 1708259497 +0100\n\ndocs(types): fix description in index.d.ts (#11674)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/chartjs/Chart.js/commits/ef5e4d4692a3e7fc3d24b6e780f18652287907ca",
+    "html_url": "https://github.com/chartjs/Chart.js/commit/ef5e4d4692a3e7fc3d24b6e780f18652287907ca",
+    "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/ef5e4d4692a3e7fc3d24b6e780f18652287907ca/comments",
+    "author": {
+      "login": "mirumirumi",
+      "id": 88871226,
+      "node_id": "MDQ6VXNlcjg4ODcxMjI2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88871226?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mirumirumi",
+      "html_url": "https://github.com/mirumirumi",
+      "followers_url": "https://api.github.com/users/mirumirumi/followers",
+      "following_url": "https://api.github.com/users/mirumirumi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mirumirumi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mirumirumi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mirumirumi/subscriptions",
+      "organizations_url": "https://api.github.com/users/mirumirumi/orgs",
+      "repos_url": "https://api.github.com/users/mirumirumi/repos",
+      "events_url": "https://api.github.com/users/mirumirumi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mirumirumi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bfce645fd35a14c83e55d7545e4e486ad156b3db",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/commits/bfce645fd35a14c83e55d7545e4e486ad156b3db",
+        "html_url": "https://github.com/chartjs/Chart.js/commit/bfce645fd35a14c83e55d7545e4e486ad156b3db"
+      }
+    ]
+  },
+  {
+    "sha": "dff44828db94467f153a5da22b464317fcb3bcca",
+    "node_id": "C_kwDOAIbxo9oAKGRmZjQ0ODI4ZGI5NDQ2N2YxNTNhNWRhMjJiNDY0MzE3ZmNiM2JjY2E",
+    "commit": {
+      "author": {
+        "name": "Hyun-je Alex Moon",
+        "email": "smoonsf@gmail.com",
+        "date": "2023-12-27T06:18:14Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-12-27T06:18:14Z"
+      },
+      "message": "fix(#11615): fix calculating caretX position on stacked bar with index interaction. (#11616)",
+      "tree": {
+        "sha": "18502e9e94a41b1dd4f295fb2f02dc4d7881b83a",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/git/trees/18502e9e94a41b1dd4f295fb2f02dc4d7881b83a"
+      },
+      "url": "https://api.github.com/repos/chartjs/Chart.js/git/commits/dff44828db94467f153a5da22b464317fcb3bcca",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJli8GmCRBK7hj4Ov3rIwAAHhwIAIO414O4J3WHSZkbD9k90q2o\nmJp/gxVzJXt9HYmkW01Jakrm+/KmfKtvRRGyQErVgBuJ1uWJFg9Sc1+0KVEgbBJ9\nEPIv6+83qlLYxj4/pTjqyb9YQl4XTEzIV5QLNxIRUr8yFA21uvzydP+Scx6IGSG9\n5yvWETh9qmQERBzuiZtc4Im3o+herweYfF2IZ7K19QyUpb3HAFqAMTT/QxWn0adx\nmHVPDcRZeiGedQavjoSUXe+OBdrnoiH0YgEKL5tEF9Kfrvl/kRuUFy/bIl1iLPVX\nBLv9SJdPhIfvU92gd0RsfULJy50+++ODPwW/WfSiI05chMDa/TxPrmZPwTVOY1g=\n=hEom\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 18502e9e94a41b1dd4f295fb2f02dc4d7881b83a\nparent 84e7238a647623a3dd1f1c699752c4c364a68b1e\nauthor Hyun-je Alex Moon <smoonsf@gmail.com> 1703657894 +0900\ncommitter GitHub <noreply@github.com> 1703657894 +0100\n\nfix(#11615): fix calculating caretX position on stacked bar with index interaction. (#11616)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/chartjs/Chart.js/commits/dff44828db94467f153a5da22b464317fcb3bcca",
+    "html_url": "https://github.com/chartjs/Chart.js/commit/dff44828db94467f153a5da22b464317fcb3bcca",
+    "comments_url": "https://api.github.com/repos/chartjs/Chart.js/commits/dff44828db94467f153a5da22b464317fcb3bcca/comments",
+    "author": {
+      "login": "smoonsf",
+      "id": 10011118,
+      "node_id": "MDQ6VXNlcjEwMDExMTE4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10011118?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/smoonsf",
+      "html_url": "https://github.com/smoonsf",
+      "followers_url": "https://api.github.com/users/smoonsf/followers",
+      "following_url": "https://api.github.com/users/smoonsf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/smoonsf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/smoonsf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smoonsf/subscriptions",
+      "organizations_url": "https://api.github.com/users/smoonsf/orgs",
+      "repos_url": "https://api.github.com/users/smoonsf/repos",
+      "events_url": "https://api.github.com/users/smoonsf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/smoonsf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "84e7238a647623a3dd1f1c699752c4c364a68b1e",
+        "url": "https://api.github.com/repos/chartjs/Chart.js/commits/84e7238a647623a3dd1f1c699752c4c364a68b1e",
+        "html_url": "https://github.com/chartjs/Chart.js/commit/84e7238a647623a3dd1f1c699752c4c364a68b1e"
+      }
+    ]
+  }
+]
