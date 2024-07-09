@@ -1,8 +1,8 @@
 
 import re
-import json
 import git
 import argparse
+from datetime import datetime, timedelta
 
 
 def is_fix_contained(commit_message):
@@ -39,7 +39,6 @@ def search_candidate_commit_szz(bug_fix_commit):
         changes_dict = generate_changes_dict(diff)
 
         all_candidate_commits = get_recent_candidate_commits(parent_commit, changes_dict)
-
     return all_candidate_commits
 
 
@@ -53,7 +52,7 @@ def get_recent_candidate_commits(parent_commit, changes_dict):
         candidate_commits = get_candidate_commits(blame_result, file_path, changes_dict)
         for commit in candidate_commits:
             if recent_commit is None or commit_is_more_recent(commit[0],recent_commit[0]):
-                recent_commit = commit
+                recent_commit = commit + (file_path,)
         
     return recent_commit  
 
@@ -134,25 +133,32 @@ def match_comment(line):
     return comment_pattern.match(line[1:])  # Ignora il primo carattere perchè le linee iniziano per '-'
 
 
-def print_candidate_commit(total_candidate_commits):
-    for element, value in total_candidate_commits.items():
-        print('\nCommit ', element, element.committed_datetime)
-        print('Commit candidati')
-        if value: 
-            for com in value:
-                print(com)
-
 
 
 def ssz():
-    total_candidate_commit = {}
+    total_candidate_commit = []
     #Get all fixed commits
     fixed_commits = get_fix_commits()
     print(len(fixed_commits))
-    for commit in fixed_commits:
-        total_candidate_commit[commit]  = search_candidate_commit_szz(commit)
-       
-    print_candidate_commit(total_candidate_commit)
+    for commit in fixed_commits[0:50]:
+        data  = search_candidate_commit_szz(commit)
+        if data:
+            form = {}
+            dt1 = datetime.fromisoformat(str(commit.committed_datetime))
+            dt2 = data[2]
+            hours_diff = (dt1- dt2).total_seconds()/3600
+        
+            if not any(item['path']==data[3] for item in total_candidate_commit):
+                form['path'] = data[3]
+                form['time'] = round(hours_diff)
+                total_candidate_commit.append(form)
+            else:
+                match_item = next((item for item in total_candidate_commit if item['path'] == data[3]), None) 
+                if int(match_item['time']) <int(hours_diff):
+                    match_item['time'] = round(hours_diff)
+                 
+        
+    print(total_candidate_commit)
         
     
         
