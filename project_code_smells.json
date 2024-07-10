@@ -1,0 +1,439 @@
+[
+  {
+    "path": "lib/util/which.js",
+    "smells": ["javascript:S2392", "javascript:S2814", "javascript:S3504"]
+  },
+  { "path": "lib/commands/version.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/core/resolvers/GitResolver.js",
+    "smells": ["javascript:S1121", "javascript:S3504"]
+  },
+  {
+    "path": "lib/core/resolvers/SvnResolver.js",
+    "smells": ["javascript:S1121", "javascript:S3504", "javascript:S6535"]
+  },
+  { "path": "lib/util/childProcess.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/util/cmd.js",
+    "smells": ["javascript:S1121", "javascript:S3504"]
+  },
+  { "path": "publish.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "packages/bower-json/lib/util/isAsset.js",
+    "smells": ["javascript:S6397", "javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-config/test/cli.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-config/lib/util/rc.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/test/Client.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/commands/install.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/core/resolvers/gitHubResolver.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/core/resolvers/urlResolver.js",
+    "smells": [
+      "javascript:S1854",
+      "javascript:S2004",
+      "javascript:S3504",
+      "javascript:S6535"
+    ]
+  },
+  { "path": "test/helpers.js", "smells": ["javascript:S3504"] },
+  { "path": "test/util/download.js", "smells": ["javascript:S3504"] },
+  { "path": "test/util/nock.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/commands/cache/clean.js",
+    "smells": ["javascript:S1854", "javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "lib/commands/install.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/list.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/commands/login.js",
+    "smells": ["javascript:S2392", "javascript:S3504"]
+  },
+  { "path": "lib/commands/prune.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/uninstall.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/update.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/core/Manager.js",
+    "smells": [
+      "javascript:S6557",
+      "javascript:S1121",
+      "javascript:S5869",
+      "javascript:S3776",
+      "javascript:S1134",
+      "javascript:S2004",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "lib/core/Project.js",
+    "smells": [
+      "javascript:S2004",
+      "javascript:S1121",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "lib/core/ResolveCache.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "lib/core/resolverFactory.js",
+    "smells": [
+      "javascript:S6557",
+      "javascript:S1121",
+      "javascript:S6535",
+      "javascript:S2004",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "lib/core/resolvers/GitHubResolver.js",
+    "smells": ["javascript:S3504", "javascript:S6535"]
+  },
+  {
+    "path": "lib/core/resolvers/GitRemoteResolver.js",
+    "smells": ["javascript:S3504", "javascript:S6535"]
+  },
+  {
+    "path": "lib/core/resolvers/Resolver.js",
+    "smells": ["javascript:S1121", "javascript:S3504", "javascript:S6535"]
+  },
+  {
+    "path": "lib/core/resolvers/pluginResolverFactory.js",
+    "smells": [
+      "javascript:S2004",
+      "javascript:S1121",
+      "javascript:S3504",
+      "javascript:S6660"
+    ]
+  },
+  { "path": "lib/core/scripts.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/renderers/StandardRenderer.js",
+    "smells": ["javascript:S3776", "javascript:S3504", "javascript:S3800"]
+  },
+  { "path": "lib/templates/helpers/colors.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/templates/helpers/condense.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/util/fs.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "packages/bower-config/lib/util/defaults.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-config/lib/util/paths.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-config/test/helpers.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-config/test/test.js",
+    "smells": ["javascript:S3504", "javascript:S6535"]
+  },
+  {
+    "path": "packages/bower-endpoint-parser/index.js",
+    "smells": ["javascript:S6660", "javascript:S3504", "javascript:S6535"]
+  },
+  {
+    "path": "packages/bower-json/lib/json.js",
+    "smells": [
+      "javascript:S3800",
+      "javascript:S3776",
+      "javascript:S3504",
+      "javascript:S6535"
+    ]
+  },
+  {
+    "path": "packages/bower-json/test/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-logger/test/test.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/lib/lookup.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/lib/search.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  { "path": "test/commands/cache/clean.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/commands/init.js",
+    "smells": ["javascript:S3696", "javascript:S3504"]
+  },
+  {
+    "path": "test/commands/register.js",
+    "smells": ["javascript:S2814", "javascript:S3504", "javascript:S1186"]
+  },
+  {
+    "path": "test/commands/search.js",
+    "smells": ["javascript:S2004", "javascript:S3696", "javascript:S3504"]
+  },
+  { "path": "test/commands/uninstall.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/commands/unregister.js",
+    "smells": ["javascript:S3504", "javascript:S1186"]
+  },
+  { "path": "test/commands/update.js", "smells": ["javascript:S3504"] },
+  { "path": "test/commands/version.js", "smells": ["javascript:S3504"] },
+  { "path": "test/core/Manager.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/core/resolveCache.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/core/resolverFactory.js",
+    "smells": ["javascript:S4043", "javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/core/resolvers/fsResolver.js",
+    "smells": [
+      "javascript:S6535",
+      "javascript:S1854",
+      "javascript:S2814",
+      "javascript:S125",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "test/core/resolvers/gitFsResolver.js",
+    "smells": ["javascript:S2004", "javascript:S2814", "javascript:S3504"]
+  },
+  {
+    "path": "test/core/resolvers/gitRemoteResolver.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/core/resolvers/gitResolver.js",
+    "smells": [
+      "javascript:S1854",
+      "javascript:S2004",
+      "javascript:S3504",
+      "javascript:S1186"
+    ]
+  },
+  {
+    "path": "test/core/resolvers/pluginResolverFactory.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/core/resolvers/resolver.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/core/resolvers/svnResolver.js",
+    "smells": [
+      "javascript:S2004",
+      "javascript:S125",
+      "javascript:S3504",
+      "javascript:S1186"
+    ]
+  },
+  { "path": "test/core/scripts.js", "smells": ["javascript:S3504"] },
+  { "path": "test/packages-svn.js", "smells": ["javascript:S3504"] },
+  { "path": "test/packages.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/renderers/StandardRenderer.js",
+    "smells": ["javascript:S1871", "javascript:S125", "javascript:S3504"]
+  },
+  { "path": "test/util/template.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/info.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/register.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/readJson.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/resolve.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/commands/search.js",
+    "smells": ["javascript:S2814", "javascript:S3504"]
+  },
+  {
+    "path": "test/commands/lookup.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "lib/commands/lookup.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/core/PackageRepository.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/index.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/templates/helpers/rpad.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bin/bower.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/template.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/userAgent.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/version.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/link.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/relativeToBaseDir.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/commands/link.js",
+    "smells": ["javascript:S3696", "javascript:S3504"]
+  },
+  { "path": "test/util/createLink.js", "smells": ["javascript:S3504"] },
+  { "path": "test/util/relativeToBaseDir.js", "smells": ["javascript:S3504"] },
+  { "path": "test/util/isPathAbsolute.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/extract.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/index.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "packages/bower-config/lib/util/expand.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "test/commands/home.js", "smells": ["javascript:S3504"] },
+  { "path": "test/commands/info.js", "smells": ["javascript:S3504"] },
+  { "path": "test/commands/list.js", "smells": ["javascript:S3504"] },
+  { "path": "test/commands/prune.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "packages/bower-config/test/util/rc.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-config/lib/util/proxy.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "lib/util/download.js", "smells": ["javascript:S3504"] },
+  { "path": "test/commands/bower.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/abbreviations.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "packages/bower-config/lib/Config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/core/resolvers/UrlResolver.js",
+    "smells": ["javascript:S6035", "javascript:S3504", "javascript:S6535"]
+  },
+  { "path": "lib/util/rimraf.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/help.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/init.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/core/resolvers/FsResolver.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/util/copy.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/createLink.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/validLink.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/assets/test-temp-dir/test-exception.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/assets/test-temp-dir/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/core/packageRepository.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "lib/util/removeIgnores.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/config.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/commands/login.js",
+    "smells": ["javascript:S3504", "javascript:S1186"]
+  },
+  { "path": "lib/commands/unregister.js", "smells": ["javascript:S3504"] },
+  { "path": "test/renderers/JsonRenderer.js", "smells": ["javascript:S3504"] },
+  { "path": "test/test.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/rootCheck.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/cache/list.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/commands/home.js", "smells": ["javascript:S3504"] },
+  { "path": "test/commands/cache/list.js", "smells": ["javascript:S3504"] },
+  { "path": "test/commands/help.js", "smells": ["javascript:S3504"] },
+  { "path": "test/util/removeIgnores.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "packages/bower-endpoint-parser/test/test.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/lib/unregister.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/lib/util/Cache.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/lib/util/md5.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/test/core/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/test/core/list.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/test/core/lookup.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/test/core/register.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/test/core/search.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/test/core/util/Cache.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/test/core/util/createError.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-logger/lib/Logger.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/renderers/JsonRenderer.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/util/semver.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "packages/bower-json/lib/util/isComponent.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/lib/list.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-registry-client/Client.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/core/resolvers/GitFsResolver.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "packages/bower-json/lib/util/createError.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/templates/helpers/indent.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "packages/bower-registry-client/lib/register.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  { "path": "lib/util/cli.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "packages/bower-registry-client/lib/util/createError.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/util/createError.js", "smells": ["javascript:S3504"] }
+]

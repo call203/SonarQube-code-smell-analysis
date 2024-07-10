@@ -2,7 +2,8 @@
 import re
 import git
 import argparse
-from datetime import datetime, timedelta
+import json
+from datetime import datetime
 
 
 def is_fix_contained(commit_message):
@@ -140,7 +141,7 @@ def ssz():
     #Get all fixed commits
     fixed_commits = get_fix_commits()
     print(len(fixed_commits))
-    for commit in fixed_commits[0:50]:
+    for commit in fixed_commits:
         data  = search_candidate_commit_szz(commit)
         if data:
             form = {}
@@ -156,9 +157,12 @@ def ssz():
                 match_item = next((item for item in total_candidate_commit if item['path'] == data[3]), None) 
                 if int(match_item['time']) <int(hours_diff):
                     match_item['time'] = round(hours_diff)
+
+    with open("SZZ_data.json",'w') as f:
+        json.dump(total_candidate_commit,f)
                  
         
-    print(total_candidate_commit)
+    
         
     
         

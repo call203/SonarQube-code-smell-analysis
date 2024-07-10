@@ -73,6 +73,8 @@ def get_each_project_smells():
             match_item['smells'] = list(set(match_item['smells']))
 
     print(project_code_smells)
+    with open("project_code_smells.json",'w') as f:
+        json.dump(project_code_smells,f)
     
 
 
