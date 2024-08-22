@@ -1,1 +1,1630 @@
-[{"path": "source/ascendNatural.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/descendNatural.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/ascendNatural.js", "smells": ["javascript:S3504"]}, {"path": "test/descendNatural.js", "smells": ["javascript:S3504"]}, {"path": "source/flow.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/flow.js", "smells": ["javascript:S3504"]}, {"path": "test/curry.js", "smells": ["javascript:S3735", "javascript:S3504"]}, {"path": "test/curryN.js", "smells": ["javascript:S3504", "javascript:S3735"]}, {"path": "source/internal/_clone.js", "smells": ["javascript:S2392", "javascript:S2814", "javascript:S3504"]}, {"path": "source/internal/_path.js", "smells": ["javascript:S3504"]}, {"path": "source/isNotEmpty.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/isNotEmpty.js", "smells": ["javascript:S3504"]}, {"path": "source/intersperse.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mapAccum.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mapAccumRight.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/range.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/scan.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/times.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/xprod.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/zip.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/zipWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/partition.js", "smells": ["javascript:S3504"]}, {"path": "test/sequence.js", "smells": ["javascript:S3504"]}, {"path": "test/traverse.js", "smells": ["javascript:S3504"]}, {"path": "source/head.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_nth.js", "smells": ["javascript:S3504"]}, {"path": "source/last.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/lensIndex.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/lensPath.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/nth.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/nthArg.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/path.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/pathEq.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/pathOr.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/pathSatisfies.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/paths.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/prop.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/props.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_curryN.js", "smells": ["javascript:S3504"]}, {"path": "source/modifyPath.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/modifyPath.js", "smells": ["javascript:S3504"]}, {"path": "source/sequence.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "source/traverse.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "test/difference.js", "smells": ["javascript:S3504"]}, {"path": "test/dropRepeats.js", "smells": ["javascript:S3504"]}, {"path": "test/eqBy.js", "smells": ["javascript:S3504"]}, {"path": "test/eqProps.js", "smells": ["javascript:S3504"]}, {"path": "test/filter.js", "smells": ["javascript:S3504"]}, {"path": "test/includes.js", "smells": ["javascript:S3504"]}, {"path": "test/indexOf.js", "smells": ["javascript:S3358", "javascript:S1186", "javascript:S3504"]}, {"path": "test/intersection.js", "smells": ["javascript:S3504"]}, {"path": "test/lastIndexOf.js", "smells": ["javascript:S3358", "javascript:S1186", "javascript:S3504"]}, {"path": "test/lift.js", "smells": ["javascript:S3504"]}, {"path": "test/liftN.js", "smells": ["javascript:S3504"]}, {"path": "test/pathEq.js", "smells": ["javascript:S3504"]}, {"path": "test/propEq.js", "smells": ["javascript:S3504"]}, {"path": "test/reject.js", "smells": ["javascript:S3504"]}, {"path": "test/symmetricDifference.js", "smells": ["javascript:S3504"]}, {"path": "test/toString.js", "smells": ["javascript:S6331", "javascript:S3504"]}, {"path": "test/union.js", "smells": ["javascript:S3504"]}, {"path": "test/uniq.js", "smells": ["javascript:S3504"]}, {"path": "test/uniqBy.js", "smells": ["javascript:S3504"]}, {"path": "test/unnest.js", "smells": ["javascript:S3504"]}, {"path": "test/without.js", "smells": ["javascript:S3504"]}, {"path": "source/of.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "test/unless.js", "smells": ["javascript:S3504"]}, {"path": "source/propEq.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/all.js", "smells": ["javascript:S3504"]}, {"path": "test/any.js", "smells": ["javascript:S3504"]}, {"path": "test/aperture.js", "smells": ["javascript:S3504"]}, {"path": "test/countBy.js", "smells": ["javascript:S3504"]}, {"path": "test/dropLast.js", "smells": ["javascript:S3504"]}, {"path": "test/dropLastWhile.js", "smells": ["javascript:S3504"]}, {"path": "test/dropWhile.js", "smells": ["javascript:S3504"]}, {"path": "test/groupBy.js", "smells": ["javascript:S3358", "javascript:S3504"]}, {"path": "test/indexBy.js", "smells": ["javascript:S3504"]}, {"path": "test/takeWhile.js", "smells": ["javascript:S3504"]}, {"path": "test/uniqWith.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_flatCat.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_xscan.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/into.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/scan.js", "smells": ["javascript:S3504"]}, {"path": "source/filter.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_arrayReduce.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_createReduce.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_reduce.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_xArrayReduce.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_xReduce.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/liftN.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/map.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mapObjIndexed.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/reduce.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/reduceBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/reduceWhile.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/transduce.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/dropRepeats.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/dropRepeatsBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_xmap.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/dropRepeatsBy.js", "smells": ["javascript:S3504"]}, {"path": "test/dropRepeatsWith.js", "smells": ["javascript:S3504"]}, {"path": "source/memoizeWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/max.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/maxBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/min.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/minBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/addIndexRight.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/addIndexRight.js", "smells": ["javascript:S3504"]}, {"path": "source/intersection.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/without.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/clone.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "test/isNotNil.js", "smells": ["javascript:S3504"]}, {"path": "test/swap.js", "smells": ["javascript:S3504"]}, {"path": "source/isNotNil.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/assocPath.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "test/assocPath.js", "smells": ["javascript:S3504"]}, {"path": "source/constructN.js", "smells": ["javascript:S6861", "javascript:S107", "javascript:S3504"]}, {"path": "scripts/beforePublish.js", "smells": ["javascript:S6535", "javascript:S3504"]}, {"path": "source/swap.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_cloneRegExp.js", "smells": ["javascript:S3358"]}, {"path": "lib/bench/concat.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/curry.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/each.bench.js", "smells": ["javascript:S4030", "javascript:S3504"]}, {"path": "lib/bench/either.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/filter-where.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/filter.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/find-where.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/find.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/findIndex-where.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/findIndex.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/includes.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/indexof.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/map.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/maxWith.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/propEq.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/reduce.bench.js", "smells": ["javascript:S3504"]}, {"path": "lib/bench/uniq.bench.js", "smells": ["javascript:S3800", "javascript:S3504"]}, {"path": "lib/sauce/browsers.js", "smells": ["javascript:S3504"]}, {"path": "lib/sauce/conf.js", "smells": ["javascript:S3504"]}, {"path": "test/F.js", "smells": ["javascript:S3504"]}, {"path": "test/T.js", "smells": ["javascript:S3504"]}, {"path": "test/add.js", "smells": ["javascript:S3504"]}, {"path": "test/addIndex.js", "smells": ["javascript:S3504"]}, {"path": "test/adjust.js", "smells": ["javascript:S3504"]}, {"path": "test/allPass.js", "smells": ["javascript:S3504"]}, {"path": "test/always.js", "smells": ["javascript:S3504"]}, {"path": "test/and.js", "smells": ["javascript:S3504"]}, {"path": "test/andThen.js", "smells": ["javascript:S3504"]}, {"path": "test/anyPass.js", "smells": ["javascript:S3504"]}, {"path": "test/ap.js", "smells": ["javascript:S3504"]}, {"path": "test/append.js", "smells": ["javascript:S3504"]}, {"path": "test/apply.js", "smells": ["javascript:S3504"]}, {"path": "test/applySpec.js", "smells": ["javascript:S3504"]}, {"path": "test/applyTo.js", "smells": ["javascript:S3504"]}, {"path": "test/ascend.js", "smells": ["javascript:S3504"]}, {"path": "test/assoc.js", "smells": ["javascript:S3504"]}, {"path": "test/binary.js", "smells": ["javascript:S3735", "javascript:S3504"]}, {"path": "test/bind.js", "smells": ["javascript:S3504"]}, {"path": "test/both.js", "smells": ["javascript:S3504"]}, {"path": "test/call.js", "smells": ["javascript:S3504"]}, {"path": "test/chain.js", "smells": ["javascript:S3504"]}, {"path": "test/clamp.js", "smells": ["javascript:S3504"]}, {"path": "test/clone.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/collectBy.js", "smells": ["javascript:S3504"]}, {"path": "test/comparator.js", "smells": ["javascript:S3504"]}, {"path": "test/complement.js", "smells": ["javascript:S3504"]}, {"path": "test/compose.js", "smells": ["javascript:S3504"]}, {"path": "test/composeWith.js", "smells": ["javascript:S4634", "javascript:S3504"]}, {"path": "test/concat.js", "smells": ["javascript:S3504"]}, {"path": "test/cond.js", "smells": ["javascript:S3504"]}, {"path": "test/construct.js", "smells": ["javascript:S107", "javascript:S1186", "javascript:S3504"]}, {"path": "test/constructN.js", "smells": ["javascript:S107", "javascript:S1186", "javascript:S3504"]}, {"path": "test/converge.js", "smells": ["javascript:S3504"]}, {"path": "test/count.js", "smells": ["javascript:S3504"]}, {"path": "test/dec.js", "smells": ["javascript:S3504"]}, {"path": "test/defaultTo.js", "smells": ["javascript:S3504"]}, {"path": "test/descend.js", "smells": ["javascript:S3504"]}, {"path": "test/differenceWith.js", "smells": ["javascript:S3504"]}, {"path": "test/dissoc.js", "smells": ["javascript:S3504"]}, {"path": "test/dissocPath.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/divide.js", "smells": ["javascript:S3504"]}, {"path": "test/drop.js", "smells": ["javascript:S3504"]}, {"path": "test/either.js", "smells": ["javascript:S3504"]}, {"path": "test/empty.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/endsWith.js", "smells": ["javascript:S3504"]}, {"path": "test/equals.js", "smells": ["javascript:S6331", "javascript:S3504", "javascript:S125"]}, {"path": "test/evolve.js", "smells": ["javascript:S3504"]}, {"path": "test/find.js", "smells": ["javascript:S3504"]}, {"path": "test/findIndex.js", "smells": ["javascript:S3504"]}, {"path": "test/findLast.js", "smells": ["javascript:S3504"]}, {"path": "test/findLastIndex.js", "smells": ["javascript:S3504"]}, {"path": "test/flatten.js", "smells": ["javascript:S3504"]}, {"path": "test/flip.js", "smells": ["javascript:S3504"]}, {"path": "test/forEach.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/forEachObjIndexed.js", "smells": ["javascript:S3504"]}, {"path": "test/fromPairs.js", "smells": ["javascript:S3504"]}, {"path": "test/groupWith.js", "smells": ["javascript:S3504"]}, {"path": "test/gt.js", "smells": ["javascript:S3504"]}, {"path": "test/gte.js", "smells": ["javascript:S3504"]}, {"path": "test/has.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/hasIn.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/hasPath.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/head.js", "smells": ["javascript:S3504"]}, {"path": "test/helpers/test.examplesRunner.js", "smells": ["javascript:S6535", "javascript:S3800", "javascript:S3504"]}, {"path": "test/identical.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/identity.js", "smells": ["javascript:S3504"]}, {"path": "test/ifElse.js", "smells": ["javascript:S3504"]}, {"path": "test/inc.js", "smells": ["javascript:S3504"]}, {"path": "test/index.js", "smells": ["javascript:S3504"]}, {"path": "test/init.js", "smells": ["javascript:S3504"]}, {"path": "test/innerJoin.js", "smells": ["javascript:S3504"]}, {"path": "test/insert.js", "smells": ["javascript:S3504"]}, {"path": "test/insertAll.js", "smells": ["javascript:S3504"]}, {"path": "test/internal/_curry2.js", "smells": ["javascript:S3504"]}, {"path": "test/internal/_curry3.js", "smells": ["javascript:S3504"]}, {"path": "test/internal/_isArrayLike.js", "smells": ["javascript:S3504"]}, {"path": "test/intersperse.js", "smells": ["javascript:S3504"]}, {"path": "test/into.js", "smells": ["javascript:S3504"]}, {"path": "test/invariants.js", "smells": ["javascript:S3504"]}, {"path": "test/invert.js", "smells": ["javascript:S3504"]}, {"path": "test/invertObj.js", "smells": ["javascript:S3504"]}, {"path": "test/invoker.js", "smells": ["javascript:S3504"]}, {"path": "test/is.js", "smells": ["javascript:S6331", "javascript:S1186", "javascript:S3504"]}, {"path": "test/isEmpty.js", "smells": ["javascript:S3504"]}, {"path": "test/isNil.js", "smells": ["javascript:S3504"]}, {"path": "test/join.js", "smells": ["javascript:S3504"]}, {"path": "test/juxt.js", "smells": ["javascript:S3504"]}, {"path": "test/keys.js", "smells": ["javascript:S3504"]}, {"path": "test/keysIn.js", "smells": ["javascript:S4140", "javascript:S3504"]}, {"path": "test/last.js", "smells": ["javascript:S3504"]}, {"path": "test/length.js", "smells": ["javascript:S3504"]}, {"path": "test/lensIndex.js", "smells": ["javascript:S3504"]}, {"path": "test/lensPath.js", "smells": ["javascript:S3504"]}, {"path": "test/lensProp.js", "smells": ["javascript:S3504"]}, {"path": "test/lenses.js", "smells": ["javascript:S3504"]}, {"path": "test/lt.js", "smells": ["javascript:S3504"]}, {"path": "test/lte.js", "smells": ["javascript:S3504"]}, {"path": "test/map.js", "smells": ["javascript:S3504"]}, {"path": "test/mapAccum.js", "smells": ["javascript:S3504"]}, {"path": "test/mapAccumRight.js", "smells": ["javascript:S3504"]}, {"path": "test/mapObjIndexed.js", "smells": ["javascript:S3504"]}, {"path": "test/match.js", "smells": ["javascript:S6535", "javascript:S3504"]}, {"path": "test/mathMod.js", "smells": ["javascript:S3504"]}, {"path": "test/max.js", "smells": ["javascript:S3504"]}, {"path": "test/maxBy.js", "smells": ["javascript:S3504"]}, {"path": "test/mean.js", "smells": ["javascript:S3504"]}, {"path": "test/median.js", "smells": ["javascript:S3504"]}, {"path": "test/memoizeWith.js", "smells": ["javascript:S3504"]}, {"path": "test/mergeAll.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/mergeDeepLeft.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/mergeDeepRight.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/mergeDeepWith.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/mergeDeepWithKey.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/mergeLeft.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/mergeRight.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/mergeWith.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/mergeWithKey.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/min.js", "smells": ["javascript:S3504"]}, {"path": "test/minBy.js", "smells": ["javascript:S3504"]}, {"path": "test/modify.js", "smells": ["javascript:S3504"]}, {"path": "test/modulo.js", "smells": ["javascript:S3504"]}, {"path": "test/move.js", "smells": ["javascript:S3504"]}, {"path": "test/multiply.js", "smells": ["javascript:S3504"]}, {"path": "test/nAry.js", "smells": ["javascript:S3735", "javascript:S3504"]}, {"path": "test/negate.js", "smells": ["javascript:S3504"]}, {"path": "test/none.js", "smells": ["javascript:S3504"]}, {"path": "test/not.js", "smells": ["javascript:S3504"]}, {"path": "test/nth.js", "smells": ["javascript:S3504"]}, {"path": "test/nthArg.js", "smells": ["javascript:S3504"]}, {"path": "test/o.js", "smells": ["javascript:S3504"]}, {"path": "test/objOf.js", "smells": ["javascript:S3504"]}, {"path": "test/of.js", "smells": ["javascript:S3504"]}, {"path": "test/omit.js", "smells": ["javascript:S3504"]}, {"path": "test/on.js", "smells": ["javascript:S3504"]}, {"path": "test/once.js", "smells": ["javascript:S3504"]}, {"path": "test/or.js", "smells": ["javascript:S3504"]}, {"path": "test/otherwise.js", "smells": ["javascript:S3504"]}, {"path": "test/pair.js", "smells": ["javascript:S3504"]}, {"path": "test/partial.js", "smells": ["javascript:S3504"]}, {"path": "test/partialObject.js", "smells": ["javascript:S3504"]}, {"path": "test/partialRight.js", "smells": ["javascript:S3504"]}, {"path": "test/path.js", "smells": ["javascript:S3504"]}, {"path": "test/pathOr.js", "smells": ["javascript:S3504"]}, {"path": "test/pathSatisfies.js", "smells": ["javascript:S3504"]}, {"path": "test/paths.js", "smells": ["javascript:S3504"]}, {"path": "test/pick.js", "smells": ["javascript:S3504"]}, {"path": "test/pickAll.js", "smells": ["javascript:S3504"]}, {"path": "test/pickBy.js", "smells": ["javascript:S3504"]}, {"path": "test/pipe.js", "smells": ["javascript:S3504"]}, {"path": "test/pipeWith.js", "smells": ["javascript:S4634", "javascript:S3504"]}, {"path": "test/pluck.js", "smells": ["javascript:S3504"]}, {"path": "test/prepend.js", "smells": ["javascript:S3504"]}, {"path": "test/product.js", "smells": ["javascript:S3504"]}, {"path": "test/project.js", "smells": ["javascript:S3504"]}, {"path": "test/promap.js", "smells": ["javascript:S3504"]}, {"path": "test/prop.js", "smells": ["javascript:S3504"]}, {"path": "test/propIs.js", "smells": ["javascript:S3504"]}, {"path": "test/propOr.js", "smells": ["javascript:S3504"]}, {"path": "test/propSatisfies.js", "smells": ["javascript:S3504"]}, {"path": "test/props.js", "smells": ["javascript:S3504"]}, {"path": "test/range.js", "smells": ["javascript:S3504"]}, {"path": "test/reduce.js", "smells": ["javascript:S3504"]}, {"path": "test/reduceBy.js", "smells": ["javascript:S3358", "javascript:S3504"]}, {"path": "test/reduceRight.js", "smells": ["javascript:S3504"]}, {"path": "test/reduceWhile.js", "smells": ["javascript:S3504"]}, {"path": "test/reduced.js", "smells": ["javascript:S3504"]}, {"path": "test/remove.js", "smells": ["javascript:S3504"]}, {"path": "test/repeat.js", "smells": ["javascript:S3504"]}, {"path": "test/replace.js", "smells": ["javascript:S3504"]}, {"path": "test/reverse.js", "smells": ["javascript:S3504"]}, {"path": "test/shared/Id.js", "smells": ["javascript:S3504"]}, {"path": "test/shared/Maybe.js", "smells": ["javascript:S3504"]}, {"path": "test/shared/Pair.js", "smells": ["javascript:S3504"]}, {"path": "test/shared/eq.js", "smells": ["javascript:S3504"]}, {"path": "test/slice.js", "smells": ["javascript:S3504"]}, {"path": "test/sort.js", "smells": ["javascript:S3504"]}, {"path": "test/sortBy.js", "smells": ["javascript:S3504"]}, {"path": "test/sortWith.js", "smells": ["javascript:S3504"]}, {"path": "test/split.js", "smells": ["javascript:S3504"]}, {"path": "test/splitAt.js", "smells": ["javascript:S3504"]}, {"path": "test/splitEvery.js", "smells": ["javascript:S3504"]}, {"path": "test/splitWhen.js", "smells": ["javascript:S3504"]}, {"path": "test/splitWhenever.js", "smells": ["javascript:S3504"]}, {"path": "test/startsWith.js", "smells": ["javascript:S3504"]}, {"path": "test/subtract.js", "smells": ["javascript:S3504"]}, {"path": "test/sum.js", "smells": ["javascript:S3504"]}, {"path": "test/symmetricDifferenceWith.js", "smells": ["javascript:S3504"]}, {"path": "test/tail.js", "smells": ["javascript:S3504"]}, {"path": "test/take.js", "smells": ["javascript:S3504"]}, {"path": "test/takeLast.js", "smells": ["javascript:S3504"]}, {"path": "test/takeLastWhile.js", "smells": ["javascript:S3504"]}, {"path": "test/tap.js", "smells": ["javascript:S3504"]}, {"path": "test/test.js", "smells": ["javascript:S3504"]}, {"path": "test/thunkify.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "test/times.js", "smells": ["javascript:S3504"]}, {"path": "test/toLower.js", "smells": ["javascript:S3504"]}, {"path": "test/toPairs.js", "smells": ["javascript:S3504"]}, {"path": "test/toPairsIn.js", "smells": ["javascript:S3358", "javascript:S3504"]}, {"path": "test/toUpper.js", "smells": ["javascript:S3504"]}, {"path": "test/transduce.js", "smells": ["javascript:S3504"]}, {"path": "test/transpose.js", "smells": ["javascript:S3504"]}, {"path": "test/trim.js", "smells": ["javascript:S3504"]}, {"path": "test/tryCatch.js", "smells": ["javascript:S3504", "javascript:S3735"]}, {"path": "test/type.js", "smells": ["javascript:S3504", "javascript:S125"]}, {"path": "test/unapply.js", "smells": ["javascript:S3504"]}, {"path": "test/unary.js", "smells": ["javascript:S3735", "javascript:S3504"]}, {"path": "test/uncurryN.js", "smells": ["javascript:S2004", "javascript:S3504"]}, {"path": "test/unfold.js", "smells": ["javascript:S3504"]}, {"path": "test/unionWith.js", "smells": ["javascript:S3504"]}, {"path": "test/until.js", "smells": ["javascript:S3504"]}, {"path": "test/unwind.js", "smells": ["javascript:S3504"]}, {"path": "test/update.js", "smells": ["javascript:S3504"]}, {"path": "test/useWith.js", "smells": ["javascript:S3504", "javascript:S125"]}, {"path": "test/values.js", "smells": ["javascript:S3504"]}, {"path": "test/valuesIn.js", "smells": ["javascript:S4140", "javascript:S3504"]}, {"path": "test/when.js", "smells": ["javascript:S3504"]}, {"path": "test/where.js", "smells": ["javascript:S3504"]}, {"path": "test/whereAny.js", "smells": ["javascript:S3504"]}, {"path": "test/whereEq.js", "smells": ["javascript:S3504"]}, {"path": "test/xor.js", "smells": ["javascript:S3504"]}, {"path": "test/xprod.js", "smells": ["javascript:S3504"]}, {"path": "test/zip.js", "smells": ["javascript:S3504"]}, {"path": "test/zipObj.js", "smells": ["javascript:S3504"]}, {"path": "test/zipWith.js", "smells": ["javascript:S3504"]}, {"path": "source/mergeWithKey.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/identical.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/partialObject.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/uniqBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/uniqWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/is.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/trim.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/count.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/groupBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/adjust.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/reduceRight.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/unwind.js", "smells": ["javascript:S6861", "javascript:S3800", "javascript:S3504"]}, {"path": "source/internal/_modify.js", "smells": ["javascript:S3504"]}, {"path": "source/modify.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_dispatchable.js", "smells": ["javascript:S3504"]}, {"path": "source/evolve.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "rollup.config.js", "smells": ["javascript:S3504"]}, {"path": "source/assoc.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/dissoc.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/dissocPath.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_assoc.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_dissoc.js", "smells": ["javascript:S3504"]}, {"path": "source/promap.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/collectBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/hasIn.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/propIs.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/propOr.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/call.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/whereAny.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/empty.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3776", "javascript:S3504"]}, {"path": "source/internal/_isTypedArray.js", "smells": ["javascript:S3504"]}, {"path": "source/splitWhenever.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/on.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/propSatisfies.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "scripts/transpile/esm-to-cjs.js", "smells": ["javascript:S3504", "javascript:S125"]}, {"path": "scripts/transpile/wrap-constructor-pattern.js", "smells": ["javascript:S3504"]}, {"path": "source/xor.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/andThen.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/hasPath.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/none.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/otherwise.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/pipeWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/thunkify.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/move.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/ap.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "source/clamp.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "source/cond.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/insertAll.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_curry2.js", "smells": ["javascript:S3358"]}, {"path": "source/internal/_curry3.js", "smells": ["javascript:S3358", "javascript:S3776"]}, {"path": "source/keys.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/reverse.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/type.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "source/F.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/T.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/applySpec.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/composeWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/difference.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_isFunction.js", "smells": ["javascript:S3504"]}, {"path": "source/has.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/differenceWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/includes.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/innerJoin.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_Set.js", "smells": ["javascript:S3504", "javascript:S3776", "javascript:S6660"]}, {"path": "source/mergeLeft.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mergeRight.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/update.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_isArguments.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_equals.js", "smells": ["javascript:S3776", "javascript:S3504"]}, {"path": "source/mergeAll.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/flip.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/applyTo.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "scripts/partialBuild.js", "smells": ["javascript:S3504"]}, {"path": "source/add.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/addIndex.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/all.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/allPass.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/always.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/and.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/any.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/anyPass.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/aperture.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/append.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/apply.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/ascend.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "source/binary.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/bind.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/both.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/chain.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/comparator.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "source/complement.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/concat.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/construct.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/converge.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/countBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/curry.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/curryN.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/dec.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/defaultTo.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/descend.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "source/divide.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/drop.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/dropLast.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/dropLastWhile.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/dropRepeatsWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/dropWhile.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/either.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/endsWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/eqBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/eqProps.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/equals.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/find.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/findIndex.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/findLast.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/findLastIndex.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/flatten.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/forEach.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/forEachObjIndexed.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/fromPairs.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/groupWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/gt.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/gte.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/identity.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/ifElse.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/inc.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/indexBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/indexOf.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/init.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/insert.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_dropLastWhile.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_indexOf.js", "smells": ["javascript:S3776", "javascript:S3504"]}, {"path": "source/internal/_isArrayLike.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_stepCat.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_toISOString.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_toString.js", "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]}, {"path": "source/internal/_xdropRepeatsWith.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_xreduceBy.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_xtake.js", "smells": ["javascript:S3504"]}, {"path": "source/invert.js", "smells": ["javascript:S6861", "javascript:S3504", "javascript:S1121"]}, {"path": "source/invertObj.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/invoker.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/isEmpty.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/isNil.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/join.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/juxt.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/keysIn.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/lastIndexOf.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/length.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/lens.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/lensProp.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/lift.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/lt.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/lte.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/match.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mathMod.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mean.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/median.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "source/mergeDeepLeft.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mergeDeepRight.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mergeDeepWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mergeDeepWithKey.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/mergeWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/modulo.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/multiply.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/nAry.js", "smells": ["javascript:S6861", "javascript:S107", "javascript:S3504"]}, {"path": "source/negate.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/not.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/o.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/objOf.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/omit.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/once.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/or.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/over.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/pair.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/partial.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/partialRight.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/partition.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/pick.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/pickAll.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/pickBy.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/pluck.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/prepend.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/product.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/project.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/reduced.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/reject.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/remove.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/repeat.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/replace.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/set.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/slice.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/sort.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/sortBy.js", "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]}, {"path": "source/sortWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/split.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/splitAt.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/splitEvery.js", "smells": ["javascript:S6861", "javascript:S3504", "javascript:S1121"]}, {"path": "source/splitWhen.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/startsWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/subtract.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/sum.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/symmetricDifference.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/symmetricDifferenceWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/tail.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/take.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/takeLast.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/takeLastWhile.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/takeWhile.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/tap.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/test.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/toLower.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/toPairs.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/toPairsIn.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/toString.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/toUpper.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/transpose.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/tryCatch.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/unapply.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/unary.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/uncurryN.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/unfold.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/union.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/unionWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/uniq.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/unless.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/unnest.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/until.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/useWith.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/values.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/valuesIn.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/view.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/when.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/where.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/whereEq.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/zipObj.js", "smells": ["javascript:S6861", "javascript:S3504"]}, {"path": "source/internal/_objectAssign.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_functionName.js", "smells": ["javascript:S3504"]}, {"path": "lib/sauce/ie8-shim.js", "smells": ["javascript:S3504", "javascript:S1854", "javascript:S1121"]}, {"path": "source/internal/_filter.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_includesWith.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_makeFlat.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_map.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_aperture.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_quote.js", "smells": ["javascript:S6397", "javascript:S3504"]}, {"path": "source/internal/_arrayFromIterator.js", "smells": ["javascript:S3504", "javascript:S1121"]}, {"path": "source/internal/_pipeP.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_arity.js", "smells": ["javascript:S107"]}, {"path": "source/internal/_checkForMethod.js", "smells": ["javascript:S3504"]}, {"path": "source/internal/_concat.js", "smells": ["javascript:S3504"]}]
+[
+  {
+    "path": "source/ascendNatural.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/descendNatural.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/ascendNatural.js", "smells": ["javascript:S3504"] },
+  { "path": "test/descendNatural.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/flow.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/flow.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/curry.js",
+    "smells": ["javascript:S3735", "javascript:S3504"]
+  },
+  {
+    "path": "test/curryN.js",
+    "smells": ["javascript:S3504", "javascript:S3735"]
+  },
+  {
+    "path": "source/internal/_clone.js",
+    "smells": ["javascript:S2392", "javascript:S2814", "javascript:S3504"]
+  },
+  { "path": "source/internal/_path.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/isNotEmpty.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/isNotEmpty.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/intersperse.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mapAccum.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mapAccumRight.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/range.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/scan.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/times.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/xprod.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/zip.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/zipWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/partition.js", "smells": ["javascript:S3504"] },
+  { "path": "test/sequence.js", "smells": ["javascript:S3504"] },
+  { "path": "test/traverse.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/head.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "source/internal/_nth.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/last.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/lensIndex.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/lensPath.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/nth.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/nthArg.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/path.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/pathEq.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/pathOr.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/pathSatisfies.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/paths.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/prop.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/props.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "source/internal/_curryN.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/modifyPath.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/modifyPath.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/sequence.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "source/traverse.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "test/difference.js", "smells": ["javascript:S3504"] },
+  { "path": "test/dropRepeats.js", "smells": ["javascript:S3504"] },
+  { "path": "test/eqBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/eqProps.js", "smells": ["javascript:S3504"] },
+  { "path": "test/filter.js", "smells": ["javascript:S3504"] },
+  { "path": "test/includes.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/indexOf.js",
+    "smells": ["javascript:S3358", "javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/intersection.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/lastIndexOf.js",
+    "smells": ["javascript:S3358", "javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/lift.js", "smells": ["javascript:S3504"] },
+  { "path": "test/liftN.js", "smells": ["javascript:S3504"] },
+  { "path": "test/pathEq.js", "smells": ["javascript:S3504"] },
+  { "path": "test/propEq.js", "smells": ["javascript:S3504"] },
+  { "path": "test/reject.js", "smells": ["javascript:S3504"] },
+  { "path": "test/symmetricDifference.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/toString.js",
+    "smells": ["javascript:S6331", "javascript:S3504"]
+  },
+  { "path": "test/union.js", "smells": ["javascript:S3504"] },
+  { "path": "test/uniq.js", "smells": ["javascript:S3504"] },
+  { "path": "test/uniqBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/unnest.js", "smells": ["javascript:S3504"] },
+  { "path": "test/without.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/of.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "test/unless.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/propEq.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/all.js", "smells": ["javascript:S3504"] },
+  { "path": "test/any.js", "smells": ["javascript:S3504"] },
+  { "path": "test/aperture.js", "smells": ["javascript:S3504"] },
+  { "path": "test/countBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/dropLast.js", "smells": ["javascript:S3504"] },
+  { "path": "test/dropLastWhile.js", "smells": ["javascript:S3504"] },
+  { "path": "test/dropWhile.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/groupBy.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "test/indexBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/takeWhile.js", "smells": ["javascript:S3504"] },
+  { "path": "test/uniqWith.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/internal/_flatCat.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_xscan.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/into.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/scan.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/filter.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "source/internal/_arrayReduce.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/internal/_createReduce.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_reduce.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_xArrayReduce.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_xReduce.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/liftN.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/map.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mapObjIndexed.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/reduce.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/reduceBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/reduceWhile.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/transduce.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/dropRepeats.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/dropRepeatsBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_xmap.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/dropRepeatsBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/dropRepeatsWith.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/memoizeWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/max.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/maxBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/min.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/minBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/addIndexRight.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/addIndexRight.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/intersection.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/without.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/clone.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "test/isNotNil.js", "smells": ["javascript:S3504"] },
+  { "path": "test/swap.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/isNotNil.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/assocPath.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "test/assocPath.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/constructN.js",
+    "smells": ["javascript:S6861", "javascript:S107", "javascript:S3504"]
+  },
+  {
+    "path": "scripts/beforePublish.js",
+    "smells": ["javascript:S6535", "javascript:S3504"]
+  },
+  {
+    "path": "source/swap.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "source/internal/_cloneRegExp.js", "smells": ["javascript:S3358"] },
+  { "path": "lib/bench/concat.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/curry.bench.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/bench/each.bench.js",
+    "smells": ["javascript:S4030", "javascript:S3504"]
+  },
+  { "path": "lib/bench/either.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/filter-where.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/filter.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/find-where.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/find.bench.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/bench/findIndex-where.bench.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/bench/findIndex.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/includes.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/indexof.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/map.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/maxWith.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/propEq.bench.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/bench/reduce.bench.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/bench/uniq.bench.js",
+    "smells": ["javascript:S3800", "javascript:S3504"]
+  },
+  { "path": "lib/sauce/browsers.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/sauce/conf.js", "smells": ["javascript:S3504"] },
+  { "path": "test/F.js", "smells": ["javascript:S3504"] },
+  { "path": "test/T.js", "smells": ["javascript:S3504"] },
+  { "path": "test/add.js", "smells": ["javascript:S3504"] },
+  { "path": "test/addIndex.js", "smells": ["javascript:S3504"] },
+  { "path": "test/adjust.js", "smells": ["javascript:S3504"] },
+  { "path": "test/allPass.js", "smells": ["javascript:S3504"] },
+  { "path": "test/always.js", "smells": ["javascript:S3504"] },
+  { "path": "test/and.js", "smells": ["javascript:S3504"] },
+  { "path": "test/andThen.js", "smells": ["javascript:S3504"] },
+  { "path": "test/anyPass.js", "smells": ["javascript:S3504"] },
+  { "path": "test/ap.js", "smells": ["javascript:S3504"] },
+  { "path": "test/append.js", "smells": ["javascript:S3504"] },
+  { "path": "test/apply.js", "smells": ["javascript:S3504"] },
+  { "path": "test/applySpec.js", "smells": ["javascript:S3504"] },
+  { "path": "test/applyTo.js", "smells": ["javascript:S3504"] },
+  { "path": "test/ascend.js", "smells": ["javascript:S3504"] },
+  { "path": "test/assoc.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/binary.js",
+    "smells": ["javascript:S3735", "javascript:S3504"]
+  },
+  { "path": "test/bind.js", "smells": ["javascript:S3504"] },
+  { "path": "test/both.js", "smells": ["javascript:S3504"] },
+  { "path": "test/call.js", "smells": ["javascript:S3504"] },
+  { "path": "test/chain.js", "smells": ["javascript:S3504"] },
+  { "path": "test/clamp.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/clone.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/collectBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/comparator.js", "smells": ["javascript:S3504"] },
+  { "path": "test/complement.js", "smells": ["javascript:S3504"] },
+  { "path": "test/compose.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/composeWith.js",
+    "smells": ["javascript:S4634", "javascript:S3504"]
+  },
+  { "path": "test/concat.js", "smells": ["javascript:S3504"] },
+  { "path": "test/cond.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/construct.js",
+    "smells": ["javascript:S107", "javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/constructN.js",
+    "smells": ["javascript:S107", "javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/converge.js", "smells": ["javascript:S3504"] },
+  { "path": "test/count.js", "smells": ["javascript:S3504"] },
+  { "path": "test/dec.js", "smells": ["javascript:S3504"] },
+  { "path": "test/defaultTo.js", "smells": ["javascript:S3504"] },
+  { "path": "test/descend.js", "smells": ["javascript:S3504"] },
+  { "path": "test/differenceWith.js", "smells": ["javascript:S3504"] },
+  { "path": "test/dissoc.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/dissocPath.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/divide.js", "smells": ["javascript:S3504"] },
+  { "path": "test/drop.js", "smells": ["javascript:S3504"] },
+  { "path": "test/either.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/empty.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/endsWith.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/equals.js",
+    "smells": ["javascript:S6331", "javascript:S3504", "javascript:S125"]
+  },
+  { "path": "test/evolve.js", "smells": ["javascript:S3504"] },
+  { "path": "test/find.js", "smells": ["javascript:S3504"] },
+  { "path": "test/findIndex.js", "smells": ["javascript:S3504"] },
+  { "path": "test/findLast.js", "smells": ["javascript:S3504"] },
+  { "path": "test/findLastIndex.js", "smells": ["javascript:S3504"] },
+  { "path": "test/flatten.js", "smells": ["javascript:S3504"] },
+  { "path": "test/flip.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/forEach.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/forEachObjIndexed.js", "smells": ["javascript:S3504"] },
+  { "path": "test/fromPairs.js", "smells": ["javascript:S3504"] },
+  { "path": "test/groupWith.js", "smells": ["javascript:S3504"] },
+  { "path": "test/gt.js", "smells": ["javascript:S3504"] },
+  { "path": "test/gte.js", "smells": ["javascript:S3504"] },
+  { "path": "test/has.js", "smells": ["javascript:S1186", "javascript:S3504"] },
+  {
+    "path": "test/hasIn.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/hasPath.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/head.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/helpers/test.examplesRunner.js",
+    "smells": ["javascript:S6535", "javascript:S3800", "javascript:S3504"]
+  },
+  {
+    "path": "test/identical.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/identity.js", "smells": ["javascript:S3504"] },
+  { "path": "test/ifElse.js", "smells": ["javascript:S3504"] },
+  { "path": "test/inc.js", "smells": ["javascript:S3504"] },
+  { "path": "test/index.js", "smells": ["javascript:S3504"] },
+  { "path": "test/init.js", "smells": ["javascript:S3504"] },
+  { "path": "test/innerJoin.js", "smells": ["javascript:S3504"] },
+  { "path": "test/insert.js", "smells": ["javascript:S3504"] },
+  { "path": "test/insertAll.js", "smells": ["javascript:S3504"] },
+  { "path": "test/internal/_curry2.js", "smells": ["javascript:S3504"] },
+  { "path": "test/internal/_curry3.js", "smells": ["javascript:S3504"] },
+  { "path": "test/internal/_isArrayLike.js", "smells": ["javascript:S3504"] },
+  { "path": "test/intersperse.js", "smells": ["javascript:S3504"] },
+  { "path": "test/into.js", "smells": ["javascript:S3504"] },
+  { "path": "test/invariants.js", "smells": ["javascript:S3504"] },
+  { "path": "test/invert.js", "smells": ["javascript:S3504"] },
+  { "path": "test/invertObj.js", "smells": ["javascript:S3504"] },
+  { "path": "test/invoker.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/is.js",
+    "smells": ["javascript:S6331", "javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/isEmpty.js", "smells": ["javascript:S3504"] },
+  { "path": "test/isNil.js", "smells": ["javascript:S3504"] },
+  { "path": "test/join.js", "smells": ["javascript:S3504"] },
+  { "path": "test/juxt.js", "smells": ["javascript:S3504"] },
+  { "path": "test/keys.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/keysIn.js",
+    "smells": ["javascript:S4140", "javascript:S3504"]
+  },
+  { "path": "test/last.js", "smells": ["javascript:S3504"] },
+  { "path": "test/length.js", "smells": ["javascript:S3504"] },
+  { "path": "test/lensIndex.js", "smells": ["javascript:S3504"] },
+  { "path": "test/lensPath.js", "smells": ["javascript:S3504"] },
+  { "path": "test/lensProp.js", "smells": ["javascript:S3504"] },
+  { "path": "test/lenses.js", "smells": ["javascript:S3504"] },
+  { "path": "test/lt.js", "smells": ["javascript:S3504"] },
+  { "path": "test/lte.js", "smells": ["javascript:S3504"] },
+  { "path": "test/map.js", "smells": ["javascript:S3504"] },
+  { "path": "test/mapAccum.js", "smells": ["javascript:S3504"] },
+  { "path": "test/mapAccumRight.js", "smells": ["javascript:S3504"] },
+  { "path": "test/mapObjIndexed.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/match.js",
+    "smells": ["javascript:S6535", "javascript:S3504"]
+  },
+  { "path": "test/mathMod.js", "smells": ["javascript:S3504"] },
+  { "path": "test/max.js", "smells": ["javascript:S3504"] },
+  { "path": "test/maxBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/mean.js", "smells": ["javascript:S3504"] },
+  { "path": "test/median.js", "smells": ["javascript:S3504"] },
+  { "path": "test/memoizeWith.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/mergeAll.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/mergeDeepLeft.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/mergeDeepRight.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/mergeDeepWith.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/mergeDeepWithKey.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/mergeLeft.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/mergeRight.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/mergeWith.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/mergeWithKey.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/min.js", "smells": ["javascript:S3504"] },
+  { "path": "test/minBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/modify.js", "smells": ["javascript:S3504"] },
+  { "path": "test/modulo.js", "smells": ["javascript:S3504"] },
+  { "path": "test/move.js", "smells": ["javascript:S3504"] },
+  { "path": "test/multiply.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/nAry.js",
+    "smells": ["javascript:S3735", "javascript:S3504"]
+  },
+  { "path": "test/negate.js", "smells": ["javascript:S3504"] },
+  { "path": "test/none.js", "smells": ["javascript:S3504"] },
+  { "path": "test/not.js", "smells": ["javascript:S3504"] },
+  { "path": "test/nth.js", "smells": ["javascript:S3504"] },
+  { "path": "test/nthArg.js", "smells": ["javascript:S3504"] },
+  { "path": "test/o.js", "smells": ["javascript:S3504"] },
+  { "path": "test/objOf.js", "smells": ["javascript:S3504"] },
+  { "path": "test/of.js", "smells": ["javascript:S3504"] },
+  { "path": "test/omit.js", "smells": ["javascript:S3504"] },
+  { "path": "test/on.js", "smells": ["javascript:S3504"] },
+  { "path": "test/once.js", "smells": ["javascript:S3504"] },
+  { "path": "test/or.js", "smells": ["javascript:S3504"] },
+  { "path": "test/otherwise.js", "smells": ["javascript:S3504"] },
+  { "path": "test/pair.js", "smells": ["javascript:S3504"] },
+  { "path": "test/partial.js", "smells": ["javascript:S3504"] },
+  { "path": "test/partialObject.js", "smells": ["javascript:S3504"] },
+  { "path": "test/partialRight.js", "smells": ["javascript:S3504"] },
+  { "path": "test/path.js", "smells": ["javascript:S3504"] },
+  { "path": "test/pathOr.js", "smells": ["javascript:S3504"] },
+  { "path": "test/pathSatisfies.js", "smells": ["javascript:S3504"] },
+  { "path": "test/paths.js", "smells": ["javascript:S3504"] },
+  { "path": "test/pick.js", "smells": ["javascript:S3504"] },
+  { "path": "test/pickAll.js", "smells": ["javascript:S3504"] },
+  { "path": "test/pickBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/pipe.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/pipeWith.js",
+    "smells": ["javascript:S4634", "javascript:S3504"]
+  },
+  { "path": "test/pluck.js", "smells": ["javascript:S3504"] },
+  { "path": "test/prepend.js", "smells": ["javascript:S3504"] },
+  { "path": "test/product.js", "smells": ["javascript:S3504"] },
+  { "path": "test/project.js", "smells": ["javascript:S3504"] },
+  { "path": "test/promap.js", "smells": ["javascript:S3504"] },
+  { "path": "test/prop.js", "smells": ["javascript:S3504"] },
+  { "path": "test/propIs.js", "smells": ["javascript:S3504"] },
+  { "path": "test/propOr.js", "smells": ["javascript:S3504"] },
+  { "path": "test/propSatisfies.js", "smells": ["javascript:S3504"] },
+  { "path": "test/props.js", "smells": ["javascript:S3504"] },
+  { "path": "test/range.js", "smells": ["javascript:S3504"] },
+  { "path": "test/reduce.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/reduceBy.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "test/reduceRight.js", "smells": ["javascript:S3504"] },
+  { "path": "test/reduceWhile.js", "smells": ["javascript:S3504"] },
+  { "path": "test/reduced.js", "smells": ["javascript:S3504"] },
+  { "path": "test/remove.js", "smells": ["javascript:S3504"] },
+  { "path": "test/repeat.js", "smells": ["javascript:S3504"] },
+  { "path": "test/replace.js", "smells": ["javascript:S3504"] },
+  { "path": "test/reverse.js", "smells": ["javascript:S3504"] },
+  { "path": "test/shared/Id.js", "smells": ["javascript:S3504"] },
+  { "path": "test/shared/Maybe.js", "smells": ["javascript:S3504"] },
+  { "path": "test/shared/Pair.js", "smells": ["javascript:S3504"] },
+  { "path": "test/shared/eq.js", "smells": ["javascript:S3504"] },
+  { "path": "test/slice.js", "smells": ["javascript:S3504"] },
+  { "path": "test/sort.js", "smells": ["javascript:S3504"] },
+  { "path": "test/sortBy.js", "smells": ["javascript:S3504"] },
+  { "path": "test/sortWith.js", "smells": ["javascript:S3504"] },
+  { "path": "test/split.js", "smells": ["javascript:S3504"] },
+  { "path": "test/splitAt.js", "smells": ["javascript:S3504"] },
+  { "path": "test/splitEvery.js", "smells": ["javascript:S3504"] },
+  { "path": "test/splitWhen.js", "smells": ["javascript:S3504"] },
+  { "path": "test/splitWhenever.js", "smells": ["javascript:S3504"] },
+  { "path": "test/startsWith.js", "smells": ["javascript:S3504"] },
+  { "path": "test/subtract.js", "smells": ["javascript:S3504"] },
+  { "path": "test/sum.js", "smells": ["javascript:S3504"] },
+  { "path": "test/symmetricDifferenceWith.js", "smells": ["javascript:S3504"] },
+  { "path": "test/tail.js", "smells": ["javascript:S3504"] },
+  { "path": "test/take.js", "smells": ["javascript:S3504"] },
+  { "path": "test/takeLast.js", "smells": ["javascript:S3504"] },
+  { "path": "test/takeLastWhile.js", "smells": ["javascript:S3504"] },
+  { "path": "test/tap.js", "smells": ["javascript:S3504"] },
+  { "path": "test/test.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/thunkify.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/times.js", "smells": ["javascript:S3504"] },
+  { "path": "test/toLower.js", "smells": ["javascript:S3504"] },
+  { "path": "test/toPairs.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/toPairsIn.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "test/toUpper.js", "smells": ["javascript:S3504"] },
+  { "path": "test/transduce.js", "smells": ["javascript:S3504"] },
+  { "path": "test/transpose.js", "smells": ["javascript:S3504"] },
+  { "path": "test/trim.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/tryCatch.js",
+    "smells": ["javascript:S3504", "javascript:S3735"]
+  },
+  { "path": "test/type.js", "smells": ["javascript:S3504", "javascript:S125"] },
+  { "path": "test/unapply.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/unary.js",
+    "smells": ["javascript:S3735", "javascript:S3504"]
+  },
+  {
+    "path": "test/uncurryN.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "test/unfold.js", "smells": ["javascript:S3504"] },
+  { "path": "test/unionWith.js", "smells": ["javascript:S3504"] },
+  { "path": "test/until.js", "smells": ["javascript:S3504"] },
+  { "path": "test/unwind.js", "smells": ["javascript:S3504"] },
+  { "path": "test/update.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/useWith.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  { "path": "test/values.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/valuesIn.js",
+    "smells": ["javascript:S4140", "javascript:S3504"]
+  },
+  { "path": "test/when.js", "smells": ["javascript:S3504"] },
+  { "path": "test/where.js", "smells": ["javascript:S3504"] },
+  { "path": "test/whereAny.js", "smells": ["javascript:S3504"] },
+  { "path": "test/whereEq.js", "smells": ["javascript:S3504"] },
+  { "path": "test/xor.js", "smells": ["javascript:S3504"] },
+  { "path": "test/xprod.js", "smells": ["javascript:S3504"] },
+  { "path": "test/zip.js", "smells": ["javascript:S3504"] },
+  { "path": "test/zipObj.js", "smells": ["javascript:S3504"] },
+  { "path": "test/zipWith.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/mergeWithKey.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/identical.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/partialObject.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/uniqBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/uniqWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/is.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/trim.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/count.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/groupBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/adjust.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/reduceRight.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/unwind.js",
+    "smells": ["javascript:S6861", "javascript:S3800", "javascript:S3504"]
+  },
+  { "path": "source/internal/_modify.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/modify.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_dispatchable.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "source/evolve.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "rollup.config.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/assoc.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/dissoc.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/dissocPath.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "source/internal/_assoc.js", "smells": ["javascript:S3504"] },
+  { "path": "source/internal/_dissoc.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/promap.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/collectBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/hasIn.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/propIs.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/propOr.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/call.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/whereAny.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/empty.js",
+    "smells": [
+      "javascript:S6861",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "source/internal/_isTypedArray.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "source/splitWhenever.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/on.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/propSatisfies.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "scripts/transpile/esm-to-cjs.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  {
+    "path": "scripts/transpile/wrap-constructor-pattern.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "source/xor.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/andThen.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/hasPath.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/none.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/otherwise.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/pipeWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/thunkify.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/move.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/ap.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "source/clamp.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "source/cond.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/insertAll.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "source/internal/_curry2.js", "smells": ["javascript:S3358"] },
+  {
+    "path": "source/internal/_curry3.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "source/keys.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/reverse.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/type.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "source/F.js", "smells": ["javascript:S6861", "javascript:S3504"] },
+  { "path": "source/T.js", "smells": ["javascript:S6861", "javascript:S3504"] },
+  {
+    "path": "source/applySpec.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/composeWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/difference.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "source/internal/_isFunction.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/has.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/differenceWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/includes.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/innerJoin.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_Set.js",
+    "smells": ["javascript:S3504", "javascript:S3776", "javascript:S6660"]
+  },
+  {
+    "path": "source/mergeLeft.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mergeRight.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/update.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_isArguments.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_equals.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "source/mergeAll.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/flip.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/applyTo.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "scripts/partialBuild.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/add.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/addIndex.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/all.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/allPass.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/always.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/and.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/any.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/anyPass.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/aperture.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/append.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/apply.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/ascend.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "source/binary.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/bind.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/both.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/chain.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/comparator.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "source/complement.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/concat.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/construct.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/converge.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/countBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/curry.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/curryN.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/dec.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/defaultTo.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/descend.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "source/divide.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/drop.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/dropLast.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/dropLastWhile.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/dropRepeatsWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/dropWhile.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/either.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/endsWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/eqBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/eqProps.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/equals.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/find.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/findIndex.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/findLast.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/findLastIndex.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/flatten.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/forEach.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/forEachObjIndexed.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/fromPairs.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/groupWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/gt.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/gte.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/identity.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/ifElse.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/inc.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/indexBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/indexOf.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/init.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/insert.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_dropLastWhile.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_indexOf.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_isArrayLike.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "source/internal/_stepCat.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/internal/_toISOString.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_toString.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_xdropRepeatsWith.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "source/internal/_xreduceBy.js", "smells": ["javascript:S3504"] },
+  { "path": "source/internal/_xtake.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/invert.js",
+    "smells": ["javascript:S6861", "javascript:S3504", "javascript:S1121"]
+  },
+  {
+    "path": "source/invertObj.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/invoker.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/isEmpty.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/isNil.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/join.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/juxt.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/keysIn.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/lastIndexOf.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/length.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/lens.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/lensProp.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/lift.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/lt.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/lte.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/match.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mathMod.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mean.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/median.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "source/mergeDeepLeft.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mergeDeepRight.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mergeDeepWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mergeDeepWithKey.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/mergeWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/modulo.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/multiply.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/nAry.js",
+    "smells": ["javascript:S6861", "javascript:S107", "javascript:S3504"]
+  },
+  {
+    "path": "source/negate.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/not.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "source/o.js", "smells": ["javascript:S6861", "javascript:S3504"] },
+  {
+    "path": "source/objOf.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/omit.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/once.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/or.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/over.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/pair.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/partial.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/partialRight.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/partition.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/pick.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/pickAll.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/pickBy.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/pluck.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/prepend.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/product.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/project.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/reduced.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/reject.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/remove.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/repeat.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/replace.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/set.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/slice.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/sort.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/sortBy.js",
+    "smells": ["javascript:S6861", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "source/sortWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/split.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/splitAt.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/splitEvery.js",
+    "smells": ["javascript:S6861", "javascript:S3504", "javascript:S1121"]
+  },
+  {
+    "path": "source/splitWhen.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/startsWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/subtract.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/sum.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/symmetricDifference.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/symmetricDifferenceWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/tail.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/take.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/takeLast.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/takeLastWhile.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/takeWhile.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/tap.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/test.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/toLower.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/toPairs.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/toPairsIn.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/toString.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/toUpper.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/transpose.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/tryCatch.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/unapply.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/unary.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/uncurryN.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/unfold.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/union.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/unionWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/uniq.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/unless.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/unnest.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/until.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/useWith.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/values.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/valuesIn.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/view.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/when.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/where.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/whereEq.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/zipObj.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_objectAssign.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_functionName.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/sauce/ie8-shim.js",
+    "smells": ["javascript:S3504", "javascript:S1854", "javascript:S1121"]
+  },
+  { "path": "source/internal/_filter.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/internal/_includesWith.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "source/internal/_makeFlat.js", "smells": ["javascript:S3504"] },
+  { "path": "source/internal/_map.js", "smells": ["javascript:S3504"] },
+  { "path": "source/internal/_aperture.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "source/internal/_quote.js",
+    "smells": ["javascript:S6397", "javascript:S3504"]
+  },
+  {
+    "path": "source/internal/_arrayFromIterator.js",
+    "smells": ["javascript:S3504", "javascript:S1121"]
+  },
+  { "path": "source/internal/_pipeP.js", "smells": ["javascript:S3504"] },
+  { "path": "source/internal/_arity.js", "smells": ["javascript:S107"] },
+  {
+    "path": "source/internal/_checkForMethod.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "source/internal/_concat.js", "smells": ["javascript:S3504"] }
+]

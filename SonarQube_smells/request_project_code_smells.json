@@ -1,1 +1,127 @@
-[{"path": "lib/auth.js", "smells": ["javascript:S3776", "javascript:S3504"]}, {"path": "request.js", "smells": ["javascript:S3504", "javascript:S1871", "javascript:S2392", "javascript:S6557", "javascript:S3776"]}, {"path": "lib/multipart.js", "smells": ["javascript:S6660", "javascript:S3504"]}, {"path": "lib/oauth.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-oauth.js", "smells": ["javascript:S3504", "javascript:S2004"]}, {"path": "tests/test-headers.js", "smells": ["javascript:S2392", "javascript:S4144", "javascript:S3504"]}, {"path": "tests/test-aws.js", "smells": ["javascript:S3504"]}, {"path": "lib/hawk.js", "smells": ["javascript:S3776", "javascript:S3504"]}, {"path": "tests/test-hawk.js", "smells": ["javascript:S3358", "javascript:S3504"]}, {"path": "tests/test-gzip.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-options-convenience-method.js", "smells": ["javascript:S3504"]}, {"path": "index.js", "smells": ["javascript:S3504"]}, {"path": "lib/cookies.js", "smells": ["javascript:S3504"]}, {"path": "lib/getProxyFromURI.js", "smells": ["javascript:S3504"]}, {"path": "lib/har.js", "smells": ["javascript:S6660", "javascript:S3776", "javascript:S3504"]}, {"path": "lib/helpers.js", "smells": ["javascript:S3504"]}, {"path": "lib/querystring.js", "smells": ["javascript:S3504"]}, {"path": "lib/redirect.js", "smells": ["javascript:S3776", "javascript:S3504"]}, {"path": "lib/tunnel.js", "smells": ["javascript:S3504"]}, {"path": "tests/browser/test.js", "smells": ["javascript:S6643", "javascript:S3504"]}, {"path": "tests/server.js", "smells": ["javascript:S3504"]}, {"path": "tests/ssl/ca/localhost.js", "smells": ["javascript:S3504"]}, {"path": "tests/ssl/ca/server.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-agent.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-agentOptions.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-api.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-baseUrl.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-basic-auth.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-bearer-auth.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-body.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-cookies.js", "smells": ["javascript:S1186", "javascript:S3504"]}, {"path": "tests/test-defaults.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-digest-auth.js", "smells": ["javascript:S3776", "javascript:S3504"]}, {"path": "tests/test-emptyBody.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-errors.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-event-forwarding.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-follow-all-303.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-follow-all.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-form-data-error.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-form-data.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-form-urlencoded.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-form.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-http-signature.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-httpModule.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-https.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-isUrl.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-json-request.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-localAddress.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-multipart-encoding.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-multipart.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-node-debug.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-onelineproxy.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-option-reuse.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-params.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-piped-redirect.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-pipes.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-pool.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-promise.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-proxy-connect.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-proxy.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-qs.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-redirect-auth.js", "smells": ["javascript:S3504", "javascript:S2004"]}, {"path": "tests/test-redirect-complex.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-redirect.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-rfc3986.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-timeout.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-timing.js", "smells": ["javascript:S2392", "javascript:S2004", "javascript:S3504"]}, {"path": "tests/test-toJSON.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-tunnel.js", "smells": ["javascript:S2004", "javascript:S3504"]}, {"path": "tests/test-unix.js", "smells": ["javascript:S3504"]}, {"path": "tests/browser/start.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-stream.js", "smells": ["javascript:S3504"]}, {"path": "tests/test-har.js", "smells": ["javascript:S3504"]}, {"path": "tests/browser/karma.conf.js", "smells": ["javascript:S3504"]}]
+[
+  { "path": "lib/auth.js", "smells": ["javascript:S3776", "javascript:S3504"] },
+  {
+    "path": "request.js",
+    "smells": [
+      "javascript:S3504",
+      "javascript:S1871",
+      "javascript:S2392",
+      "javascript:S6557",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "lib/multipart.js",
+    "smells": ["javascript:S6660", "javascript:S3504"]
+  },
+  { "path": "lib/oauth.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tests/test-oauth.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "tests/test-headers.js",
+    "smells": ["javascript:S2392", "javascript:S4144", "javascript:S3504"]
+  },
+  { "path": "tests/test-aws.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/hawk.js", "smells": ["javascript:S3776", "javascript:S3504"] },
+  {
+    "path": "tests/test-hawk.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "tests/test-gzip.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tests/test-options-convenience-method.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "index.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/cookies.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/getProxyFromURI.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/har.js",
+    "smells": ["javascript:S6660", "javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "lib/helpers.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/querystring.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/redirect.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "lib/tunnel.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tests/browser/test.js",
+    "smells": ["javascript:S6643", "javascript:S3504"]
+  },
+  { "path": "tests/server.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/ssl/ca/localhost.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/ssl/ca/server.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-agent.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-agentOptions.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-api.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-baseUrl.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-basic-auth.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-bearer-auth.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-body.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tests/test-cookies.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "tests/test-defaults.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tests/test-digest-auth.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "tests/test-emptyBody.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-errors.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-event-forwarding.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-follow-all-303.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-follow-all.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-form-data-error.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-form-data.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-form-urlencoded.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-form.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-http-signature.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-httpModule.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-https.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-isUrl.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-json-request.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-localAddress.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tests/test-multipart-encoding.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "tests/test-multipart.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-node-debug.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-onelineproxy.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-option-reuse.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-params.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-piped-redirect.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-pipes.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-pool.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-promise.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-proxy-connect.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-proxy.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-qs.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tests/test-redirect-auth.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  { "path": "tests/test-redirect-complex.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-redirect.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-rfc3986.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-timeout.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tests/test-timing.js",
+    "smells": ["javascript:S2392", "javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "tests/test-toJSON.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tests/test-tunnel.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "tests/test-unix.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/browser/start.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-stream.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/test-har.js", "smells": ["javascript:S3504"] },
+  { "path": "tests/browser/karma.conf.js", "smells": ["javascript:S3504"] }
+]
