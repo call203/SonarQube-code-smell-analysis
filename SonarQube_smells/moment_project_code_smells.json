@@ -1,0 +1,1555 @@
+[
+  {
+    "path": "meteor/moment.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S6535",
+      "javascript:S6660",
+      "javascript:S1871",
+      "javascript:S3504",
+      "javascript:S4165",
+      "javascript:S5843",
+      "javascript:S3735",
+      "javascript:S1121",
+      "javascript:S125",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "locale/ar-ps.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/bs.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "locale/cs.js",
+    "smells": [
+      "javascript:S6535",
+      "javascript:S3504",
+      "javascript:S5843",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "locale/ku-kmr.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S125"]
+  },
+  {
+    "path": "min/locales.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S6535",
+      "javascript:S4144",
+      "javascript:S3504",
+      "javascript:S6660",
+      "javascript:S5843",
+      "javascript:S125",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S4524"
+    ]
+  },
+  {
+    "path": "min/moment-with-locales.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S6535",
+      "javascript:S4144",
+      "javascript:S3504",
+      "javascript:S1871",
+      "javascript:S6660",
+      "javascript:S4165",
+      "javascript:S5843",
+      "javascript:S3735",
+      "javascript:S125",
+      "javascript:S1121",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S4524"
+    ]
+  },
+  {
+    "path": "moment.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S6535",
+      "javascript:S6660",
+      "javascript:S1871",
+      "javascript:S3504",
+      "javascript:S4165",
+      "javascript:S5843",
+      "javascript:S3735",
+      "javascript:S1121",
+      "javascript:S125",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "src/locale/ku-kmr.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  {
+    "path": "src/lib/duration/as.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/test/moment/duration.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/locale/bs.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "src/test/locale/ku-kmr.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/moment/get-set.js",
+    "smells": ["javascript:S3735", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/units/day-of-week.js",
+    "smells": [
+      "javascript:S6861",
+      "javascript:S3504",
+      "javascript:S1871",
+      "javascript:S6660",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "src/lib/units/month.js",
+    "smells": [
+      "javascript:S6861",
+      "javascript:S6535",
+      "javascript:S3504",
+      "javascript:S1871",
+      "javascript:S6660",
+      "javascript:S3735",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "src/lib/parse/regex.js",
+    "smells": ["javascript:S6861", "javascript:S6535", "javascript:S3504"]
+  },
+  { "path": "src/lib/create/valid.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ar-ps.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/locale/ar-ps.js",
+    "smells": ["javascript:S6035", "javascript:S3504"]
+  },
+  { "path": "src/lib/units/aliases.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/units/priorities.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/locale/cs.js",
+    "smells": [
+      "javascript:S6535",
+      "javascript:S3504",
+      "javascript:S5843",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "locale/sr-cyrl.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/sr.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "src/locale/sr-cyrl.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/sr.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/es-mx.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "locale/br.js",
+    "smells": [
+      "javascript:S5843",
+      "javascript:S3358",
+      "javascript:S3504",
+      "javascript:S6535"
+    ]
+  },
+  {
+    "path": "locale/es-do.js",
+    "smells": ["javascript:S5843", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/es-mx.js",
+    "smells": ["javascript:S5843", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/es-us.js",
+    "smells": ["javascript:S5843", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/es.js",
+    "smells": ["javascript:S5843", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/fi.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "locale/fr.js",
+    "smells": [
+      "javascript:S5843",
+      "javascript:S3358",
+      "javascript:S3504",
+      "javascript:S4524"
+    ]
+  },
+  {
+    "path": "locale/fy.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/hi.js",
+    "smells": ["javascript:S5843", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/hu.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ka.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/nl-be.js",
+    "smells": ["javascript:S5843", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/nl.js",
+    "smells": ["javascript:S5843", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/pl.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ru.js",
+    "smells": [
+      "javascript:S6660",
+      "javascript:S5843",
+      "javascript:S3358",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "locale/sk.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/create/from-string.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S5843",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "src/lib/duration/create.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S3504",
+      "javascript:S5843",
+      "javascript:S1121",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "src/lib/format/format.js",
+    "smells": [
+      "javascript:S6861",
+      "javascript:S6535",
+      "javascript:S5843",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "src/locale/br.js",
+    "smells": ["javascript:S6535", "javascript:S5843", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/es-do.js",
+    "smells": ["javascript:S5843", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/es-mx.js",
+    "smells": ["javascript:S5843", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/es-us.js",
+    "smells": ["javascript:S5843", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/es.js",
+    "smells": ["javascript:S5843", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/fi.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/fr.js",
+    "smells": ["javascript:S5843", "javascript:S3504", "javascript:S4524"]
+  },
+  { "path": "src/locale/fy.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/locale/hi.js",
+    "smells": ["javascript:S5843", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/hu.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/nl-be.js",
+    "smells": ["javascript:S5843", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/nl.js",
+    "smells": ["javascript:S5843", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/pl.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/ru.js",
+    "smells": [
+      "javascript:S5843",
+      "javascript:S3358",
+      "javascript:S3504",
+      "javascript:S6660"
+    ]
+  },
+  {
+    "path": "src/locale/sk.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "src/test/locale/af.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ar-dz.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ar-kw.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/locale/ar-ly.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  { "path": "src/test/locale/ar-ma.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ar-sa.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ar-tn.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/locale/ar.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  { "path": "src/test/locale/az.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/be.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/bg.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/bn-bd.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/bn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/bo.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/br.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/bs.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ca.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/cs.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/cv.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/cy.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/da.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/de-at.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/de-ch.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/de.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/en-au.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/en-gb.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/en-ie.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/en-il.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/en-in.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/en-nz.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/en-sg.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/eo.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/es-do.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/es-us.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/es.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/et.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/eu.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/fa.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/fi.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/fil.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/fo.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/fy.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/gl.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/gu.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/he.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/hi.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/hr.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/hu.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/hy-am.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/id.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/is.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/it-ch.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/locale/it.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "src/test/locale/ja.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/jv.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/kk.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/km.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/locale/kn.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  { "path": "src/test/locale/ko.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ku.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ky.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/lb.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/lo.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/lt.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/lv.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/me.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/mi.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/mk.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ml.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/mr.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/mt.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/my.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/nb.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ne.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/nl-be.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/nl.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/nn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/oc-lnc.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/pa-in.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/pl.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/pt-br.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/pt.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ro.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/locale/ru.js",
+    "smells": ["javascript:S4144", "javascript:S3504"]
+  },
+  { "path": "src/test/locale/si.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/sk.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/sl.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/sr-cyrl.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/sr.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ss.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/sv.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/sw.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ta.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/te.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/tet.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/tg.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/th.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/tk.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/tl-ph.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/tlh.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/tr.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/tzl.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/tzm-latn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/tzm.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ug-cn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/uk.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/uz-latn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/uz.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/x-pseudo.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/yo.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/zh-cn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/zh-hk.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/zh-mo.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/zh-tw.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/listers.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/ka.js", "smells": ["javascript:S6035"] },
+  {
+    "path": "ts3.1-typing-tests/moment-tests.ts",
+    "smells": [
+      "typescript:S4623",
+      "typescript:S6557",
+      "typescript:S3358",
+      "typescript:S125",
+      "typescript:S3504"
+    ]
+  },
+  {
+    "path": "src/lib/create/from-string-and-array.js",
+    "smells": ["javascript:S3504", "javascript:S3776", "javascript:S6660"]
+  },
+  {
+    "path": "src/lib/create/from-string-and-format.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/moment/constructor.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/utils/deprecate.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "locale/bn-bd.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/test/moment/days_in_month.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "src/test/moment/is-leap-year.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/calendar.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "src/locale/bn-bd.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "locale/tk.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "typing-tests/moment-tests.ts",
+    "smells": [
+      "typescript:S4623",
+      "typescript:S6557",
+      "typescript:S3358",
+      "typescript:S125",
+      "typescript:S3504"
+    ]
+  },
+  { "path": "src/locale/tk.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "locale/ar-dz.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "src/locale/ar-dz.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "locale/ar-ly.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "locale/ar.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "locale/be.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ca.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/cv.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/en-au.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/en-ca.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/en-gb.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/en-ie.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/en-il.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/en-in.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/en-nz.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/en-sg.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/fil.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/gom-deva.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S4524"]
+  },
+  {
+    "path": "locale/is.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "locale/it.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/lb.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/lt.js",
+    "smells": [
+      "javascript:S6535",
+      "javascript:S6660",
+      "javascript:S3504",
+      "javascript:S5843",
+      "javascript:S3358"
+    ]
+  },
+  {
+    "path": "locale/me.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/oc-lnc.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/sl.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "locale/sv.js",
+    "smells": ["javascript:S6535", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/tet.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/tlh.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/tzl.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S6535"]
+  },
+  {
+    "path": "locale/uk.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/x-pseudo.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/zh-mo.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "src/lib/units/week-year.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/duration/humanize.js",
+    "smells": ["javascript:S3504", "javascript:S3776", "javascript:S4165"]
+  },
+  { "path": "src/test/moment/is_valid.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/weeks_in_year.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "src/lib/locale/locales.js",
+    "smells": [
+      "javascript:S6660",
+      "javascript:S3776",
+      "javascript:S3504",
+      "javascript:S125"
+    ]
+  },
+  { "path": "src/locale/it.js", "smells": ["javascript:S3358"] },
+  {
+    "path": "src/locale/gom-deva.js",
+    "smells": ["javascript:S3504", "javascript:S4524"]
+  },
+  { "path": "src/test/locale/gom-deva.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/units/era.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "src/test/locale/en.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/create/check-overflow.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/create/from-array.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "src/lib/duration/valid.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/locale/base-config.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/locale/calendar.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/locale/en.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/locale/formats.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/locale/relative.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/lib/locale/set.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/moment/calendar.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "src/lib/moment/diff.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/moment/now.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/lib/parse/token.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/units/day-of-year.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/units/offset.js",
+    "smells": [
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S3504",
+      "javascript:S6535"
+    ]
+  },
+  {
+    "path": "src/lib/units/week.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/utils/keys.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/lib/utils/map.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/utils/zero-fill.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/test/helpers/common-locale.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "src/test/helpers/deprecation-handler.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "src/test/helpers/object-keys.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ga.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/gd.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/add_subtract.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/create.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  { "path": "src/test/moment/diff.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/duration_invalid.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "src/test/moment/format.js",
+    "smells": ["javascript:S6535", "javascript:S3504", "javascript:S125"]
+  },
+  {
+    "path": "src/test/moment/getters_setters.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "src/test/moment/is_after.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/is_before.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/is_between.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/is_same.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/is_same_or_after.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "src/test/moment/is_same_or_before.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "src/test/moment/normalize_units.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "src/test/moment/now.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/relative_time.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  {
+    "path": "src/test/moment/string_prototype.js",
+    "smells": ["javascript:S6643", "javascript:S3504"]
+  },
+  { "path": "src/test/moment/utc.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/weeks.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/zones.js", "smells": ["javascript:S3504"] },
+  { "path": "Gruntfile.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/create/date-from-array.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "src/lib/create/from-object.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/duration/bubble.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/duration/get.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/lib/duration/iso-string.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/locale/lists.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/locale/ordinal.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/moment/add-subtract.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/lib/moment/format.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/moment/min-max.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/lib/moment/start-end-of.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/units/constants.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/units/hour.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/units/millisecond.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/utils/is-calendar-spec.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "src/lib/utils/is-moment-input.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  {
+    "path": "src/lib/utils/some.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/ar-ly.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "src/locale/ar.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "src/locale/be.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/ca.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/cv.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/en-au.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/en-ca.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/en-gb.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/en-ie.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/en-il.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/en-in.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/en-nz.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/en-sg.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/is.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  { "path": "src/locale/lb.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/locale/lt.js",
+    "smells": [
+      "javascript:S6535",
+      "javascript:S6660",
+      "javascript:S3504",
+      "javascript:S5843",
+      "javascript:S3358"
+    ]
+  },
+  {
+    "path": "src/locale/me.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/oc-lnc.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/sl.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/sv.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S6535"]
+  },
+  {
+    "path": "src/locale/tet.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/tlh.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/tzl.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S6535"]
+  },
+  {
+    "path": "src/locale/uk.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/x-pseudo.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/test/moment/creation-data.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "src/test/moment/deprecate.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "src/test/moment/to_type.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/qunit.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "tasks/qtest.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "tasks/transpile.js",
+    "smells": ["javascript:S3504", "javascript:S2004", "javascript:S125"]
+  },
+  {
+    "path": "src/locale/zh-mo.js",
+    "smells": ["javascript:S6035", "javascript:S3504"]
+  },
+  { "path": "benchmarks/load-missing.js", "smells": ["javascript:S3504"] },
+  { "path": "benchmarks/compare.js", "smells": ["javascript:S3504"] },
+  { "path": "benchmarks/get.js", "smells": ["javascript:S3504"] },
+  { "path": "benchmarks/set.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/locale_update.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "locale/ga.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/it-ch.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "src/test/moment/start_end_of.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/locale/ga.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ku.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "src/lib/moment/compare.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/ku.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "locale/km.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/mn.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "src/locale/km.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/mn.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "locale/tg.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ug-cn.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "src/locale/ug-cn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/tg.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "locale/hr.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "locale/mt.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/hr.js",
+    "smells": ["javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "locale/bm.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/gu.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ko.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "src/locale/ko.js", "smells": ["javascript:S6035"] },
+  { "path": "benchmarks/isObjectEmpty.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/gu.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/bm.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/el.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "locale/ar-kw.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/de-ch.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/fr-ca.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S4524"]
+  },
+  {
+    "path": "locale/fr-ch.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S4524"]
+  },
+  {
+    "path": "locale/gom-latn.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S4524"]
+  },
+  {
+    "path": "locale/kn.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/sd.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ur.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/uz-latn.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/zh-cn.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/zh-hk.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/zh-tw.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/zh-cn.js",
+    "smells": ["javascript:S6035", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/zh-hk.js",
+    "smells": ["javascript:S6035", "javascript:S3504"]
+  },
+  {
+    "path": "src/locale/zh-tw.js",
+    "smells": ["javascript:S6035", "javascript:S3504"]
+  },
+  { "path": "src/locale/de-ch.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/fr-ca.js", "smells": ["javascript:S4524"] },
+  { "path": "src/locale/fr-ch.js", "smells": ["javascript:S4524"] },
+  { "path": "src/test/locale/fr.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/locale/gom-latn.js",
+    "smells": ["javascript:S3504", "javascript:S4524"]
+  },
+  { "path": "src/test/locale/gom-latn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/kn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/sd.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/sd.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/ur.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ur.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/duration/constructor.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "locale/yo.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ar-ma.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ar-sa.js",
+    "smells": ["javascript:S6035", "javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ar-tn.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/de-at.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/hy-am.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ms-my.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/pa-in.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/pt-br.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/tl-ph.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/tzm-latn.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "src/test/moment/utc_offset.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "locale/mi.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S6535"]
+  },
+  {
+    "path": "benchmarks/add.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  {
+    "path": "benchmarks/endOf.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  { "path": "benchmarks/query.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "benchmarks/startOf.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  {
+    "path": "benchmarks/subtract.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  { "path": "src/locale/mi.js", "smells": ["javascript:S6535"] },
+  {
+    "path": "scripts/locales.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  {
+    "path": "locale/af.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/az.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/bg.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/bn.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/bo.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/cy.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/da.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/de.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/dv.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/el.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/eo.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/et.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/eu.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/fa.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/fo.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/gd.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/gl.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/he.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/id.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ja.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/jv.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/kk.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ky.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/lo.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/lv.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/mk.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ml.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/mr.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ms.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/my.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/nb.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ne.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/nn.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/pt.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ro.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/se.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/si.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/sq.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ss.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/sw.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/ta.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/te.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/th.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/tr.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/tzm.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/uz.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "locale/vi.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/utils/is-object-empty.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "src/test/moment/weekday.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/ky.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/units/year.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/utils/index-of.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/test/moment/week_year.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/dv.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/en-ca.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/fr-ca.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/fr-ch.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ka.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ms-my.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/ms.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/se.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/sq.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/locale/vi.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/preparse_postformat.js",
+    "smells": ["javascript:S6535", "javascript:S3504"]
+  },
+  { "path": "src/locale/pa-in.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/locale_inheritance.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "src/test/moment/locale.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  {
+    "path": "src/locale/gd.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  { "path": "src/locale/ta.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/instanceof.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/mr.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/kk.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/dv.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/units/week-calendar-utils.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "src/test/moment/invalid.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/create/from-anything.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/moment/to-type.js", "smells": ["javascript:S3504"] },
+  { "path": "benchmarks/makeDuration.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "benchmarks/zeroFill.js",
+    "smells": ["javascript:S3358", "javascript:S3504", "javascript:S1854"]
+  },
+  { "path": "src/test/moment/from_to.js", "smells": ["javascript:S3504"] },
+  { "path": "benchmarks/fromDate.js", "smells": ["javascript:S3504"] },
+  { "path": "benchmarks/fromDateUtc.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/locale/ar-sa.js",
+    "smells": ["javascript:S6035", "javascript:S3504"]
+  },
+  { "path": "src/locale/az.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/bn.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/bo.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/de-at.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/de.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/et.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/fa.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/lv.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/my.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/ne.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/ro.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/tr.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/duration/abs.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/duration/add-subtract.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "src/lib/duration/prototype.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/locale/invalid.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/lib/locale/prototype.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/lib/moment/locale.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/moment/prototype.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/units/day-of-month.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/units/minute.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "src/lib/units/second.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "src/lib/utils/compare-arrays.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/utils/extend.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/utils/hooks.js", "smells": ["javascript:S3504"] },
+  { "path": "src/lib/utils/to-int.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/bg.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/cy.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/el.js", "smells": ["javascript:S3504"] },
+  { "path": "src/locale/mk.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/helpers/each.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/quarter.js", "smells": ["javascript:S3504"] },
+  { "path": "meteor/package.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/is_moment.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "src/test/moment/duration_from_moments.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "benchmarks/clone.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "src/test/moment/zone_switching.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "src/test/moment/mutable.js", "smells": ["javascript:S3504"] },
+  { "path": "tasks/component.js", "smells": ["javascript:S3504"] },
+  { "path": "src/test/moment/min_max.js", "smells": ["javascript:S3504"] },
+  { "path": "package.js", "smells": ["javascript:S3504"] }
+]

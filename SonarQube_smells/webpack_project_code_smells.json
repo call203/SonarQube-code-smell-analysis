@@ -1,0 +1,4348 @@
+[
+  {
+    "path": "test/configCases/css/css-import/no-extension-in-request.css",
+    "smells": ["css:S4667"]
+  },
+  {
+    "path": "lib/dependencies/HarmonyImportSpecifierDependency.js",
+    "smells": ["javascript:S3776", "javascript:S107"]
+  },
+  { "path": "test/Validation.test.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "lib/NormalModule.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/library/modern-module-reexport-type/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/optimize/ConcatenatedModule.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S107"]
+  },
+  {
+    "path": "lib/WebpackOptionsApply.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "lib/library/ModernModuleLibraryPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/library/modern-module-reexport-type/export.ts",
+    "smells": ["typescript:S6564"]
+  },
+  {
+    "path": "test/configCases/asset-modules/keep-source-maps/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/ConfigTestCases.template.js",
+    "smells": ["javascript:S3776", "javascript:S2004", "javascript:S4624"]
+  },
+  {
+    "path": "lib/ExternalModule.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S4165"]
+  },
+  {
+    "path": "lib/dependencies/HarmonyImportDependencyParserPlugin.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "lib/css/CssModulesPlugin.js",
+    "smells": [
+      "javascript:S1119",
+      "javascript:S3776",
+      "javascript:S4624",
+      "javascript:S1121"
+    ]
+  },
+  { "path": "lib/asset/AssetGenerator.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "lib/config/defaults.js",
+    "smells": [
+      "javascript:S3358",
+      "javascript:S3800",
+      "javascript:S5843",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "lib/sharing/ConsumeSharedModule.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/css/CssExportsGenerator.js",
+    "smells": ["javascript:S3776", "javascript:S1186", "javascript:S4624"]
+  },
+  {
+    "path": "test/configCases/output-module/multiple-inlined-module/index-1.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/output-module/multiple-inlined-module/index-2.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/output-module/multiple-inlined-module/module1.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "lib/javascript/JavascriptModulesPlugin.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S4624"]
+  },
+  { "path": "lib/util/mergeScope.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/configCases/output-module/inlined-module/module1.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "lib/css/CssParser.js",
+    "smells": ["javascript:S6557", "javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/mangle/mangle-with-destructuring-assignment/webpack.config.js",
+    "smells": ["javascript:S125"]
+  },
+  {
+    "path": "lib/config/browserslistTargetHandler.js",
+    "smells": ["javascript:S6557", "javascript:S3358"]
+  },
+  {
+    "path": "lib/ContextModule.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S4043"]
+  },
+  {
+    "path": "test/configCases/web/prefetch-preload-module-jsonp/index.mjs",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "lib/esm/ModuleChunkLoadingRuntimeModule.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/css/prefetch-preload-module/index.mjs",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "lib/library/UmdLibraryPlugin.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "lib/css/CssLoadingRuntimeModule.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "lib/dependencies/CommonJsExportRequireDependency.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/dependencies/ContextDependencyHelpers.js",
+    "smells": ["javascript:S3776", "javascript:S107"]
+  },
+  {
+    "path": "lib/dependencies/HarmonyExportDependencyParserPlugin.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "lib/dependencies/ImportMetaContextDependencyParserPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/dependencies/RequireEnsureDependenciesBlockParserPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/sharing/ConsumeSharedRuntimeModule.js",
+    "smells": ["javascript:S1121"]
+  },
+  {
+    "path": "lib/Compilation.js",
+    "smells": [
+      "javascript:S1854",
+      "javascript:S2004",
+      "javascript:S3504",
+      "javascript:S6660",
+      "javascript:S1119",
+      "javascript:S107",
+      "javascript:S1121",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "lib/Compiler.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S2004",
+      "javascript:S6660",
+      "javascript:S1121",
+      "javascript:S4043",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "lib/wasm-sync/WasmChunkLoadingRuntimeModule.js",
+    "smells": ["javascript:S3776", "javascript:S1121"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/5-issue-18200/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/web/prefetch-preload-module/index.mjs",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "test/configCases/web/prefetch-preload/index.js",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "lib/javascript/JavascriptParser.js",
+    "smells": [
+      "javascript:S6035",
+      "javascript:S2310",
+      "javascript:S4144",
+      "javascript:S6660",
+      "javascript:S4043",
+      "javascript:S6331",
+      "javascript:S3776"
+    ]
+  },
+  { "path": "lib/TemplatedPathPlugin.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/checkArrayExpectation.js",
+    "smells": ["javascript:S2310", "javascript:S3776", "javascript:S4624"]
+  },
+  {
+    "path": "test/configCases/loaders/options/infrastructure-log.js",
+    "smells": ["javascript:S6035"]
+  },
+  {
+    "path": "lib/buildChunkGraph.js",
+    "smells": [
+      "javascript:S1119",
+      "javascript:S107",
+      "javascript:S1121",
+      "javascript:S4043",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "examples/typescript/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/devtools/eval-nosources-source-map/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/devtools/eval-source-map/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/web/nonce/chunk.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "lib/optimize/InnerGraphPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "lib/optimize/ModuleConcatenationPlugin.js",
+    "smells": [
+      "javascript:S2004",
+      "javascript:S1119",
+      "javascript:S107",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "lib/optimize/SideEffectsFlagPlugin.js",
+    "smells": [
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S2004",
+      "javascript:S1121"
+    ]
+  },
+  {
+    "path": "lib/util/comparators.js",
+    "smells": ["javascript:S3776", "javascript:S4144"]
+  },
+  { "path": "lib/Watching.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "lib/util/conventions.js",
+    "smells": ["javascript:S2310", "javascript:S6397"]
+  },
+  {
+    "path": "test/configCases/inner-graph/issue-11678/module.js",
+    "smells": [
+      "javascript:S6660",
+      "javascript:S3776",
+      "javascript:S4165",
+      "javascript:S1871"
+    ]
+  },
+  {
+    "path": "lib/NormalModuleFactory.js",
+    "smells": [
+      "javascript:S2004",
+      "javascript:S1121",
+      "javascript:S3358",
+      "javascript:S6557",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "test/configCases/issues/issue-17459/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/compareStringsNumeric.unittest.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/dependencies/AMDDefineDependencyParserPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S1121"]
+  },
+  {
+    "path": "lib/dependencies/AMDRequireDependenciesBlockParserPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S1121"]
+  },
+  {
+    "path": "test/configCases/inner-graph/issue-17565/module.js",
+    "smells": ["javascript:S6861", "javascript:S3696", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/inner-graph/issue-17565/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/worker/issue-17489/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/dependencies/WorkerPlugin.js",
+    "smells": ["javascript:S6660", "javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "test/cases/errors/import-module-cycle/loader.js",
+    "smells": ["javascript:S2589"]
+  },
+  {
+    "path": "lib/optimize/RemoveParentModulesPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/config/normalization.js",
+    "smells": ["javascript:S3358", "javascript:S3800", "javascript:S878"]
+  },
+  {
+    "path": "test/configCases/async-module/environment-not-support-async-warning/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/runtime/StartupChunkDependenciesRuntimeModule.js",
+    "smells": ["javascript:S3358", "javascript:S3800"]
+  },
+  {
+    "path": "examples/aggressive-merging/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/inner-graph/extend-class/dep2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/inner-graph/extend-class/module9.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/inner-graph/extend-class/c.js",
+    "smells": ["javascript:S1186"]
+  },
+  { "path": "lib/NodeStuffPlugin.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "lib/FileSystemInfo.js",
+    "smells": [
+      "javascript:S6660",
+      "javascript:S1119",
+      "javascript:S1121",
+      "javascript:S3358",
+      "javascript:S6557",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "test/configCases/code-generation/re-export-namespace-concat/index.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/code-generation/re-export-namespace/index.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/externals/non-amd-externals-amd/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/ExportsInfo.js",
+    "smells": ["javascript:S3776", "javascript:S6660", "javascript:S1121"]
+  },
+  {
+    "path": "tooling/generate-runtime-code.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/dependencies/CommonJsImportsParserPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S6660"]
+  },
+  {
+    "path": "lib/InitFragment.js",
+    "smells": ["javascript:S2310", "javascript:S3776", "javascript:S4043"]
+  },
+  {
+    "path": "lib/javascript/BasicEvaluatedExpression.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/performance/SizeLimitsPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/sharing/ShareRuntimeModule.js",
+    "smells": ["javascript:S3776", "javascript:S1121"]
+  },
+  {
+    "path": "lib/rules/UseEffectRulePlugin.js",
+    "smells": ["javascript:S3800", "javascript:S1186", "javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/loaders-and-plugins-falsy/basic/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/web/JsonpChunkLoadingRuntimeModule.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "lib/dependencies/ImportParserPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S6660"]
+  },
+  {
+    "path": "lib/EvalSourceMapDevToolPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/devtools/eval-nosources-source-map/index.ts",
+    "smells": ["typescript:S3504"]
+  },
+  {
+    "path": "test/configCases/devtools/eval-source-map/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/devtools/eval-source-map/index.ts",
+    "smells": ["typescript:S3504"]
+  },
+  {
+    "path": "test/configCases/devtools/eval-source-map/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/optimize/LimitChunkCountPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S1119"]
+  },
+  {
+    "path": "lib/optimize/RealContentHashPlugin.js",
+    "smells": [
+      "javascript:S1119",
+      "javascript:S3776",
+      "javascript:S2004",
+      "javascript:S1121"
+    ]
+  },
+  {
+    "path": "lib/optimize/SplitChunksPlugin.js",
+    "smells": [
+      "javascript:S2004",
+      "javascript:S1871",
+      "javascript:S1119",
+      "javascript:S1121",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  { "path": "lib/APIPlugin.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "test/configCases/output-module/non-webpack-require/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/worker/worklet/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/Module.js",
+    "smells": [
+      "javascript:S1119",
+      "javascript:S3800",
+      "javascript:S1186",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "lib/serialization/BinaryMiddleware.js",
+    "smells": [
+      "javascript:S2310",
+      "javascript:S3776",
+      "javascript:S6660",
+      "javascript:S1121"
+    ]
+  },
+  {
+    "path": "lib/serialization/ObjectMiddleware.js",
+    "smells": [
+      "javascript:S3800",
+      "javascript:S1854",
+      "javascript:S3358",
+      "javascript:S4624",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "test/Compiler-filesystem-caching.test.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/code-generation/re-export-namespace-concat/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/esm/ModuleChunkFormatPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/cases/inner-graph/extend-class2/dep-decl.js",
+    "smells": ["javascript:S1186", "javascript:S1068"]
+  },
+  {
+    "path": "test/cases/inner-graph/extend-class2/dep-expr.js",
+    "smells": ["javascript:S1186"]
+  },
+  { "path": "lib/CleanPlugin.js", "smells": ["javascript:S3358"] },
+  {
+    "path": "lib/runtime/GetChunkFilenameRuntimeModule.js",
+    "smells": ["javascript:S3776", "javascript:S4624", "javascript:S1121"]
+  },
+  {
+    "path": "test/configCases/code-generation/re-export-namespace/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/SourceMapDevToolPlugin.js",
+    "smells": [
+      "javascript:S3800",
+      "javascript:S6035",
+      "javascript:S3776",
+      "javascript:S2004"
+    ]
+  },
+  {
+    "path": "test/cases/parsing/issue-17189/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-17189/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/inner-graph/extend-class/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/inner-graph/extend-class2/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-16763/class.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/cases/parsing/issue-16763/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/config/target.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "lib/javascript/ArrayPushCallbackChunkFormatPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/code-generation/import-export-format-2/harmony-module-3.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/code-generation/import-export-format-2/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/dependencies/HarmonyExportExpressionDependency.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/worker/worklet/worklet-asset-1.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/configCases/worker/worklet/worklet-asset-2.js",
+    "smells": ["javascript:S1186"]
+  },
+  { "path": "test/helpers/expectSource.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/node/ReadFileChunkLoadingRuntimeModule.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/custom-hash-function/debug-hash/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/code-generation/import-export-format/harmony-module-3.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/code-generation/import-export-format/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/HotModuleReplacementPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S6660"]
+  },
+  {
+    "path": "test/configCases/css/pure-css/style.css",
+    "smells": ["css:S4666"]
+  },
+  {
+    "path": "test/configCases/trusted-types/continue-on-policy-creation-failure/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/css/css-import-at-middle/b.css",
+    "smells": ["css:S4666"]
+  },
+  {
+    "path": "test/configCases/css/css-import-at-middle/c.css",
+    "smells": ["css:S4666"]
+  },
+  {
+    "path": "lib/css/walkCssTokens.js",
+    "smells": ["javascript:S3776", "javascript:S4144", "javascript:S6660"]
+  },
+  {
+    "path": "test/configCases/css/css-import/style.css",
+    "smells": ["css:S4652"]
+  },
+  {
+    "path": "lib/util/semver.js",
+    "smells": [
+      "javascript:S4140",
+      "javascript:S2310",
+      "javascript:S3504",
+      "javascript:S6660",
+      "javascript:S2392",
+      "javascript:S3358",
+      "javascript:S6557",
+      "javascript:S3776",
+      "javascript:S2814"
+    ]
+  },
+  {
+    "path": "test/configCases/contenthash/module-ids-size/test.config.js",
+    "smells": ["javascript:S4030"]
+  },
+  { "path": "lib/sharing/utils.js", "smells": ["javascript:S1854"] },
+  {
+    "path": "test/cases/wasm/v128/test.filter.js",
+    "smells": ["javascript:S125"]
+  },
+  {
+    "path": "test/configCases/issues/issue-7563/test.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/css/urls/spacing.css",
+    "smells": ["css:S4652", "css:S4666"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-destructuring-assignment/counter4.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-destructuring-assignment/counter3.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-destructuring-assignment/counter.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-destructuring-assignment/counter2.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/0-create-dll-with-contenthash/ee1.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/0-create-dll-with-contenthash/ee2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/0-create-dll-with-contenthash/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/4-use-dll-with-contenthash/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/crossorigin/set-crossorigin/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/ConstPlugin.js", "smells": ["javascript:S3776"] },
+  { "path": "lib/ProvidePlugin.js", "smells": ["javascript:S2004"] },
+  { "path": "lib/dependencies/URLPlugin.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "lib/DefinePlugin.js",
+    "smells": [
+      "javascript:S3800",
+      "javascript:S2004",
+      "javascript:S107",
+      "javascript:S3358",
+      "javascript:S4624",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "lib/FlagDependencyExportsPlugin.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "lib/FlagDependencyUsagePlugin.js",
+    "smells": ["javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/target/amd-container-require/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/output/worker-public-path/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/output/worker-public-path/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/target/amd-container-named/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/target/amd-container-unnamed/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/oneOf/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/devtools/eval-nosources-source-map/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/devtools/eval-nosources-source-map/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/es2022/counter.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/MemoryLimitTestCases.test.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "lib/dependencies/HarmonyEvaluatedImportSpecifierDependency.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/runtime/LoadScriptRuntimeModule.js",
+    "smells": ["javascript:S3358"]
+  },
+  {
+    "path": "lib/hmr/HotModuleReplacement.runtime.js",
+    "smells": ["javascript:S3504", "javascript:S2004", "javascript:S1121"]
+  },
+  {
+    "path": "test/hotCases/runtime/import-after-download/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/output-module/reuse-webpack-esm-library/lib.js",
+    "smells": ["javascript:S6861", "javascript:S3504", "javascript:S1854"]
+  },
+  { "path": "lib/ChunkGraph.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/ContextModuleFactory.unittest.js",
+    "smells": ["javascript:S2004"]
+  },
+  { "path": "test/statsCases/asset-concat/a.css", "smells": ["css:S4658"] },
+  { "path": "hot/poll.js", "smells": ["javascript:S3504"] },
+  { "path": "test/statsCases/asset/a.css", "smells": ["css:S4658"] },
+  {
+    "path": "lib/stats/DefaultStatsFactoryPlugin.js",
+    "smells": [
+      "javascript:S2310",
+      "javascript:S878",
+      "javascript:S2004",
+      "javascript:S6660",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S4524"
+    ]
+  },
+  {
+    "path": "lib/cache/PackFileCacheStrategy.js",
+    "smells": [
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S2004",
+      "javascript:S1121"
+    ]
+  },
+  {
+    "path": "test/cases/chunks/context-weak/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/HotModuleReplacementPlugin.test.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "lib/cache/ResolverCachePlugin.js",
+    "smells": ["javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "lib/node/RequireChunkLoadingRuntimeModule.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/webworker/ImportScriptsChunkLoadingRuntimeModule.js",
+    "smells": ["javascript:S3776"]
+  },
+  { "path": "lib/ContextModuleFactory.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "test/configCases/source-map/context-module-source-path/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/web/node-source-global/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/ProfilingPlugin.test.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "lib/serialization/FileMiddleware.js",
+    "smells": [
+      "javascript:S2310",
+      "javascript:S3800",
+      "javascript:S6660",
+      "javascript:S2004",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "test/cases/parsing/harmony-reexport/b.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/configCases/chunk-graph/issue-15173/commonSync/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/ids/SyncModuleIdsPlugin.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "lib/ids/HashedModuleIdsPlugin.js",
+    "smells": ["javascript:S4043"]
+  },
+  {
+    "path": "lib/ids/IdHelpers.js",
+    "smells": ["javascript:S6660", "javascript:S3776", "javascript:S107"]
+  },
+  {
+    "path": "lib/ids/OccurrenceModuleIdsPlugin.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "lib/hmr/LazyCompilationPlugin.js",
+    "smells": ["javascript:S2004"]
+  },
+  { "path": "test/NormalModule.unittest.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "lib/container/ContainerEntryModule.js",
+    "smells": ["javascript:S4624"]
+  },
+  { "path": "lib/container/FallbackModule.js", "smells": ["javascript:S4624"] },
+  { "path": "lib/container/RemoteModule.js", "smells": ["javascript:S4624"] },
+  {
+    "path": "lib/sharing/ProvideSharedModule.js",
+    "smells": ["javascript:S4624"]
+  },
+  {
+    "path": "test/watchCases/plugins/profiling-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/ContextModule.unittest.js", "smells": ["javascript:S6035"] },
+  {
+    "path": "test/configCases/source-map/resource-path/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/resource-path/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/dependencies/CssUrlDependency.js",
+    "smells": ["javascript:S4624"]
+  },
+  { "path": "lib/css/CssGenerator.js", "smells": ["javascript:S1186"] },
+  {
+    "path": "lib/RuntimeTemplate.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "test/cases/parsing/evaluate/index.js",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "test/cases/parsing/evaluate-nullish/index.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "lib/util/create-schema-validation.js",
+    "smells": ["javascript:S2589"]
+  },
+  { "path": "lib/util/ArrayHelpers.js", "smells": ["javascript:S1788"] },
+  {
+    "path": "test/cases/parsing/asi/index.js",
+    "smells": [
+      "javascript:S1854",
+      "javascript:S2814",
+      "javascript:S3504",
+      "javascript:S2681"
+    ]
+  },
+  { "path": "test/typesCases/global/index.ts", "smells": ["typescript:S108"] },
+  {
+    "path": "lib/util/hash/wasm-hash.js",
+    "smells": ["javascript:S3800", "javascript:S3776"]
+  },
+  { "path": "benchmark/md4-cache.js", "smells": ["javascript:S1121"] },
+  { "path": "assembly/hash/md4.asm.ts", "smells": ["typescript:S2234"] },
+  { "path": "lib/util/createHash.js", "smells": ["javascript:S3776"] },
+  { "path": "hot/lazy-compilation-node.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/hmr/lazyCompilationBackend.js",
+    "smells": ["javascript:S3358", "javascript:S2004"]
+  },
+  {
+    "path": "test/hotCases/lazy-compilation/https/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "lib/schemes/HttpUriPlugin.js",
+    "smells": [
+      "javascript:S6660",
+      "javascript:S3776",
+      "javascript:S2004",
+      "javascript:S4624"
+    ]
+  },
+  {
+    "path": "test/WatchTestCases.template.js",
+    "smells": ["javascript:S3504", "javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "lib/wasm-sync/WebAssemblyInInitialChunkError.js",
+    "smells": ["javascript:S3776", "javascript:S4624"]
+  },
+  {
+    "path": "lib/optimize/EnsureChunkConditionsPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S1119"]
+  },
+  { "path": "lib/ModuleGraph.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "lib/dependencies/HarmonyImportDependency.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "lib/dependencies/HarmonyExportImportedSpecifierDependency.js",
+    "smells": ["javascript:S3776", "javascript:S107", "javascript:S4624"]
+  },
+  {
+    "path": "examples/wasm-bindgen-esm/pkg/hi_wasm_bg.js",
+    "smells": ["javascript:S2392", "javascript:S3504", "javascript:S1121"]
+  },
+  {
+    "path": "examples/wasm-bindgen-esm/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/ModuleFilenameHelpers.js", "smells": ["javascript:S1788"] },
+  { "path": "lib/optimize/InnerGraph.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/cases/parsing/issue-7519/a.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/trusted-types/devtool-eval/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/trusted-types/devtool-eval/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/optimize/MangleExportsPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/worker/node-worker-hmr/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/FileSystemInfo.unittest.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "test/HotTestCases.template.js",
+    "smells": ["javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/async-library/1-use-library/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/hashbang/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/build-http/webpack.lock.data/https_cdn.esm.sh/v53_escape-string-regexp_5.0.0_es2015_escape-string-regexp_2c814e466860133eca86.js",
+    "smells": ["javascript:S2681"]
+  },
+  {
+    "path": "examples/build-http/webpack.lock.data/https_cdn.skypack.dev/aggregate-error_v4.0.0-rCH8s5R9g4kQQ807o58j_dist_es2020_mode_imports_optimized_aggregate-error_12f7879e59421c0b09bf.js",
+    "smells": ["javascript:S3504", "javascript:S1121"]
+  },
+  {
+    "path": "examples/build-http/webpack.lock.data/https_cdn.skypack.dev/clean-stack_v4.1.0-DgWUKXHVzThBBZtsHXhC_dist_es2020_mode_imports_optimized_clean-stack_25e0e8c6773c790b5bc1.js",
+    "smells": ["javascript:S5843", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/asset-modules/http-url/dev-defaults.webpack.lock.data/http_localhost_9990/index_cache_502725659b59ae63a82a.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-modules/http-url/dev-defaults.webpack.lock.data/http_localhost_9990/index_query_169a64b251bcdc02a084.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-modules/http-url/errors.webpack.lock.data/http_localhost_9990/index_query_169a64b251bcdc02a084.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-modules/http-url/frozen-verify.webpack.lock.data/http_localhost_9990/index_cache_502725659b59ae63a82a.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-modules/http-url/frozen-verify.webpack.lock.data/http_localhost_9990/index_query_169a64b251bcdc02a084.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-modules/http-url/prod-defaults.webpack.lock.data/http_localhost_9990/index_cache_502725659b59ae63a82a.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-modules/http-url/prod-defaults.webpack.lock.data/http_localhost_9990/index_query_169a64b251bcdc02a084.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "lib/stats/DefaultStatsPrinterPlugin.js",
+    "smells": [
+      "javascript:S3358",
+      "javascript:S3800",
+      "javascript:S3776",
+      "javascript:S2004"
+    ]
+  },
+  { "path": "test/helpers/captureStdio.js", "smells": ["javascript:S5843"] },
+  {
+    "path": "lib/MultiCompiler.js",
+    "smells": ["javascript:S6557", "javascript:S3776", "javascript:S1121"]
+  },
+  {
+    "path": "test/MultiCompiler.test.js",
+    "smells": ["javascript:S4030", "javascript:S2004"]
+  },
+  { "path": "test/Compiler.test.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "examples/module-worker/fibonacci.js",
+    "smells": ["javascript:S3358"]
+  },
+  {
+    "path": "examples/module-worker/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4608-1-non-strict/index.js",
+    "smells": ["javascript:S2392", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4608-1/index.js",
+    "smells": ["javascript:S1854", "javascript:S2392", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/typeof-non-module/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/module-code-splitting/counter.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "examples/module-library/counter.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/hotCases/status/accept/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/inner-graph/class-dynamic-props/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/helpers/createFakeWorker.js",
+    "smells": ["javascript:S1121"]
+  },
+  {
+    "path": "test/hotCases/worker/move-between-runtime/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/worker/remove-add-worker/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/util/serialization.js", "smells": ["javascript:S1121"] },
+  {
+    "path": "test/cases/parsing/class-properties/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/WatchDetection.test.js", "smells": ["javascript:S2004"] },
+  { "path": "test/WatchSuspend.test.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "test/configCases/rule-set/simple/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/library/AssignLibraryPlugin.js",
+    "smells": ["javascript:S5843", "javascript:S3358", "javascript:S6660"]
+  },
+  { "path": "setup/setup.js", "smells": ["javascript:S5843"] },
+  {
+    "path": "test/configCases/process-assets/html-plugin/webpack.config.js",
+    "smells": [
+      "javascript:S5843",
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S2004"
+    ]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/hot-multi/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/hot/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/trusted-types/custom-policy-name/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/trusted-types/default-policy-name/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/trusted-types/no-policy-name/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/trusted-types/no-trusted-types/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/trusted-types/web-worker/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/trusted-types/web-worker/worker.js",
+    "smells": ["javascript:S125"]
+  },
+  { "path": "test/cases/parsing/bom/index.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/dependencies/HarmonyExportInitFragment.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "test/cases/parsing/es2020/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/inner-graph/class/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/Dependency.js",
+    "smells": ["javascript:S1186", "javascript:S1121"]
+  },
+  {
+    "path": "lib/util/smartGrouping.js",
+    "smells": ["javascript:S3776", "javascript:S1121"]
+  },
+  {
+    "path": "test/configCases/performance/many-exports/reexport.loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/cache/child-compilation-cache/0/report-cache-counters-loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks/runtime-chunk-node-13130/shared.js",
+    "smells": ["javascript:S6861"]
+  },
+  { "path": "lib/util/WeakTupleMap.js", "smells": ["javascript:S1121"] },
+  {
+    "path": "lib/dependencies/LoaderPlugin.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "lib/hmr/JavascriptHotModuleReplacement.runtime.js",
+    "smells": [
+      "javascript:S2392",
+      "javascript:S2310",
+      "javascript:S3776",
+      "javascript:S3504"
+    ]
+  },
+  {
+    "path": "test/configCases/side-effects/issue-13063/vendors/types.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/configCases/side-effects/issue-13063/vendors/uuid.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/configCases/side-effects/type-reexports/index.js",
+    "smells": ["javascript:S6522"]
+  },
+  {
+    "path": "lib/cache/IdleFileCachePlugin.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "lib/cache/MemoryWithGcCachePlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "lib/util/deterministicGrouping.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/hotCases/lazy-compilation/simple/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  { "path": "lib/RecordIdsPlugin.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "lib/util/identifier.js",
+    "smells": [
+      "javascript:S3358",
+      "javascript:S3776",
+      "javascript:S1121",
+      "javascript:S6557"
+    ]
+  },
+  {
+    "path": "lib/Chunk.js",
+    "smells": ["javascript:S3776", "javascript:S1121"]
+  },
+  {
+    "path": "test/StatsTestCases.basictest.js",
+    "smells": ["javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "test/statsCases/real-content-hash/a/b.js",
+    "smells": ["javascript:S2589"]
+  },
+  {
+    "path": "test/statsCases/real-content-hash/b/b.js",
+    "smells": ["javascript:S2589"]
+  },
+  {
+    "path": "test/cases/parsing/issue-12769/other.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/side-effects/issue-12570-second-try/inner-reexport.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/side-effects/issue-12570-second-try/inner-reexport2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/side-effects/issue-12570/inner-reexport.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/asset-url/relative/index.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/inner-graph/issue-12669-mini/module.js",
+    "smells": ["javascript:S125"]
+  },
+  {
+    "path": "test/configCases/inner-graph/issue-12669/module.js",
+    "smells": ["javascript:S3358", "javascript:S2004"]
+  },
+  {
+    "path": "lib/MultiStats.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/library/0-create-library/index.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/library/0-create-library/nested.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/declared-api/module.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks/asnyc-entries/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/library/ExportPropertyLibraryPlugin.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "lib/json/JsonGenerator.js",
+    "smells": ["javascript:S6035", "javascript:S3776"]
+  },
+  {
+    "path": "lib/stats/DefaultStatsPresetPlugin.js",
+    "smells": ["javascript:S3358", "javascript:S3800"]
+  },
+  {
+    "path": "test/BinaryMiddleware.unittest.js",
+    "smells": ["javascript:S3776", "javascript:S125"]
+  },
+  {
+    "path": "test/configCases/rebuild/rebuildWithNewDependencies/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/ProgressPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S2004"]
+  },
+  { "path": "lib/ModuleProfile.js", "smells": ["javascript:S1121"] },
+  { "path": "lib/util/AsyncQueue.js", "smells": ["javascript:S3776"] },
+  { "path": "test/helpers/supportsWorker.js", "smells": ["javascript:S1871"] },
+  {
+    "path": "test/hotCases/lazy-compilation/module-test/index.js",
+    "smells": ["javascript:S2004", "javascript:S1854"]
+  },
+  {
+    "path": "test/hotCases/lazy-compilation/only-entries/index.js",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "test/cases/async-modules/micro-ticks-parents/tick.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/statsCases/module-federation-custom-exposed-module-name/entry.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "lib/util/runtime.js",
+    "smells": ["javascript:S3776", "javascript:S6660", "javascript:S1121"]
+  },
+  { "path": "lib/CodeGenerationResults.js", "smells": ["javascript:S1121"] },
+  {
+    "path": "test/watchCases/cache/reexport-mangle/0/module-cjs.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "hot/lazy-compilation-web.js", "smells": ["javascript:S3504"] },
+  { "path": "test/cases/parsing/iife/a.js", "smells": ["javascript:S6861"] },
+  {
+    "path": "lib/ExternalModuleFactoryPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/rebuild/finishModules/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rebuild/finishModules/other-file.js",
+    "smells": ["javascript:S2814", "javascript:S6522"]
+  },
+  {
+    "path": "test/watchCases/plugins/automatic-prefetch-plugin-9485/0/index.js",
+    "smells": ["javascript:S6035", "javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/plugins/automatic-prefetch-plugin-9485/3/foo/3.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/util/cleverMerge.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "test/cases/parsing/meta-property/index.js",
+    "smells": ["javascript:S1186"]
+  },
+  { "path": "lib/rules/RuleSetCompiler.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/configCases/rule-set/query/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/issue-12128/index2.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/ModuleInfoHeaderPlugin.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S1121"]
+  },
+  { "path": "lib/stats/StatsFactory.js", "smells": ["javascript:S1854"] },
+  {
+    "path": "test/hotCases/worker/update-in-worker/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/disposing/runtime-independent-filename/shared.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/hotCases/disposing/remove-chunk-with-shared-in-other-runtime/shared.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "examples/reexport-components/components/Dialog.js",
+    "smells": ["javascript:S6774"]
+  },
+  {
+    "path": "examples/reexport-components/components/DialogInline.js",
+    "smells": ["javascript:S6774"]
+  },
+  {
+    "path": "test/configCases/source-map/namespace-source-path-no-truncate/[id].js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/namespace-source-path-no-truncate/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/graph/issue-11770/shared2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "lib/ConditionalInitFragment.js", "smells": ["javascript:S1788"] },
+  {
+    "path": "test/cases/side-effects/issue-11673/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/worker/worker-contenthash/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/child-compiler-apply-entry-option/TestApplyEntryOptionPlugin.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/child-compiler-apply-entry-option/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/issue-11619/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/issue-11619/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/import-order-11617/c.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/import-order-11617/tracker.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/side-effects/empty-modules/pure.js",
+    "smells": ["javascript:S3504", "javascript:S108"]
+  },
+  {
+    "path": "lib/wasm-sync/WasmFinalizeExportsPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/cases/json/prototype-methods/index.js",
+    "smells": ["javascript:S6643"]
+  },
+  {
+    "path": "lib/dependencies/HarmonyImportSideEffectDependency.js",
+    "smells": ["javascript:S3800"]
+  },
+  {
+    "path": "test/cases/parsing/logical-assignment/module.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/logical-assignment/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/helpers/supportsLogicalAssignment.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/worker/custom-worker/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/validateSchema.js", "smells": ["javascript:S3776"] },
+  { "path": "lib/IgnoreWarningsPlugin.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "test/watchCases/plugins/mini-css-extract-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/ConcatenationScope.js", "smells": ["javascript:S3358"] },
+  { "path": "lib/node/NodeSourcePlugin.js", "smells": ["javascript:S1186"] },
+  {
+    "path": "lib/Template.js",
+    "smells": ["javascript:S6557", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/disposing/remove-chunk-with-shared/shared.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/worker/node-worker-named/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/worker/node-worker/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/worker/web-worker/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/worker/fibonacci.js", "smells": ["javascript:S3358"] },
+  {
+    "path": "examples/worker/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/cases/parsing/asi/a.js", "smells": ["javascript:S1186"] },
+  {
+    "path": "test/configCases/web/unique-jsonp/index.js",
+    "smells": ["javascript:S6535"]
+  },
+  {
+    "path": "test/cases/parsing/issue-11353/generator_function.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/custom-terser/index.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks/issue-11337/webpack.config.js",
+    "smells": ["javascript:S6035"]
+  },
+  {
+    "path": "lib/cache/mergeEtags.js",
+    "smells": ["javascript:S3776", "javascript:S6660", "javascript:S1121"]
+  },
+  {
+    "path": "test/configCases/source-map/source-map-filename-contenthash/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/dependencies/CommonJsExportsParserPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S4043"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/reexports/index.js",
+    "smells": ["javascript:S1121"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/reexports/reexport-property-exports.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/reexports/reexport-property-module-exports.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/reexports/reexport-reexport-exports.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/reexports/reexport-reexport-module-exports.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/reexports/reexport-whole-exports.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/reexports/reexport-whole-module-exports.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/output/charset/chunk1.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "lib/wasm-sync/WebAssemblyJavascriptGenerator.js",
+    "smells": ["javascript:S3776", "javascript:S1121"]
+  },
+  {
+    "path": "test/configCases/parsing/optional-chaining/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/helpers/supportsOptionalChaining.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/SemVer.unittest.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "test/configCases/asset-url/target-node1/index.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-url/target-node2/index.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-url/target-node3/index.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-url/target-web1/index.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "test/configCases/asset-url/target-webworker2/index.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "examples/wasm-simple/example.js",
+    "smells": ["javascript:S2392", "javascript:S3504", "javascript:S2814"]
+  },
+  {
+    "path": "test/configCases/inner-graph/blockScopes/module.js",
+    "smells": [
+      "javascript:S6861",
+      "javascript:S1854",
+      "javascript:S3504",
+      "javascript:S2392",
+      "javascript:S2589",
+      "javascript:S2814"
+    ]
+  },
+  {
+    "path": "lib/dependencies/RequireContextPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/mangle/mangle-with-object-prop/module.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/deprecations/non-unique-hash/webpack.config.js",
+    "smells": ["javascript:S4030"]
+  },
+  { "path": "lib/util/TupleSet.js", "smells": ["javascript:S1121"] },
+  {
+    "path": "lib/library/AbstractLibraryPlugin.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "lib/optimize/MergeDuplicateChunksPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S1119"]
+  },
+  {
+    "path": "test/cases/parsing/nullish-coalescing/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/evaluate-nullish/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/helpers/supportsNullishCoalescing.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/cli.js",
+    "smells": ["javascript:S3776", "javascript:S6660", "javascript:S4524"]
+  },
+  {
+    "path": "test/cases/esm/import-meta/index.js",
+    "smells": ["javascript:S108"]
+  },
+  {
+    "path": "lib/util/URLAbsoluteSpecifier.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/split-chunks/runtime-chunk-async-node/shared.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/split-chunks/runtime-chunk-node/shared.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/asset-modules/http-url/server/index.css",
+    "smells": ["css:S4658"]
+  },
+  { "path": "test/WatchClose.test.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "test/hotCases/chunks/accept-system-import-webpackhot/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "lib/sharing/ProvideSharedPlugin.js",
+    "smells": ["javascript:S2004", "javascript:S1871"]
+  },
+  {
+    "path": "lib/sharing/ConsumeSharedPlugin.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "examples/module-federation/src-b/Component.js",
+    "smells": ["javascript:S6774"]
+  },
+  {
+    "path": "examples/module-federation/src-c/Component.js",
+    "smells": ["javascript:S6774"]
+  },
+  {
+    "path": "test/configCases/container/container-entry-overridables/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "lib/library/SystemLibraryPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/container/container-entry/state.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "lib/container/ContainerReferencePlugin.js",
+    "smells": ["javascript:S3358", "javascript:S4624"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-export-hoist/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/container/error-handling/evaluation-error-cjs.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/container/error-handling/evaluation-error-tl-await.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/container/error-handling/invalid-module-cjs.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/container/error-handling/invalid-module-tl-await.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/container/error-handling/loading-error-cjs.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/container/error-handling/loading-error-tl-await.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "lib/ModuleParseError.js",
+    "smells": ["javascript:S6557", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/loaders/issue-10725/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/no-emit-on-errors-plugin-with-child-error/TestChildCompilationFailurePlugin.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/wasm/export-imported-global/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/optimize/AggressiveSplittingPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/plugins/profiling-plugin/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/wasm/import-wasm-wasm/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/invalidate/conditional-accept/store.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/container/module-federation/test.config.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/cases/inner-graph/export-default-named/f.js",
+    "smells": ["javascript:S2430"]
+  },
+  { "path": "test/ProgressPlugin.test.js", "smells": ["javascript:S5869"] },
+  {
+    "path": "lib/util/compileBooleanMatcher.js",
+    "smells": ["javascript:S3776", "javascript:S4043"]
+  },
+  {
+    "path": "lib/dependencies/LocalModulesHelpers.js",
+    "smells": ["javascript:S6557", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/define-plugin/index.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  {
+    "path": "test/configCases/plugins/define-plugin-bigint/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/JavascriptParser.unittest.js",
+    "smells": [
+      "javascript:S2004",
+      "javascript:S3504",
+      "javascript:S1854",
+      "javascript:S3776",
+      "javascript:S2430",
+      "javascript:S1186"
+    ]
+  },
+  {
+    "path": "test/configCases/dll-plugin/0-issue-10475/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/0-issue-10475/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/1-issue-10475/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/library/1-use-library/var-test.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/library/AmdLibraryPlugin.js", "smells": ["javascript:S6660"] },
+  {
+    "path": "test/configCases/container/container-reference/test.config.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/cases/errors/harmony-import-missing2/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-10409/b.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-10409/c.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-10409/cts.js",
+    "smells": ["javascript:S1186"]
+  },
+  { "path": "lib/DynamicEntryPlugin.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "test/cases/scope-hoisting/issue-10308/root.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "tooling/print-cache-file.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "lib/serialization/SerializerMiddleware.js",
+    "smells": ["javascript:S1788"]
+  },
+  { "path": "test/fixtures/asmjs.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/optimize/MinChunkSizePlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  { "path": "lib/logging/truncateArgs.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/configCases/dll-plugin-side-effects/0-create-dll/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin-side-effects/1-use-dll/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/relative-source-maps-by-loader/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/concatenate-modules/rename-10168/C.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/concatenate-modules/rename-10168/E.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/errors/load-module-cycle/loader.js",
+    "smells": ["javascript:S2589"]
+  },
+  {
+    "path": "examples/cjs-tree-shaking/example.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/cjs-tree-shaking/math.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/bailouts/assign-exports-assign.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/bailouts/assign-exports-define.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/bailouts/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/bailouts/nested-property.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/exports/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/importing/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/objects/indirect-object.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/transpiled/babel-default-interop.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/transpiled/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/cjs-tree-shaking/transpiled/typescript-reexport.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/json/JsonParser.js",
+    "smells": ["javascript:S3358", "javascript:S6557"]
+  },
+  {
+    "path": "test/configCases/web/retry-failed-import/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/errors/import-missing/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/environment-plugin/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/entry-inline/no-var-leak-strict/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/entry-inline/no-var-leak/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/delegated-hash/simple/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/delegated/simple/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/issue-336/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/define-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/lib-manifest-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/provide-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/no-emit-on-errors-plugin-with-child-error/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/module/counter.js", "smells": ["javascript:S6861"] },
+  {
+    "path": "test/configCases/code-generation/use-strict/index.js",
+    "smells": ["javascript:S6535", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/inner-graph/static-of-class/other/module-unused.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/cases/inner-graph/static-of-class/other/module-used.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/cases/inner-graph/switch/some-module.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/configCases/plugins/mini-css-extract-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/inner-graph/try-globals/module.js",
+    "smells": [
+      "javascript:S6861",
+      "javascript:S3504",
+      "javascript:S1854",
+      "javascript:S2392",
+      "javascript:S2814"
+    ]
+  },
+  {
+    "path": "test/cases/inner-graph/pure-in-removed/module.js",
+    "smells": [
+      "javascript:S2392",
+      "javascript:S2814",
+      "javascript:S3504",
+      "javascript:S2589"
+    ]
+  },
+  {
+    "path": "test/cases/inner-graph/simple/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/inner-graph/_helpers/testModuleLoader.js",
+    "smells": ["javascript:S4624"]
+  },
+  {
+    "path": "test/configCases/inner-graph/altaskitButton/module.js",
+    "smells": [
+      "javascript:S6861",
+      "javascript:S878",
+      "javascript:S3504",
+      "javascript:S2392",
+      "javascript:S1121"
+    ]
+  },
+  {
+    "path": "test/configCases/inner-graph/importAll/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/inner-graph/pure/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/inner-graph/ramdaIdentical/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/inner-graph/varNotWritten/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/inner-graph/varWritten/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/chunk-graph/issue-9634/entry-b.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-this/index.js",
+    "smells": ["javascript:S2589"]
+  },
+  {
+    "path": "test/helpers/applyPluginWithOptions.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/helpers/supportDefaultAssignment.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  {
+    "path": "test/helpers/supportsBlockScoping.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/helpers/supportsSpread.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/cases/loaders/context/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/logging/createConsoleLogger.js",
+    "smells": ["javascript:S3776", "javascript:S6660"]
+  },
+  { "path": "lib/stats/StatsPrinter.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/cases/nonce/set-nonce/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/source-map-dev-tool-plugin~append/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/source-map-dev-tool-plugin~append/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/source-map-dev-tool-plugin~append/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/loaders/issue-9053/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/block-scopes/index.js",
+    "smells": [
+      "javascript:S3504",
+      "javascript:S2392",
+      "javascript:S2589",
+      "javascript:S2430",
+      "javascript:S3696"
+    ]
+  },
+  { "path": "hot/log.js", "smells": ["javascript:S1186", "javascript:S3504"] },
+  { "path": "lib/ContextReplacementPlugin.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/cases/wasm/imports-circular/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/imports-multiple/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/wasm-complex/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-deep-exports/counter.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/parsing/harmony-this-concat/issue-7213.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/plugins/progress-plugin/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/custom-source-type/localization/webpack.config.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/rule-set/resolve-options/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/finish-modules/simple/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks/issue-8908/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/WatchIgnorePlugin.js", "smells": ["javascript:S6557"] },
+  { "path": "lib/DllReferencePlugin.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/configCases/split-chunks-common/target-node/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/debug/ProfilingPlugin.js", "smells": ["javascript:S6035"] },
+  { "path": "test/identifier.unittest.js", "smells": ["javascript:S2004"] },
+  { "path": "lib/util/findGraphRoots.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/statsCases/wasm-explorer-examples-sync/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/wasm-explorer-examples-sync/tests.js",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "test/watchCases/parsing/reexport-chain/0/c.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/parsing/reexport-chain/1/c.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/parsing/reexport-chain/2/c.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "lib/optimize/MinMaxSizeWarning.js",
+    "smells": ["javascript:S4043"]
+  },
+  {
+    "path": "test/hotCases/runtime/dispose-removed-chunk/index.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/source-map/module-names/index.js",
+    "smells": ["javascript:S2392", "javascript:S2814", "javascript:S3504"]
+  },
+  { "path": "lib/RuntimeModule.js", "smells": ["javascript:S1121"] },
+  {
+    "path": "test/cases/parsing/issue-758/index.js",
+    "smells": ["javascript:S3504", "javascript:S3696", "javascript:S1854"]
+  },
+  {
+    "path": "test/configCases/plugins/provide-plugin/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/ModuleBuildError.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/cases/wasm/finalize-exports-issue-8261/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/setupTestFramework.js",
+    "smells": ["javascript:S6643", "javascript:S2310", "javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/dll-plugin-format/0-create-dll/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/context/loader-context-dep/0/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/target/amd-require/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/scope-hoisting/harmony-pure-default/module1.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/scope-hoisting/harmony-pure-default/module2.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/scope-hoisting/harmony-pure-default/module3.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/scope-hoisting/harmony-pure-default/module4.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/target/amd-named/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/target/amd-unnamed/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/hash-length/deterministic-module-ids/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/hash-length/deterministic-module-ids/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/code-generation/harmony-pure-default/module1.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/code-generation/harmony-pure-default/module2.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/code-generation/harmony-pure-default/module3.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/code-generation/harmony-pure-default/module4.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/plugins/source-map-dev-tool-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/optimize/AggressiveMergingPlugin.js",
+    "smells": ["javascript:S3776"]
+  },
+  {
+    "path": "test/configCases/source-map/default-filename-extensions-css/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/default-filename-extensions-css/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/default-filename-extensions-js/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/default-filename-extensions-js/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/default-filename-extensions-mjs/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/default-filename-extensions-mjs/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-7930/export.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "lib/optimize/FlagIncludedChunksPlugin.js",
+    "smells": ["javascript:S3776", "javascript:S1119"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-duplicate-export/cjs/1.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-duplicate-export/cjs/2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-duplicate-export/cjs/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-duplicate-export/cjs/b.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-duplicate-export/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/reexport-star-exposed-cjs/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/reexport-star-external-cjs/b.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/reexport-star-external-cjs/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-7778/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/dependencies/NullDependency.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/cases/chunks/nested-in-empty/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/cases/parsing/issue-7728/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/formatLocation.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/configCases/wasm/wasm-in-initial-chunk-error/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/dll-reference-plugin-issue-7624-error/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/dll-reference-plugin-issue-7624/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/wasm/identical/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/deep-scope-analysis/remove-export-scope-hoisting/reference.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/deep-scope-analysis/remove-export/reference.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "benchmark/createTestCases.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "test/cases/scope-hoisting/order-without-side-effects/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/order-without-side-effects/b.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/order-without-side-effects/tracker.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/runtime/bubble-async/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/records/issue-7492/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "lib/wasm-sync/WebAssemblyGenerator.js",
+    "smells": ["javascript:S6557"]
+  },
+  {
+    "path": "test/cases/wasm/export-imported-global/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/two-files-loader/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/ChunkGroup.js", "smells": ["javascript:S1121"] },
+  {
+    "path": "test/cases/wasm/imported-global-preserve-ordering/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/unused-export/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/imports-many-direct/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/imported-global-preserve-type/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/global-refs-imported-global/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/optimization/hashed-module-ids/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/optimization/named-modules/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/dll-entry-only/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/dll-entry-only/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/records/stable-sort/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/records/stable-sort/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/records/issue-7339/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/records/issue-7339/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin-entry/0-create-dll/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin-entry/1-use-dll/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin-entry/2-error-non-entry/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/wasm-explorer-examples-async/index.js",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "test/cases/wasm/wasm-explorer-examples-async/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/wasm-explorer-examples-sync/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/wasm-explorer-examples-sync/tests.js",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "test/cases/wasm/imports-multiple/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/harmony-this/issue-7213.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/split-chunks/runtime-chunk-no-async/test.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/decoding/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/table/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/wasm/caching/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/module-name/different-issuers-for-same-module/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/define-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/scope-hoisting/caching-inner-source/0/inner2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/scope-hoisting/caching-inner-source/1/inner1.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/memory/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/Compiler-caching.test.js",
+    "smells": ["javascript:S6660", "javascript:S2004", "javascript:S125"]
+  },
+  {
+    "path": "test/cases/loaders/issue-4959/loaders/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4940/index.js",
+    "smells": ["javascript:S2430"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-export-import-specifier/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-6867/c.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/cases/parsing/issue-6867/a.js",
+    "smells": ["javascript:S1186"]
+  },
+  {
+    "path": "test/configCases/hash-length/output-filename/test.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/source-map-with-profiling-plugin/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/source-map-with-profiling-plugin/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/source-map-with-profiling-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/BenchmarkTestCases.benchmark.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/scope-hoisting/class-naming/module2.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/configCases/filename-template/split-chunks-filename/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks/no-options/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/scope-hoisting-bailouts/concatenated2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/runtime/module-caching/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/NodeTemplatePlugin.test.js", "smells": ["javascript:S2004"] },
+  { "path": "test/TestCases.template.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "lib/performance/EntrypointsOverSizeLimitWarning.js",
+    "smells": ["javascript:S4624"]
+  },
+  {
+    "path": "test/cases/parsing/spread/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/spread/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/fixtures/errors/irregular-error-loader.js",
+    "smells": ["javascript:S3696"]
+  },
+  {
+    "path": "test/cases/wasm/order/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/order/tracker.js",
+    "smells": ["javascript:S6861"]
+  },
+  { "path": "benchmark/createFixtures.js", "smells": ["javascript:S4624"] },
+  {
+    "path": "test/cases/loaders/issue-2299/loader/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/exclude-modules-source-map/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/exclude-modules-source-map/test1.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/exclude-modules-source-map/test2.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/exclude-modules-source-map/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-6407/import-one.js",
+    "smells": ["javascript:S4140"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-6407/import-two.js",
+    "smells": ["javascript:S4140"]
+  },
+  {
+    "path": "test/cases/parsing/chunks/index.js",
+    "smells": ["javascript:S878"]
+  },
+  {
+    "path": "test/cases/parsing/javascript/index.js",
+    "smells": ["javascript:S4140"]
+  },
+  {
+    "path": "test/configCases/parsing/relative-filedirname/index.js",
+    "smells": ["javascript:S6535"]
+  },
+  {
+    "path": "test/configCases/plugins/terser-plugin/index.js",
+    "smells": ["javascript:S6535"]
+  },
+  {
+    "path": "test/cases/parsing/extract-require/index.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/pattern-in-for/index.js",
+    "smells": ["javascript:S2392", "javascript:S3504", "javascript:S2814"]
+  },
+  {
+    "path": "test/cases/runtime/error-handling/index.js",
+    "smells": ["javascript:S3358", "javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/chunks/accept-system-import/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  { "path": "test/objectToMap.unittest.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/common-chunk-and-vendor-chunk/pageA.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/common-chunk-and-vendor-chunk/pageB.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/profiling-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/issue-4857/index.js",
+    "smells": [
+      "javascript:S3504",
+      "javascript:S1119",
+      "javascript:S2392",
+      "javascript:S2589",
+      "javascript:S3776",
+      "javascript:S1186"
+    ]
+  },
+  {
+    "path": "test/cases/chunks/inline-options/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/context/index.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  {
+    "path": "examples/wasm-simple/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/import-wasm-wasm/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/imports-circular/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/imports/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/custom-hash-function/xxhash/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/tree-shaking/require.include.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/mjs/namespace-object-lazy/dir-harmony/one.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/mjs/namespace-object-lazy/dir-harmony/three.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/mjs/namespace-object-lazy/dir-harmony/two.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/mjs/namespace-object-lazy/dir-mixed/three.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/mjs/non-mjs-namespace-object-lazy/dir-harmony/one.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/mjs/non-mjs-namespace-object-lazy/dir-harmony/three.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/mjs/non-mjs-namespace-object-lazy/dir-harmony/two.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/mjs/non-mjs-namespace-object-lazy/dir-mixed/three.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/target/node-dynamic-import/index.js",
+    "smells": ["javascript:S3504", "javascript:S4144", "javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/plugins/source-map-dev-tool-plugin/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/source-map-dev-tool-plugin/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/plugins/automatic-prefetch-plugin/0/index.js",
+    "smells": ["javascript:S6035", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/scope-hoisting/create-dll-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/extract-amd.nominimize/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/extract-amd.nominimize/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/context-replacement/d/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/wasm/simple/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/simple-use-array-fn/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/simple-use-array-fn/loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/namespace-source-path.library/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/namespace-source-path.library/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/namespace-source-path/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/namespace-source-path/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-native-import-context-filter/templates/bar.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-native-import-context-filter/templates/bar.noimport.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-native-import-context-filter/templates/baz.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-native-import-context-filter/templates/baz.noimport.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-native-import-context-filter/templates/foo.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-native-import-context-filter/templates/foo.noimport.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/import-context-filter/templates/bar.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/import-context-filter/templates/bar.noimport.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/import-context-filter/templates/baz.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/import-context-filter/templates/baz.noimport.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/import-context-filter/templates/foo.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/import-context-filter/templates/foo.noimport.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/performance/many-async-imports/test.filter.js",
+    "smells": ["javascript:S6035"]
+  },
+  {
+    "path": "test/configCases/performance/many-exports/test.filter.js",
+    "smells": ["javascript:S6035"]
+  },
+  {
+    "path": "test/cases/optimize/side-effects-reexport-start-unknown/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/errors/harmony-import-missing/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/performance/many-async-imports/reexport.loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/chunks/circular-correctness/index.js",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "test/configCases/externals/non-umd-externals-umd/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/externals/non-umd-externals-umd2/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/performance/many-exports/file.loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/common-chunk-grandchildren/example.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/common-chunk-grandchildren/pageA.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/common-chunk-grandchildren/pageC.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/move-to-grandparent/pageA.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/move-to-grandparent/pageC.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/context-exclusion/simple/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/complex-require/amd.js",
+    "smells": ["javascript:S4144", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/complex-require/cjs.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/complex-require/index.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-tdz/module.js",
+    "smells": ["javascript:S6861"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-tdz/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/fake-update-loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/correct-order/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/inverted-order/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/cache/child-compilation-cache/0/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-5624/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/issue-5624/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/require-root-5604/index.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/require-root-5604/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/concat/reload-compat-flag/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-5481/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/circular-namespace-object/module2.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-5443/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/import-order/commonjs.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/import-order/tracker.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/dll-app-and-vendor/0-vendor/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/dll-app-and-vendor/1-app/example-app.js",
+    "smells": ["javascript:S3686"]
+  },
+  {
+    "path": "examples/dll-app-and-vendor/1-app/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/resolve-weak-context/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/chunks/weak-dependencies-context/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/plugins/dll-reference-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/scope-hoisting/dll-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-5314/index.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "hot/log-apply-result.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/configCases/source-map/module-names/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-this/abc.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/harmony-this-concat/abc.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/harmony-this-concat/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/scope-hoisting/strictThisContextOnImports/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/requirejs/index.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/renaming-shorthand-5027/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/renaming-shorthand-5027/file1.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/renaming-shorthand-5027/file2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/renaming-shorthand-5027/file3.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/renaming-shorthand-5027/file4.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/renaming-shorthand-5027/module.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-5020-minimal/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/issue-5020/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/inside-class/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/inside-class/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/library/1-use-library/default-test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/library/1-use-library/this-test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/library/1-use-library/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4596/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/renaming-4967/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  { "path": "hot/dev-server.js", "smells": ["javascript:S3504"] },
+  { "path": "hot/only-dev-server.js", "smells": ["javascript:S3504"] },
+  { "path": "hot/signal.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/cases/chunks/var-inject-error-handler/index.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  {
+    "path": "test/configCases/parsing/harmony-this/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/indirect-reexport/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/chained-reexport/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/export-namespace/ns1.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/export-namespace/ns2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/reexport-exposed-cjs/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/reexport-exposed-default-cjs/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/reexport-exposed-harmony/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/reexport-exposed-harmony/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/scope-hoisting/simple/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3273/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4870/file.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4870/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4870/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/3-use-dll-with-hashid/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/resolve-plugin-context/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4709/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/class/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4608-2/index.js",
+    "smells": ["javascript:S2392", "javascript:S3504", "javascript:S1854"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4608-2/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/helpers/supportsForOf.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/source-map/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/banner-plugin-hashing/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/banner-plugin-hashing/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/banner-plugin-hashing/vendors.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/chunks/named-chunks/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/chunks/runtime/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/resolving/commomjs-local-module/index.js",
+    "smells": ["javascript:S1854"]
+  },
+  {
+    "path": "test/statsCases/resolve-plugin-context/ResolvePackageFromRootPlugin.js",
+    "smells": ["javascript:S6035"]
+  },
+  {
+    "path": "test/configCases/plugins/min-chunk-size/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-specify-chunk-name/example.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-specify-chunk-name/templates/bar.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-specify-chunk-name/templates/baz.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-specify-chunk-name/templates/foo.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/min-chunk-size/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/records/issue-2991/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/records/issue-2991/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/context/delete-in-context/0/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/plugins/automatic-prefetch-plugin/3/foo/3.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/plugins/automatic-prefetch-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/terser-plugin/compress.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4357/index.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-4357/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/compiler/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "lib/OptionsApply.js", "smells": ["javascript:S1186"] },
+  {
+    "path": "test/configCases/plugins/terser-plugin/extract.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/limit-chunk-count-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/loaders/generate-ident/webpack.config.js",
+    "smells": ["javascript:S6035"]
+  },
+  {
+    "path": "test/configCases/parsing/harmony-global/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/harmony-global/module1.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3964/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-commonjs-mix/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3917/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3917/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3917/module2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/chaining/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/chaining/loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/provide-plugin/ddd.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-commonjs/c2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/target/node-dynamic-import/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/harmony-library/example.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/harmony-library/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/simple-use-fn-array/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/simple-use-fn-array/loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/simple-use-fn-array/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/chunks/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/errors/case-sensitive/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/errors/case-sensitive/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/externals/externals-in-commons-chunk/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/loaders/issue-3320/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/code-generation/require-context-id/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-native-import-context/templates/bar.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-native-import-context/templates/baz.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting-native-import-context/templates/foo.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/loaders/json-loader/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-commonjs/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-import-export-order/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-import-export-order/b.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-import-export-order/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-import-export-order/tracker.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-duplicate-export/1.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-duplicate-export/2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-duplicate-export/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-duplicate-export/b.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/chunks/import-context/index.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/chunks/issue-2443/index.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/configCases/rule-set/custom/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/custom/loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/query/loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/complex-require/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/helpers/supportsTemplateStrings.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3116/file.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3116/file2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3116/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3273/file.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3273/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/helpers/supportsObjectDestructuring.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3252/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2895/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-3238/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/helpers/supportsIteratorDestructuring.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/compile/deduplication-bundle-loader/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-edge-cases/c.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/explicit-vendor-chunk/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/rule-set/simple/loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/tree-shaking/edge.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/tree-shaking/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/tree-shaking/b.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/issue-2942/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/library/0-create-library/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/2-use-dll-without-scope/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/harmony-interop/example2.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/harmony-interop/harmony.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/0-create-dll/ee1.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/0-create-dll/ee2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/optimize/tree-shaking-star2/aa.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/optimize/tree-shaking-star2/bb.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/optimize/tree-shaking-star2/c.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/optimize/tree-shaking-star2/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/optimize/tree-shaking-commonjs/e.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/optimize/tree-shaking-star/d.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "examples/mixed/amd.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  {
+    "path": "examples/mixed/commonjs.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  { "path": "examples/mixed/example.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/configCases/split-chunks-common/library/a.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/library/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/context-replacement/System.import/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/context-replacement/System.import/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/runtime/dispose-removed-module/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/http2-aggressive-splitting/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-spec/self-cycle.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/aggressive-splitting-entry/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/statsCases/aggressive-splitting-on-demand/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/errors/events/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/errors/unaccepted-ignored/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-info/index.js",
+    "smells": ["javascript:S878"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-info/module.js",
+    "smells": ["javascript:S6861", "javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2622/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2622/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2622/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/hot/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/split-chunks-common/simple/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/helpers/supportsDefaultArgs.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2618/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-spec/eval.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2618/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2618/module2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-spec/live.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-spec/order-tracker.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/chunks/system-import/chunk.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/chunks/system-import/chunk2.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2522/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2522/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2522/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2523/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/es6.nominimize/test.filter.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2528/helperC.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2528/index.js",
+    "smells": ["javascript:S6861", "javascript:S3504", "javascript:S1121"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2528/module.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2570/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/es6.nominimize/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/fixtures/delay-loader.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/cases/parsing/issue-2349/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/strict-mode/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-edge-cases/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-edge-cases/b.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/externals/externals-in-chunk/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/unsupported-amd/index.js",
+    "smells": ["javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/nosources/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/nosources/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/compile/issue2221/exportvar.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/target/umd-auxiliary-comments-object/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/target/umd-auxiliary-comments-string/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2084/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-import-targets/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-import-targets/x.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2050/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2050/b.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2050/c.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2050/d.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/harmony-this/abc.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-2019/file.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/runtime/issue-1650/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/0-create-dll/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/dll-plugin/1-use-dll/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/context-replacement/c/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/common-chunk-and-vendor-chunk/pageC.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/common-chunk-and-vendor-chunk/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-export-precedence/a.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-export-precedence/b.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/harmony-export-precedence/c.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/context/issue-1769/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/lib-manifest-plugin/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/hash-length/hashed-module-ids/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/hash-length/hashed-module-ids/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/chunkhash/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/loader-options-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "hot/emitter.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/hotCases/runtime/bubble-update/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/runtime/update-multiple-modules/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/runtime/update-multiple-times/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotCases/runtime/accept/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/records/issue-295/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/records/issue-295/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/harmony-unused/math.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/configCases/additional-pass/simple/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/target/umd-named-define/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/terser-plugin/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/terser-plugin/vendors.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/filename-template/module-filename-template/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/harmony/async-loaded.js",
+    "smells": ["javascript:S6861", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/hash-length/output-filename/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/entry/issue-1068/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/dll-user/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/dll/webpack.config.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/cases/parsing/issue-627/dir/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/banner-plugin/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/banner-plugin/vendors.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/plugins/banner-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/two-explicit-vendor-chunks/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "benchmark/benchmark.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/configCases/source-map/exclude-chunks-source-map/index.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/exclude-chunks-source-map/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/exclude-chunks-source-map/vendors.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/exclude-chunks-source-map/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/watchCases/plugins/watch-ignore-plugin/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/context/index.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  {
+    "path": "test/configCases/library/b/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/context/issue-801/folder/file.js",
+    "smells": ["javascript:S2392", "javascript:S3504"]
+  },
+  {
+    "path": "test/cases/context/issue-801/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-551/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/harmony/example.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/harmony/math.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/configCases/async-commons-chunk/duplicate/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/async-commons-chunk/nested/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/context/ignore-hidden-files/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/chunks/weak-dependencies/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/context/issue-524/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/var-hiding/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/compile/deduplication/dedupe1/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/compile/deduplication/dedupe2/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/extract-amd/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/compile/error-hide-stack/loader.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/sources-array-production/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/sources-array-production/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-387/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/relative-source-map-path/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/source-map/relative-source-map-path/test.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/issue-345/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/filename/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/parsing/issue-336/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/browserify/index.js",
+    "smells": [
+      "javascript:S878",
+      "javascript:S2004",
+      "javascript:S3504",
+      "javascript:S1121",
+      "javascript:S3358",
+      "javascript:S2681"
+    ]
+  },
+  {
+    "path": "test/configCases/context-replacement/a/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/configCases/context-replacement/b/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/multi-compiler/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/multi-part-library/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/renaming/index.js",
+    "smells": ["javascript:S3504", "javascript:S2814", "javascript:S107"]
+  },
+  { "path": "examples/externals/example.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/hybrid-routing/aEntry.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/hybrid-routing/bEntry.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/hybrid-routing/router.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/hybrid-routing/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/chunks/context/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/local-modules/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/hotPlayground/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/chunks/parsing/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/compile/deduplication/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/loaders/query/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/resolving/context/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/resolving/query/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/runtime/chunk-callback-order/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/multiple-entry-points/shared.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/multiple-entry-points/pageA.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/multiple-entry-points/pageB.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/loaders/async/loaders/asyncloader.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/hotPlayground/addStyle.js", "smells": ["javascript:S3504"] },
+  { "path": "test/hotPlayground/style.js", "smells": ["javascript:S3504"] },
+  { "path": "test/hotPlayground/style2.js", "smells": ["javascript:S3504"] },
+  { "path": "test/hotPlayground/element.js", "smells": ["javascript:S3504"] },
+  { "path": "test/hotPlayground/index.js", "smells": ["javascript:S3504"] },
+  { "path": "test/fixtures/main4.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/require.resolve/example.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/named-chunks/example.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  { "path": "examples/commonjs/math.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/cases/loaders/_css/generateCss.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/cases/parsing/context/templates/templateLoaderIndirect.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/code-splitting/example.js",
+    "smells": ["javascript:S1854", "javascript:S3504"]
+  },
+  {
+    "path": "test/fixtures/complex.js",
+    "smells": ["javascript:S1854", "javascript:S1186", "javascript:S3504"]
+  },
+  {
+    "path": "test/fixtures/main1.js",
+    "smells": ["javascript:S2310", "javascript:S3504"]
+  },
+  {
+    "path": "test/fixtures/main2.js",
+    "smells": ["javascript:S3504", "javascript:S1854"]
+  },
+  { "path": "test/fixtures/main3.js", "smells": ["javascript:S3504"] }
+]

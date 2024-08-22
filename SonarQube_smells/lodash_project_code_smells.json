@@ -1,0 +1,183 @@
+[
+  { "path": "test/once.spec.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/sortBy-methods.spec.js",
+    "smells": ["javascript:S2392", "javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/attempt.spec.js",
+    "smells": ["javascript:S3696", "javascript:S1134"]
+  },
+  {
+    "path": "test/dropRightWhile.spec.js",
+    "smells": ["javascript:S1854", "javascript:S1134"]
+  },
+  {
+    "path": "test/dropWhile.spec.js",
+    "smells": ["javascript:S1134", "javascript:S125"]
+  },
+  { "path": "test/flatten-methods.spec.js", "smells": ["javascript:S1134"] },
+  { "path": "test/invoke.spec.js", "smells": ["javascript:S1134"] },
+  {
+    "path": "test/iteration-methods.spec.js",
+    "smells": ["javascript:S1186", "javascript:S2004", "javascript:S1134"]
+  },
+  {
+    "path": "test/takeRightWhile.spec.js",
+    "smells": ["javascript:S1134", "javascript:S125"]
+  },
+  {
+    "path": "test/takeWhile.spec.js",
+    "smells": ["javascript:S1134", "javascript:S125"]
+  },
+  { "path": "test/unionBy.spec.js", "smells": ["javascript:S1134"] },
+  {
+    "path": "test/Strings-category-methods.spec.js",
+    "smells": ["javascript:S4140"]
+  },
+  {
+    "path": "test/ary.spec.js",
+    "smells": ["javascript:S2392", "javascript:S3504"]
+  },
+  {
+    "path": "test/basename.spec.js",
+    "smells": ["javascript:S2392", "javascript:S3776", "javascript:S3504"]
+  },
+  {
+    "path": "test/bind.spec.js",
+    "smells": [
+      "javascript:S3504",
+      "javascript:S6522",
+      "javascript:S2392",
+      "javascript:S3686",
+      "javascript:S1186"
+    ]
+  },
+  { "path": "test/concat.spec.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "test/conforms-methods.spec.js",
+    "smells": ["javascript:S4140", "javascript:S1186", "javascript:S2004"]
+  },
+  { "path": "test/countBy.spec.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "test/curry-methods.spec.js",
+    "smells": ["javascript:S2392", "javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "test/escapeRegExp.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/every.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/flatMapDepth.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/groupBy.spec.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "test/has-methods.spec.js",
+    "smells": ["javascript:S4140", "javascript:S1186", "javascript:S2004"]
+  },
+  { "path": "test/isEmpty.spec.js", "smells": ["javascript:S1186"] },
+  {
+    "path": "test/isEqual.spec.js",
+    "smells": ["javascript:S1186", "javascript:S2004", "javascript:S1121"]
+  },
+  {
+    "path": "test/isIterateeCall.spec.js",
+    "smells": ["javascript:S2392", "javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "test/keyBy.spec.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "test/keys-methods.spec.js",
+    "smells": ["javascript:S4140", "javascript:S1186"]
+  },
+  { "path": "test/last.spec.js", "smells": ["javascript:S4030"] },
+  { "path": "test/lodash.methodName.spec.js", "smells": ["javascript:S1854"] },
+  { "path": "test/map.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/memoize.spec.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "test/methodOf.spec.js",
+    "smells": ["javascript:S4140", "javascript:S1186"]
+  },
+  { "path": "test/pad-methods.spec.js", "smells": ["javascript:S3358"] },
+  { "path": "test/pad.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/padEnd.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/padStart.spec.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "test/slice-and-toArray.spec.js",
+    "smells": ["javascript:S2392", "javascript:S3504"]
+  },
+  { "path": "test/some.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/sortBy.spec.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "test/sortedIndex-methods.spec.js",
+    "smells": ["javascript:S3358"]
+  },
+  { "path": "test/times.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/toString.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/unzipWith.spec.js", "smells": ["javascript:S4140"] },
+  {
+    "path": "test/utils.js",
+    "smells": [
+      "javascript:S6861",
+      "javascript:S4140",
+      "javascript:S3504",
+      "javascript:S1134",
+      "javascript:S1121",
+      "javascript:S3776"
+    ]
+  },
+  { "path": "test/words.spec.js", "smells": ["javascript:S2004"] },
+  { "path": "test/wrap.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "test/zipObject-methods.spec.js", "smells": ["javascript:S3358"] },
+  { "path": "test/zipWith.spec.js", "smells": ["javascript:S4140"] },
+  { "path": "src/toArray.ts", "smells": ["typescript:S3358"] },
+  { "path": "src/truncate.ts", "smells": ["typescript:S3776"] },
+  { "path": "src/chunk.ts", "smells": ["typescript:S1121"] },
+  { "path": "src/drop.ts", "smells": ["typescript:S3358"] },
+  { "path": "src/dropRight.ts", "smells": ["typescript:S3358"] },
+  { "path": "src/findLast.ts", "smells": ["typescript:S3358"] },
+  { "path": "src/flip.ts", "smells": ["typescript:S4043"] },
+  { "path": "src/flowRight.ts", "smells": ["typescript:S4043"] },
+  { "path": "src/hasPath.ts", "smells": ["typescript:S1121"] },
+  { "path": "src/hasPathIn.ts", "smells": ["typescript:S1121"] },
+  {
+    "path": "src/toNumber.ts",
+    "smells": ["typescript:S3776", "typescript:S3358"]
+  },
+  { "path": "test/case-methods.spec.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "test/debounce-and-throttle.spec.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/find-and-includes.spec.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "test/get-and-result.spec.js",
+    "smells": ["javascript:S4140", "javascript:S2004"]
+  },
+  { "path": "test/isType-checks.spec.js", "smells": ["javascript:S1186"] },
+  {
+    "path": "test/math-operator-methods.spec.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/merge.spec.ts",
+    "smells": ["typescript:S3504", "typescript:S4140", "typescript:S1186"]
+  },
+  {
+    "path": "test/number-coercion-methods.spec.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "test/omit-methods.spec.js",
+    "smells": ["javascript:S1186", "javascript:S2004"]
+  },
+  {
+    "path": "test/partial-methods.spec.js",
+    "smells": ["javascript:S1186", "javascript:S3504", "javascript:S6522"]
+  },
+  {
+    "path": "test/pick-methods.spec.js",
+    "smells": ["javascript:S1186", "javascript:S2004"]
+  },
+  { "path": "test/property.spec.js", "smells": ["javascript:S1186"] },
+  {
+    "path": "test/sortedIndexBy-methods.spec.js",
+    "smells": ["javascript:S3358", "javascript:S2004"]
+  },
+  { "path": "test/update-methods.spec.js", "smells": ["javascript:S2004"] }
+]

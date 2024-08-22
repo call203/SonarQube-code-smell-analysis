@@ -1,6 +1,7 @@
 
 import re
 import git
+from git import GitCommandError
 import argparse
 import json
 from datetime import datetime
@@ -38,7 +39,7 @@ def search_candidate_commit_szz(bug_fix_commit):
         diff = repo.git.diff(bug_fix_commit.hexsha, parent_commit.hexsha, '-U0', '--histogram')
         
         changes_dict = generate_changes_dict(diff)
-
+        print(changes_dict)
         all_candidate_commits = get_recent_candidate_commits(parent_commit, changes_dict)
     return all_candidate_commits
 
@@ -49,7 +50,11 @@ def get_recent_candidate_commits(parent_commit, changes_dict):
 
     recent_commit = None
     for file_path, line_numbers in changes_dict.items():
-        blame_result = repo.git.blame(parent_commit.hexsha, file_path, "--line-porcelain")
+        try:
+            blame_result = repo.git.blame(parent_commit.hexsha, file_path, "--line-porcelain")
+        except GitCommandError: 
+            continue
+
         candidate_commits = get_candidate_commits(blame_result, file_path, changes_dict)
         for commit in candidate_commits:
             if recent_commit is None or commit_is_more_recent(commit[0],recent_commit[0]):
@@ -114,6 +119,7 @@ def generate_changes_dict(diff):
                     numbers_list = []
 
                 current_file_path = file_path_match.group(1) 
+
             #checks if the line matches `@@ -<start_line>[,<num_lines>] +<start_line>[,<num_lines>] @@`   
             elif line_number_match:
                 start_line = int(line_number_match.group(1))
@@ -158,11 +164,10 @@ def ssz():
                 if int(match_item['time']) <int(hours_diff):
                     match_item['time'] = round(hours_diff)
 
-    with open("SZZ_data.json",'w') as f:
+    project_name = repo.remotes.origin.url.split('/')[-1].replace('.git', '')
+    with open( "./szz/"+project_name+ "_SZZ_data.json",'w') as f:
         json.dump(total_candidate_commit,f)
                  
-        
-    
         
     
         
@@ -179,5 +184,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     path_to_repo = args.repo_path
     repo = git.Repo(path_to_repo)
-
+    
     ssz()
+
+
+## express

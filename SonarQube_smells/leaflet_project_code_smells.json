@@ -1,0 +1,117 @@
+[
+  {
+    "path": "spec/suites/core/EventsSpec.js",
+    "smells": ["javascript:S2004", "javascript:S125"]
+  },
+  {
+    "path": "spec/suites/layer/FeatureGroupSpec.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "spec/suites/layer/GeoJSONSpec.js",
+    "smells": ["javascript:S2004"]
+  },
+  { "path": "spec/suites/layer/PopupSpec.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "spec/suites/layer/tile/GridLayerSpec.js",
+    "smells": ["javascript:S1134", "javascript:S2004", "javascript:S125"]
+  },
+  {
+    "path": "spec/suites/layer/vector/CircleMarkerSpec.js",
+    "smells": ["javascript:S2004"]
+  },
+  { "path": "spec/suites/map/MapSpec.js", "smells": ["javascript:S2004"] },
+  {
+    "path": "debug/vector/geojson.html",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S4624"]
+  },
+  {
+    "path": "src/layer/Layer.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "src/layer/tile/GridLayer.js",
+    "smells": ["javascript:S2310", "javascript:S3776"]
+  },
+  { "path": "debug/map/tile.html", "smells": ["Web:S1827"] },
+  {
+    "path": "spec/suites/geometry/LineUtilSpec.js",
+    "smells": ["javascript:S6643"]
+  },
+  {
+    "path": "spec/suites/geometry/PolyUtilSpec.js",
+    "smells": ["javascript:S6643"]
+  },
+  { "path": "src/map/handler/Map.Keyboard.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "src/dom/DomEvent.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "spec/suites/layer/tile/TileLayerSpec.js",
+    "smells": ["javascript:S2004", "javascript:S125"]
+  },
+  { "path": "src/dom/DomUtil.js", "smells": ["javascript:S4624"] },
+  {
+    "path": "src/layer/GeoJSON.js",
+    "smells": ["javascript:S3358", "javascript:S3776"]
+  },
+  {
+    "path": "spec/suites/layer/marker/Marker.DragSpec.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "spec/suites/map/handler/Map.DragSpec.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "src/map/Map.js",
+    "smells": ["javascript:S3358", "javascript:S3776", "javascript:S4624"]
+  },
+  {
+    "path": "src/core/Events.js",
+    "smells": ["javascript:S3800", "javascript:S3776"]
+  },
+  {
+    "path": "src/core/Util.js",
+    "smells": ["javascript:S6861", "javascript:S5869"]
+  },
+  { "path": "src/layer/DivOverlay.js", "smells": ["javascript:S3776"] },
+  {
+    "path": "spec/suites/dom/DomEvent.PointerSpec.js",
+    "smells": ["javascript:S2004"]
+  },
+  { "path": "src/layer/marker/Marker.js", "smells": ["javascript:S3776"] },
+  { "path": "src/layer/vector/Polyline.js", "smells": ["javascript:S3800"] },
+  { "path": "docs/docs/js/docs.js", "smells": ["javascript:S1854"] },
+  { "path": "docs/_includes/frame.html", "smells": ["Web:S5257"] },
+  {
+    "path": "docs/edit.html",
+    "smells": ["javascript:S6535", "javascript:S878"]
+  },
+  {
+    "path": "docs/_layouts/v2.html",
+    "smells": ["Web:S6850", "Web:MetaRefreshCheck", "Web:S5255"]
+  },
+  {
+    "path": "docs/reference.html",
+    "smells": ["Web:AvoidCommentedOutCodeCheck"]
+  },
+  { "path": "docs/docs/css/reference.css", "smells": ["css:S125"] },
+  { "path": "docs/docs/js/reference.js", "smells": ["javascript:S125"] },
+  { "path": "docs/index.html", "smells": ["Web:S1827"] },
+  {
+    "path": "src/geometry/LineUtil.js",
+    "smells": ["javascript:S3800", "javascript:S3782"]
+  },
+  { "path": "src/geometry/PolyUtil.js", "smells": ["javascript:S2234"] },
+  { "path": "src/control/Control.Layers.js", "smells": ["javascript:S3358"] },
+  { "path": "docs/docs/css/main.css", "smells": ["css:S125"] },
+  { "path": "docs/docs/css/normalize.css", "smells": ["css:S4648"] },
+  { "path": "debug/tests/tile-bounds.html", "smells": ["javascript:S125"] },
+  { "path": "src/control/Control.Scale.js", "smells": ["javascript:S3358"] },
+  {
+    "path": "docs/examples/geojson/sample-geojson.js",
+    "smells": ["javascript:S3504"]
+  }
+]

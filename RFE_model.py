@@ -70,36 +70,50 @@ def  RFE_model():
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
 
-    model = LogisticRegression(max_iter=1000)
-    n_features_to_select = min(10,X.shape[1])
-    rfe = RFE(estimator=model, n_features_to_select=n_features_to_select)
-    rfe.fit(X_train,y_train)
+    # model = LogisticRegression(max_iter=1000)
+    # n_features_to_select = min(10,X.shape[1])
+    # rfe = RFE(estimator=model, n_features_to_select=n_features_to_select)
+    # rfe.fit(X_train,y_train)
 
-    feature_ranking = rfe.ranking_
-    selected_features = X.columns[rfe.support_]
+    # feature_ranking = rfe.ranking_
+    # selected_features = X.columns[rfe.support_]
 
-    print("Feature Ranking : ")
-    for i, col in enumerate(X.columns):
-         print(f"{col}: Rank {feature_ranking[i]}")
-
+    # print("Feature Ranking : ")
+    # for i, col in enumerate(X.columns):
+    #      print(f"{col}: Rank {feature_ranking[i]}")
+    # from sklearn.metrics import roc_auc_score
     
 
-    rfe = RFE(estimator=model, n_features_to_select=20)  
-    model.fit(X_train, y_train)
+    # rfe = RFE(estimator=model, n_features_to_select=20)  
+    # model.fit(X_train, y_train)
     
-    y_pred = model.predict(X_test)
+    # y_pred = model.predict(X_test)
 
-    precision = precision_score(y_test, y_pred)
-    recall = recall_score(y_test, y_pred)
-    f1 = f1_score(y_test, y_pred)
+    # auc = roc_auc_score(y_test, y_pred)
 
-    print(f"\nPrecision: {precision}")
-    print(f"Recall: {recall}")
-    print(f"F1-Score: {f1}")
+    # precision = precision_score(y_test, y_pred)
+    # recall = recall_score(y_test, y_pred)
+    # f1 = f1_score(y_test, y_pred)
+    # print(f"\nAUC: {precision}")
+    # print(f"\nPrecision: {precision}")
+    # print(f"Recall: {recall}")
+    # print(f"F1-Score: {f1}")
 
-    y_pred = model.predict(X_test)
-    accuracy = accuracy_score(y_test, y_pred)
-    print(f'Accuracy: {accuracy:.2f}')
+    # y_pred = model.predict(X_test)
+    # accuracy = accuracy_score(y_test, y_pred)
+    # print(f'Accuracy: {accuracy:.3f}')
+
+    # fpr, tpr, thresholds = roc_curve(y_test, y_pred)
+
+    # # Plot ROC curve
+    # plt.figure(figsize=(10, 6))
+    # plt.plot(fpr, tpr, marker='o', linestyle='--', color='b', label=f'ROC curve (AUC = {auc:.3f})')
+    # plt.title('Receiver Operating Characteristic (ROC) Curve')
+    # plt.xlabel('False Positive Rate')
+    # plt.ylabel('True Positive Rate')
+    # plt.legend(loc='best')
+    # plt.grid(True)
+    # plt.show()
 
 RFE_model()
 

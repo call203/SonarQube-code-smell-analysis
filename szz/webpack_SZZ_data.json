@@ -1,0 +1,658 @@
+[
+  { "path": "lib/DefinePlugin.js", "time": 31751 },
+  { "path": "lib/css/CssModulesPlugin.js", "time": 236 },
+  { "path": "types.d.ts", "time": 33830 },
+  { "path": "yarn.lock", "time": 32275 },
+  { "path": "test/configCases/css/css-modules-in-node/index.js", "time": 524 },
+  {
+    "path": "test/__snapshots__/StatsTestCases.basictest.js.snap",
+    "time": 29234
+  },
+  {
+    "path": "test/__snapshots__/target-browserslist.unittest.js.snap",
+    "time": 23133
+  },
+  { "path": "lib/javascript/JavascriptParser.js", "time": 91054 },
+  { "path": "lib/css/CssLoadingRuntimeModule.js", "time": 8858 },
+  { "path": "test/configCases/css/runtimeissue/test.config.js", "time": 1590 },
+  { "path": "README.md", "time": 56891 },
+  {
+    "path": "test/configCases/devtools/eval-nosources-source-map/index.js",
+    "time": 5854
+  },
+  { "path": "lib/WebpackOptionsApply.js", "time": 70938 },
+  { "path": "lib/ContextModule.js", "time": 80246 },
+  { "path": "lib/javascript/BasicEvaluatedExpression.js", "time": 845 },
+  { "path": "lib/config/defaults.js", "time": 1461 },
+  { "path": "lib/css/CssParser.js", "time": 11592 },
+  {
+    "path": "lib/dependencies/HarmonyExportExpressionDependency.js",
+    "time": 42218
+  },
+  { "path": "package.json", "time": 57467 },
+  { "path": "hot/lazy-compilation-node.js", "time": 20302 },
+  { "path": "lib/ModuleFilenameHelpers.js", "time": 19554 },
+  { "path": "module.d.ts", "time": 13420 },
+  { "path": "lib/web/JsonpChunkLoadingRuntimeModule.js", "time": 38905 },
+  { "path": "lib/util/createHash.js", "time": 39573 },
+  {
+    "path": "test/__snapshots__/ConfigTestCases.basictest.js.snap",
+    "time": 185
+  },
+  {
+    "path": "test/__snapshots__/ConfigCacheTestCases.longtest.js.snap",
+    "time": 91
+  },
+  { "path": "lib/json/JsonParser.js", "time": 29879 },
+  { "path": "test/configCases/css/css-modules/index.js", "time": 11771 },
+  { "path": "lib/ids/OccurrenceModuleIdsPlugin.js", "time": 41305 },
+  { "path": "lib/dependencies/CssUrlDependency.js", "time": 12043 },
+  { "path": "lib/NormalModuleFactory.js", "time": 56222 },
+  { "path": "lib/asset/AssetGenerator.js", "time": 21967 },
+  { "path": ".github/PULL_REQUEST_TEMPLATE.md", "time": 403 },
+  { "path": "examples/scope-hoisting/README.md", "time": 51705 },
+  { "path": "lib/CompatibilityPlugin.js", "time": 11784 },
+  { "path": "lib/Compiler.js", "time": 89373 },
+  { "path": "lib/stats/DefaultStatsPrinterPlugin.js", "time": 18733 },
+  { "path": "lib/LibManifestPlugin.js", "time": 37515 },
+  { "path": "examples/README.md", "time": 50862 },
+  { "path": "lib/sharing/ConsumeSharedPlugin.js", "time": 23077 },
+  { "path": "examples/css/README.md", "time": 11426 },
+  { "path": "bin/webpack.js", "time": 42504 },
+  { "path": "lib/node/NodeTargetPlugin.js", "time": 37413 },
+  { "path": "test/ProgressPlugin.test.js", "time": 27509 },
+  { "path": "lib/ModuleGraph.js", "time": 40011 },
+  { "path": "declarations.d.ts", "time": 36379 },
+  { "path": "lib/runtime/AutoPublicPathRuntimeModule.js", "time": 21776 },
+  { "path": "lib/optimize/RealContentHashPlugin.js", "time": 22335 },
+  { "path": "lib/NormalModule.js", "time": 52956 },
+  { "path": "lib/library/AmdLibraryPlugin.js", "time": 24521 },
+  { "path": ".eslintrc.js", "time": 28587 },
+  { "path": "lib/EvalSourceMapDevToolPlugin.js", "time": 25363 },
+  { "path": "hot/dev-server.js", "time": 70914 },
+  {
+    "path": "lib/dependencies/ImportMetaContextDependencyParserPlugin.js",
+    "time": 6133
+  },
+  { "path": "lib/Compilation.js", "time": 74633 },
+  { "path": "test/Defaults.unittest.js", "time": 22128 },
+  { "path": "lib/NodeStuffPlugin.js", "time": 31263 },
+  { "path": "schemas/WebpackOptions.json", "time": 41083 },
+  { "path": "lib/optimize/ConcatenatedModule.js", "time": 40258 },
+  { "path": "lib/FileSystemInfo.js", "time": 26858 },
+  {
+    "path": "lib/dependencies/HarmonyEvaluatedImportSpecifierDependency.js",
+    "time": 1610
+  },
+  { "path": "lib/RuntimePlugin.js", "time": 30187 },
+  {
+    "path": "test/configCases/assets/delete-asset/infrastructure-log.js",
+    "time": 1661
+  },
+  { "path": "lib/optimize/ModuleConcatenationPlugin.js", "time": 32609 },
+  {
+    "path": "test/cases/parsing/harmony-export-import-specifier/index.js",
+    "time": 818
+  },
+  { "path": "lib/container/RemoteRuntimeModule.js", "time": 16766 },
+  { "path": "lib/hmr/HotModuleReplacement.runtime.js", "time": 20641 },
+  { "path": "lib/library/UmdLibraryPlugin.js", "time": 18255 },
+  {
+    "path": "lib/dependencies/HarmonyImportDependencyParserPlugin.js",
+    "time": 14324
+  },
+  { "path": "test/benchmarkCases/many-stuff-harmony/a.js", "time": 37040 },
+  { "path": "lib/esm/ModuleChunkLoadingPlugin.js", "time": 6186 },
+  { "path": "lib/cache/ResolverCachePlugin.js", "time": 14309 },
+  { "path": "schemas/WebpackOptions.check.js", "time": 119 },
+  { "path": "lib/BannerPlugin.js", "time": 45362 },
+  { "path": "test/HotModuleReplacementPlugin.test.js", "time": 28275 },
+  { "path": "lib/Generator.js", "time": 12745 },
+  {
+    "path": "lib/dependencies/HarmonyAcceptImportDependency.js",
+    "time": 31573
+  },
+  { "path": "lib/ProgressPlugin.js", "time": 13973 },
+  { "path": "lib/dependencies/HarmonyExportInitFragment.js", "time": 22075 },
+  { "path": "lib/esm/ModuleChunkLoadingRuntimeModule.js", "time": 5876 },
+  { "path": "lib/node/ReadFileChunkLoadingRuntimeModule.js", "time": 28338 },
+  { "path": "lib/ContextModuleFactory.js", "time": 41199 },
+  { "path": "lib/serialization/FileMiddleware.js", "time": 16916 },
+  { "path": "lib/javascript/JavascriptModulesPlugin.js", "time": 20632 },
+  { "path": "lib/schemes/HttpUriPlugin.js", "time": 4632 },
+  { "path": "test/TestCases.template.js", "time": 13899 },
+  { "path": "test/ProfilingPlugin.test.js", "time": 6508 },
+  { "path": "lib/dependencies/ContextElementDependency.js", "time": 79146 },
+  { "path": "lib/buildChunkGraph.js", "time": 11756 },
+  { "path": "lib/TemplatedPathPlugin.js", "time": 36092 },
+  { "path": "test/SemVer.unittest.js", "time": 12435 },
+  {
+    "path": "lib/async-modules/AwaitDependenciesInitFragment.js",
+    "time": 21336
+  },
+  {
+    "path": "test/configCases/ignore/resource-and-context-contextmodule/test.js",
+    "time": 41988
+  },
+  { "path": "lib/asset/RawDataUrlModule.js", "time": 1185 },
+  { "path": "cspell.json", "time": 10680 },
+  { "path": "lib/hmr/LazyCompilationPlugin.js", "time": 8422 },
+  { "path": "lib/config/normalization.js", "time": 16600 },
+  { "path": "lib/debug/ProfilingPlugin.js", "time": 35043 },
+  { "path": "lib/dependencies/CreateScriptUrlDependency.js", "time": 6052 },
+  { "path": "lib/CacheFacade.js", "time": 13087 },
+  { "path": "lib/hmr/lazyCompilationBackend.js", "time": 8492 },
+  { "path": "lib/sharing/ConsumeSharedRuntimeModule.js", "time": 196 },
+  { "path": "lib/RuntimeTemplate.js", "time": 29462 },
+  {
+    "path": "lib/webworker/ImportScriptsChunkLoadingRuntimeModule.js",
+    "time": 26224
+  },
+  {
+    "path": "test/configCases/module/runtime-chunk/test.config.js",
+    "time": 7461
+  },
+  {
+    "path": "test/configCases/container/0-container-full/webpack.config.js",
+    "time": 15305
+  },
+  { "path": "lib/webpack.js", "time": 19007 },
+  { "path": "lib/util/fs.js", "time": 21307 },
+  { "path": "lib/dependencies/URLPlugin.js", "time": 11219 },
+  { "path": "test/cases/parsing/asi/index.js", "time": 8274 },
+  { "path": "lib/util/hash/wasm-hash.js", "time": 180 },
+  { "path": "lib/cache/PackFileCacheStrategy.js", "time": 17831 },
+  { "path": "lib/dependencies/ContextDependency.js", "time": 41128 },
+  { "path": "lib/dependencies/CommonJsFullRequireDependency.js", "time": 835 },
+  {
+    "path": "test/configCases/asset-modules/http-url/dev-defaults.webpack.lock",
+    "time": 1831
+  },
+  { "path": "lib/util/propertyAccess.js", "time": 13677 },
+  { "path": "test/configCases/asset-modules/data-url/index.js", "time": 16605 },
+  { "path": "lib/serialization/Serializer.js", "time": 14937 },
+  {
+    "path": "test/hotCases/loader-import-module/css/webpack.config.js",
+    "time": 4247
+  },
+  { "path": "lib/optimize/SideEffectsFlagPlugin.js", "time": 21328 },
+  { "path": "lib/javascript/JavascriptParserHelpers.js", "time": 40902 },
+  { "path": ".github/workflows/test.yml", "time": 151 },
+  { "path": "schemas/plugins/IgnorePlugin.check.js", "time": 3622 },
+  { "path": "azure-pipelines.yml", "time": 1320 },
+  {
+    "path": "test/configCases/loader-import-module/css/webpack.config.js",
+    "time": 3461
+  },
+  { "path": "lib/ExternalModule.js", "time": 40495 },
+  { "path": "lib/ChunkGraph.js", "time": 20116 },
+  { "path": "test/MultiCompiler.test.js", "time": 32158 },
+  {
+    "path": "lib/dependencies/HarmonyExportImportedSpecifierDependency.js",
+    "time": 40772
+  },
+  { "path": "lib/optimize/SplitChunksPlugin.js", "time": 27098 },
+  { "path": "lib/util/identifier.js", "time": 27413 },
+  { "path": "lib/library/ModuleLibraryPlugin.js", "time": 4575 },
+  {
+    "path": "test/configCases/library/0-create-library/webpack.config.js",
+    "time": 12884
+  },
+  { "path": "declarations/WebpackOptions.d.ts", "time": 11731 },
+  { "path": "lib/HotModuleReplacementPlugin.js", "time": 29100 },
+  { "path": "hot/signal.js", "time": 24658 },
+  { "path": "hot/only-dev-server.js", "time": 30105 },
+  { "path": "test/ConfigTestCases.template.js", "time": 4054 },
+  { "path": "test/Examples.test.js", "time": 17024 },
+  { "path": "lib/library/SystemLibraryPlugin.js", "time": 12041 },
+  { "path": "lib/SourceMapDevToolPlugin.js", "time": 25249 },
+  { "path": "lib/ExternalModuleFactoryPlugin.js", "time": 14578 },
+  { "path": "lib/json/JsonGenerator.js", "time": 31 },
+  { "path": "lib/rules/RuleSetCompiler.js", "time": 18767 },
+  { "path": "test/PersistentCaching.test.js", "time": 12579 },
+  {
+    "path": "test/configCases/externals/externals-system/test.config.js",
+    "time": 19531
+  },
+  { "path": "lib/optimize/InnerGraphPlugin.js", "time": 10521 },
+  { "path": "lib/wasm-sync/WasmChunkLoadingRuntimeModule.js", "time": 22363 },
+  { "path": "lib/serialization/PlainObjectSerializer.js", "time": 12168 },
+  { "path": "lib/Chunk.js", "time": 45664 },
+  { "path": "lib/ExportsInfo.js", "time": 2354 },
+  { "path": "lib/node/NodeEnvironmentPlugin.js", "time": 22105 },
+  { "path": "lib/Watching.js", "time": 16570 },
+  { "path": "test/__snapshots__/Cli.test.js.snap", "time": 6620 },
+  { "path": "test/watchCases/cache/asset-modules/0/index.js", "time": 2038 },
+  { "path": "lib/dependencies/WorkerPlugin.js", "time": 5621 },
+  { "path": "lib/optimize/LimitChunkCountPlugin.js", "time": 13693 },
+  { "path": "lib/serialization/BinaryMiddleware.js", "time": 8930 },
+  { "path": "test/configCases/loader-import-module/css/index.js", "time": 56 },
+  { "path": "lib/util/runtime.js", "time": 5074 },
+  { "path": "lib/FlagDependencyExportsPlugin.js", "time": 18706 },
+  { "path": "lib/serialization/ObjectMiddleware.js", "time": 21343 },
+  { "path": "lib/util/deterministicGrouping.js", "time": 24035 },
+  { "path": "examples/worker/README.md", "time": 4689 },
+  { "path": "examples/worker/build.js", "time": 4688 },
+  { "path": "lib/MultiCompiler.js", "time": 6268 },
+  { "path": "lib/javascript/StartupHelpers.js", "time": 9656 },
+  { "path": "lib/Template.js", "time": 12050 },
+  { "path": "lib/node/RequireChunkLoadingRuntimeModule.js", "time": 10875 },
+  {
+    "path": "lib/runtime/CreateFakeNamespaceObjectRuntimeModule.js",
+    "time": 13684
+  },
+  { "path": "lib/dependencies/WorkerDependency.js", "time": 4444 },
+  { "path": "lib/dependencies/ModuleDependency.js", "time": 23089 },
+  { "path": "lib/asset/AssetModulesPlugin.js", "time": 11131 },
+  { "path": "test/__snapshots__/StatsTestCases.test.js.snap", "time": 16282 },
+  { "path": "test/hotCases/errors/events/index.js", "time": 3703 },
+  { "path": "setup/setup.js", "time": 8325 },
+  {
+    "path": "test/configCases/library/1-use-library/webpack.config.js",
+    "time": 32571
+  },
+  { "path": "lib/optimize/InnerGraph.js", "time": 6227 },
+  { "path": "lib/dependencies/LoaderPlugin.js", "time": 39160 },
+  { "path": "lib/FlagDependencyUsagePlugin.js", "time": 25736 },
+  { "path": "lib/stats/DefaultStatsFactoryPlugin.js", "time": 11505 },
+  { "path": "lib/cache/IdleFileCachePlugin.js", "time": 12983 },
+  { "path": "test/helpers/supportsWorker.js", "time": 553 },
+  { "path": "lib/validateSchema.js", "time": 3095 },
+  {
+    "path": "lib/dependencies/HarmonyCompatibilityDependency.js",
+    "time": 11611
+  },
+  {
+    "path": "lib/dependencies/HarmonyImportSpecifierDependency.js",
+    "time": 27713
+  },
+  { "path": "lib/library/AssignLibraryPlugin.js", "time": 7851 },
+  { "path": "lib/AutomaticPrefetchPlugin.js", "time": 35303 },
+  { "path": "lib/ModuleDependencyWarning.js", "time": 34148 },
+  { "path": "lib/wasm/EnableWasmLoadingPlugin.js", "time": 2842 },
+  { "path": "lib/dependencies/AMDDefineDependency.js", "time": 52675 },
+  {
+    "path": "examples/code-splitting-native-import-context-filter/README.md",
+    "time": 28139
+  },
+  { "path": "lib/util/compileBooleanMatcher.js", "time": 13953 },
+  { "path": "test/configCases/rule-set/query/index.js", "time": 35641 },
+  { "path": "test/fixtures/buildDependencies/run.js", "time": 11141 },
+  {
+    "path": "test/configCases/process-assets/html-plugin/webpack.config.js",
+    "time": 341
+  },
+  { "path": "lib/dependencies/HarmonyImportDependency.js", "time": 20357 },
+  { "path": "lib/dependencies/CommonJsExportsParserPlugin.js", "time": 8354 },
+  { "path": "lib/config/browserslistTargetHandler.js", "time": 962 },
+  { "path": "test/cases/mjs/cjs-import-default/index.mjs", "time": 23576 },
+  { "path": "lib/ConcatenationScope.js", "time": 1065 },
+  { "path": "lib/dependencies/PureExpressionDependency.js", "time": 497 },
+  { "path": "lib/SourceMapDevToolModuleOptionsPlugin.js", "time": 33395 },
+  { "path": "lib/ModuleTemplate.js", "time": 8895 },
+  {
+    "path": "test/cases/runtime/missing-module-exception/index.js",
+    "time": 56170
+  },
+  { "path": "lib/ProvidePlugin.js", "time": 19259 },
+  { "path": "lib/optimize/RuntimeChunkPlugin.js", "time": 19212 },
+  { "path": "lib/ModuleGraphConnection.js", "time": 20 },
+  { "path": "test/configCases/asset-url/target-web2/index.js", "time": 1292 },
+  { "path": "test/HotTestCases.template.js", "time": 14087 },
+  { "path": "lib/container/ContainerEntryModule.js", "time": 2734 },
+  { "path": "test/WatchTestCases.test.js", "time": 30719 },
+  {
+    "path": "lib/dependencies/HarmonyExportDependencyParserPlugin.js",
+    "time": 31820
+  },
+  { "path": "test/README.md", "time": 27480 },
+  {
+    "path": "lib/dependencies/RequireContextDependencyParserPlugin.js",
+    "time": 66073
+  },
+  {
+    "path": "test/configCases/externals/async-externals/index.js",
+    "time": 1922
+  },
+  { "path": "lib/sharing/SharePlugin.js", "time": 1662 },
+  { "path": "lib/dependencies/RequireContextPlugin.js", "time": 38011 },
+  { "path": ".github/ISSUE_TEMPLATE/Feature_request.md", "time": 19217 },
+  { "path": "CONTRIBUTING.md", "time": 17133 },
+  { "path": "lib/ModuleNotFoundError.js", "time": 14062 },
+  { "path": "lib/sharing/ShareRuntimeModule.js", "time": 1125 },
+  { "path": "lib/Module.js", "time": 28582 },
+  { "path": "test/Cli.test.js", "time": 2529 },
+  { "path": "lib/MainTemplate.js", "time": 15167 },
+  { "path": "lib/node/NodeTemplatePlugin.js", "time": 13869 },
+  {
+    "path": "test/configCases/container/container-entry-overridables/index.js",
+    "time": 717
+  },
+  {
+    "path": "lib/hmr/JavascriptHotModuleReplacement.runtime.js",
+    "time": 13580
+  },
+  { "path": "lib/Stats.js", "time": 47924 },
+  { "path": "test/configCases/container/container-entry/index.js", "time": 30 },
+  { "path": "lib/container/RemoteOverrideModuleFactory.js", "time": 514 },
+  { "path": "lib/container/OverridablesRuntimeModule.js", "time": 55 },
+  { "path": "lib/container/ModuleFederationPlugin.js", "time": 1508 },
+  { "path": "lib/RecordIdsPlugin.js", "time": 21566 },
+  { "path": "declarations/plugins/DllReferencePlugin.d.ts", "time": 13704 },
+  { "path": "_SETUP.md", "time": 16626 },
+  { "path": "examples/harmony-unused/template.md", "time": 9689 },
+  { "path": "lib/wasm/WebAssemblyParser.js", "time": 10443 },
+  { "path": "examples/externals/README.md", "time": 49296 },
+  { "path": "lib/ResolverFactory.js", "time": 14551 },
+  { "path": "test/configCases/plugins/define-plugin/index.js", "time": 28896 },
+  { "path": "lib/DllPlugin.js", "time": 20243 },
+  { "path": "examples/code-splitting/template.md", "time": 7851 },
+  {
+    "path": "test/configCases/container/1-container-full/webpack.config.js",
+    "time": 56
+  },
+  { "path": "lib/APIPlugin.js", "time": 54986 },
+  {
+    "path": "examples/code-splitting-native-import-context-filter/template.md",
+    "time": 13005
+  },
+  { "path": "examples/asset-advanced/README.md", "time": 1848 },
+  { "path": "test/Compiler.test.js", "time": 50487 },
+  { "path": "lib/EnvironmentPlugin.js", "time": 27301 },
+  { "path": "lib/Parser.js", "time": 45183 },
+  {
+    "path": "test/configCases/loaders/remaining-request/webpack.config.js",
+    "time": 26399
+  },
+  { "path": "schemas/ajv.absolutePath.js", "time": 16041 },
+  { "path": "test/hotCases/harmony/auto-import/index.js", "time": 36856 },
+  { "path": "lib/node/NodeMainTemplate.runtime.js", "time": 16545 },
+  { "path": "lib/dependencies/CommonJsImportsParserPlugin.js", "time": 417 },
+  { "path": "lib/optimize/MangleExportsPlugin.js", "time": 374 },
+  { "path": "lib/parsing/importAwaitAcornPlugin.js", "time": 4668 },
+  { "path": "lib/RuntimeGlobals.js", "time": 41 },
+  {
+    "path": "declarations/plugins/optimize/LimitChunkCountPlugin.d.ts",
+    "time": 9478
+  },
+  { "path": "lib/wasm/WasmChunkLoadingRuntimeModule.js", "time": 7726 },
+  { "path": "lib/JavascriptParser.js", "time": 58755 },
+  { "path": "lib/RequestShortener.js", "time": 58584 },
+  { "path": "test/Validation.test.js", "time": 21075 },
+  { "path": "lib/logging/Logger.js", "time": 315 },
+  { "path": "lib/performance/SizeLimitsPlugin.js", "time": 340 },
+  { "path": "lib/wasm/WebAssemblyGenerator.js", "time": 12603 },
+  { "path": "lib/ChunkGroup.js", "time": 11195 },
+  { "path": "lib/node/nodeConsole.js", "time": 25 },
+  { "path": "lib/logging/truncateArgs.js", "time": 20 },
+  { "path": "open-bot.yaml", "time": 8184 },
+  { "path": "lib/DelegatedModuleFactoryPlugin.js", "time": 13568 },
+  { "path": "test/ConfigTestCases.test.js", "time": 5165 },
+  { "path": "lib/HotModuleReplacement.runtime.js", "time": 18034 },
+  { "path": "lib/node/ReadFileCompileWasmPlugin.js", "time": 4173 },
+  { "path": "lib/util/cachedMerge.js", "time": 9545 },
+  { "path": "lib/FunctionModuleTemplatePlugin.js", "time": 9429 },
+  { "path": "test/cases/parsing/issue-8874/index.js", "time": 33 },
+  { "path": "test/cases/parsing/typeof/index.js", "time": 17554 },
+  { "path": "lib/dependencies/HarmonyAcceptDependency.js", "time": 28980 },
+  { "path": "lib/runtime/GetChunkFilenameRuntimeModule.js", "time": 1964 },
+  {
+    "path": "test/SourceMapDevToolModuleOptionsPlugin.unittest.js",
+    "time": 18638
+  },
+  { "path": "examples/aggressive-merging/README.md", "time": 893 },
+  { "path": "test/Errors.test.js", "time": 42031 },
+  { "path": "lib/DllModuleFactory.js", "time": 3914 },
+  { "path": "lib/WebpackOptionsDefaulter.js", "time": 46817 },
+  { "path": "test/Stats.test.js", "time": 8897 },
+  {
+    "path": "test/configCases/plugins/banner-plugin-hashing/index.js",
+    "time": 8056
+  },
+  { "path": "examples/http2-aggressive-splitting/template.md", "time": 21530 },
+  {
+    "path": "test/statsCases/split-chunks-max-size/webpack.config.js",
+    "time": 4129
+  },
+  { "path": "lib/IgnorePlugin.js", "time": 30006 },
+  { "path": "lib/node/NodeSourcePlugin.js", "time": 51567 },
+  { "path": "lib/ConstPlugin.js", "time": 21676 },
+  { "path": "lib/wasm/WasmFinalizeExportsPlugin.js", "time": 3533 },
+  { "path": "test/cases/wasm/export-imported-global/index.js", "time": 3455 },
+  { "path": "test/helpers/createLazyTestEnv.js", "time": 1991 },
+  { "path": "lib/LibraryTemplatePlugin.js", "time": 49699 },
+  { "path": "test/configCases/target/amd-unnamed/index.js", "time": 39 },
+  { "path": "lib/AmdMainTemplatePlugin.js", "time": 3340 },
+  { "path": "lib/dependencies/ImportParserPlugin.js", "time": 3889 },
+  {
+    "path": "test/statsCases/filter-warnings/webpack.config.js",
+    "time": 13614
+  },
+  { "path": "lib/node/NodeMainTemplatePlugin.js", "time": 6243 },
+  { "path": "lib/JavascriptModulesPlugin.js", "time": 4992 },
+  { "path": "lib/dependencies/ContextDependencyHelpers.js", "time": 48254 },
+  { "path": "lib/formatLocation.js", "time": 10794 },
+  { "path": "hot/poll.js", "time": 44324 },
+  { "path": "examples/dll-app-and-vendor/0-vendor/README.md", "time": 8064 },
+  {
+    "path": "test/statsCases/runtime-chunk-single/webpack.config.js",
+    "time": 3612
+  },
+  { "path": "test/HotTestCases.test.js", "time": 5727 },
+  {
+    "path": "test/configCases/async-commons-chunk/existing-name/index.js",
+    "time": 1051
+  },
+  { "path": ".github/ISSUE_TEMPLATE/Bug_report.md", "time": 1116 },
+  { "path": "lib/wasm/WasmMainTemplatePlugin.js", "time": 612 },
+  { "path": "lib/ModuleDependencyError.js", "time": 11375 },
+  { "path": "lib/ModuleBuildError.js", "time": 21181 },
+  { "path": ".editorconfig", "time": 14829 },
+  { "path": "lib/web/JsonpMainTemplatePlugin.js", "time": 2214 },
+  { "path": "test/configCases/records/stable-sort/test.js", "time": 91 },
+  { "path": "test/cases/wasm/imports-multiple/module.js", "time": 241 },
+  { "path": "lib/JsonParser.js", "time": 3543 },
+  { "path": "appveyor.yml", "time": 20159 },
+  { "path": "lib/NamedModulesPlugin.js", "time": 24928 },
+  { "path": "lib/SizeFormatHelpers.js", "time": 11897 },
+  { "path": "lib/util/Semaphore.js", "time": 5857 },
+  { "path": "lib/optimize/ChunkModuleIdRangePlugin.js", "time": 11106 },
+  { "path": "lib/WebpackOptionsValidationError.js", "time": 3606 },
+  { "path": "lib/dependencies/getFunctionExpression.js", "time": 31890 },
+  {
+    "path": "lib/dependencies/AMDDefineDependencyParserPlugin.js",
+    "time": 15068
+  },
+  {
+    "path": "test/statsCases/no-emit-on-errors-plugin-with-child-error/expected.txt",
+    "time": 1755
+  },
+  {
+    "path": "test/statsCases/import-context-filter/expected.txt",
+    "time": 2593
+  },
+  { "path": "test/configCases/plugins/provide-plugin/index.js", "time": 5981 },
+  {
+    "path": "test/statsCases/scope-hoisting-bailouts/expected.txt",
+    "time": 1666
+  },
+  {
+    "path": "test/statsCases/limit-chunk-count-plugin/expected.txt",
+    "time": 3482
+  },
+  { "path": "examples/multiple-entry-points/README.md", "time": 31469 },
+  { "path": "test/statsCases/split-chunks/expected.txt", "time": 669 },
+  { "path": "lib/wasm/WasmModuleTemplatePlugin.js", "time": 2189 },
+  { "path": "test/statsCases/split-chunks/webpack.config.js", "time": 382 },
+  { "path": "test/StatsTestCases.test.js", "time": 6509 },
+  { "path": "test/configCases/parsing/harmony-this/abc.js", "time": 284 },
+  { "path": "lib/dependencies/HarmonyDetectionParserPlugin.js", "time": 738 },
+  {
+    "path": "test/statsCases/commons-chunk-min-size-0/expected.txt",
+    "time": 5485
+  },
+  { "path": "lib/node/NodeWatchFileSystem.js", "time": 8256 },
+  { "path": "examples/dll-app-and-vendor/1-app/README.md", "time": 3547 },
+  { "path": "lib/ParserHelpers.js", "time": 839 },
+  { "path": "test/Parser.unittest.js", "time": 42469 },
+  { "path": "test/statsCases/tree-shaking/expected.txt", "time": 7859 },
+  { "path": "lib/dependencies/ImportDependency.js", "time": 21307 },
+  {
+    "path": "test/configCases/context-replacement/System.import/index.js",
+    "time": 12051
+  },
+  { "path": "schemas/webpackOptionsSchema.json", "time": 5897 },
+  { "path": "lib/UmdMainTemplatePlugin.js", "time": 20795 },
+  { "path": "lib/webworker/WebWorkerMainTemplatePlugin.js", "time": 3841 },
+  { "path": "lib/ModuleReason.js", "time": 7871 },
+  { "path": "test/statsCases/parse-error/expected.txt", "time": 843 },
+  { "path": "lib/DllReferencePlugin.js", "time": 6926 },
+  { "path": "test/Schemas.lint.js", "time": 57 },
+  {
+    "path": "test/configCases/context-replacement/d/queryloader.js",
+    "time": 33
+  },
+  { "path": "lib/RuleSet.js", "time": 6226 },
+  { "path": "lib/ModuleParseError.js", "time": 41295 },
+  { "path": "lib/optimize/CommonsChunkPlugin.js", "time": 5612 },
+  {
+    "path": "lib/dependencies/RequireResolveContextDependency.js",
+    "time": 40651
+  },
+  { "path": "bin/convert-argv.js", "time": 39265 },
+  { "path": "lib/DelegatedModule.js", "time": 4211 },
+  { "path": "lib/OptionsDefaulter.js", "time": 14807 },
+  { "path": "lib/dependencies/HarmonyModulesHelpers.js", "time": 1478 },
+  { "path": "bin/config-yargs.js", "time": 9733 },
+  { "path": "lib/DelegatedPlugin.js", "time": 4950 },
+  { "path": "test/binCases/module/module-bind/post-loader.js", "time": 14 },
+  { "path": "test/statsCases/scope-hoisting-multi/expected.txt", "time": 454 },
+  { "path": "test/RequireJsStuffPlugin.test.js", "time": 4431 },
+  { "path": "test/AmdMainTemplatePlugin.test.js", "time": 4191 },
+  { "path": "lib/BasicEvaluatedExpression.js", "time": 16575 },
+  { "path": "lib/RawModule.js", "time": 3798 },
+  { "path": "lib/dependencies/CommonJsPlugin.js", "time": 38012 },
+  { "path": "lib/optimize/AggressiveSplittingPlugin.js", "time": 3567 },
+  { "path": "lib/optimize/AggressiveMergingPlugin.js", "time": 3564 },
+  {
+    "path": "test/cases/parsing/harmony-commonjs-mix/module1.js",
+    "time": 3202
+  },
+  {
+    "path": "lib/dependencies/RequireEnsureDependenciesBlock.js",
+    "time": 37814
+  },
+  {
+    "path": "test/statsCases/resolve-plugin-context/expected.txt",
+    "time": 1067
+  },
+  { "path": "examples/chunkhash/README.md", "time": 13042 },
+  { "path": "examples/common-chunk-and-vendor-chunk/README.md", "time": 11959 },
+  { "path": "test/Parser.test.js", "time": 16429 },
+  { "path": "test/util/identifier.test.js", "time": 42 },
+  { "path": "examples/template-common.js", "time": 36591 },
+  { "path": "examples/mixed/README.md", "time": 23482 },
+  { "path": "examples/coffee-script/README.md", "time": 43917 },
+  { "path": "lib/optimize/MinChunkSizePlugin.js", "time": 10585 },
+  { "path": "examples/multi-part-library/README.md", "time": 22858 },
+  { "path": "buildin/system.js", "time": 154 },
+  { "path": "lib/dependencies/SystemPlugin.js", "time": 10462 },
+  { "path": "lib/dependencies/ImportContextDependency.js", "time": 905 },
+  { "path": "lib/JsonpMainTemplatePlugin.js", "time": 9558 },
+  { "path": "test/RuleSet.test.js", "time": 2295 },
+  { "path": "test/compareLocations.test.js", "time": 561 },
+  { "path": "test/BinTestCases.test.js", "time": 189 },
+  { "path": "lib/SingleEntryPlugin.js", "time": 34550 },
+  {
+    "path": "test/statsCases/preset-normal-performance-ensure-filter-sourcemaps/expected.txt",
+    "time": 588
+  },
+  { "path": "lib/performance/AssetsOverSizeLimitWarning.js", "time": 78 },
+  { "path": "test/watchCases/parsing/caching-harmony/0/index.js", "time": 438 },
+  { "path": ".travis.yml", "time": 2829 },
+  { "path": "lib/NoErrorsPlugin.js", "time": 12803 },
+  { "path": ".eslintrc", "time": 928 },
+  { "path": "examples/loader/README.md", "time": 34144 },
+  {
+    "path": "test/statsCases/aggressive-splitting-on-demand/expected.txt",
+    "time": 189
+  },
+  { "path": "examples/harmony-interop/harmony.js", "time": 2199 },
+  {
+    "path": "lib/dependencies/AMDRequireDependenciesBlockParserPlugin.js",
+    "time": 11553
+  },
+  { "path": "test/Template.test.js", "time": 19699 },
+  { "path": "test/cases/parsing/harmony-export-precedence/a.js", "time": 7414 },
+  { "path": "examples/web-worker/webpack.config.js", "time": 914 },
+  { "path": "lib/optimize/EnsureChunkConditionsPlugin.js", "time": 3264 },
+  { "path": "lib/webworker/WebWorkerMainTemplate.runtime.js", "time": 7603 },
+  {
+    "path": "lib/dependencies/HarmonyExportSpecifierDependency.js",
+    "time": 6209
+  },
+  { "path": "lib/Dependency.js", "time": 31540 },
+  { "path": "lib/dependencies/WebpackMissingModule.js", "time": 19095 },
+  {
+    "path": "examples/multiple-commons-chunks/webpack.config.js",
+    "time": 5209
+  },
+  { "path": "test/Compiler-caching.test.js", "time": 6 },
+  { "path": "lib/EvalSourceMapDevToolModuleTemplatePlugin.js", "time": 4487 },
+  { "path": "examples/harmony-unused/README.md", "time": 1971 },
+  { "path": "examples/code-splitting/README.md", "time": 14629 },
+  { "path": "lib/optimize/UglifyJsPlugin.js", "time": 26487 },
+  { "path": "lib/LoadersList.js", "time": 264 },
+  { "path": "test/cases/parsing/harmony/index.js", "time": 1273 },
+  { "path": "test/browsertest/lib/index.web.js", "time": 22443 },
+  { "path": "lib/WatchIgnorePlugin.js", "time": 970 },
+  { "path": "lib/MultiEntryPlugin.js", "time": 169 },
+  { "path": "bin/config-optimist.js", "time": 19917 },
+  {
+    "path": "lib/dependencies/CommonJsRequireDependencyParserPlugin.js",
+    "time": 11322
+  },
+  {
+    "path": "test/configCases/hash-length/output-filename/webpack.config.js",
+    "time": 5309
+  },
+  { "path": "lib/optimize/DedupePlugin.js", "time": 16251 },
+  { "path": "test/browsertest/build.js", "time": 12996 },
+  { "path": "test/TestCases.test.js", "time": 10615 },
+  { "path": "lib/AsyncDependenciesBlock.js", "time": 16984 },
+  { "path": "lib/SetVarMainTemplatePlugin.js", "time": 2450 },
+  {
+    "path": "examples/multiple-entry-points-commons-chunk-css-bundle/README.md",
+    "time": 2741
+  },
+  { "path": "test/cases/parsing/issue-551/index.js", "time": 18 },
+  {
+    "path": "lib/dependencies/RequireEnsureDependenciesBlockParserPlugin.js",
+    "time": 14756
+  },
+  { "path": "lib/MovedToPluginWarningPlugin.js", "time": 6229 },
+  { "path": ".npmignore", "time": 6085 },
+  { "path": "test/cases/parsing/extract-amd/index.js", "time": 5685 },
+  { "path": "lib/JsonpChunkTemplatePlugin.js", "time": 1528 },
+  { "path": "examples/hybrid-routing/webpack.config.js", "time": 3083 },
+  { "path": "lib/dependencies/RequireEnsureDependency.js", "time": 11749 },
+  { "path": "lib/EvalDevToolModuleTemplateDecorator.js", "time": 7726 },
+  {
+    "path": "lib/dependencies/ModuleDependencyTemplateAsRequireId.js",
+    "time": 11309
+  },
+  { "path": "lib/DependenciesBlockVariable.js", "time": 10648 },
+  { "path": "lib/JsonpMainTemplate.js", "time": 7686 },
+  { "path": "lib/optimize/OccurenceOrderPlugin.js", "time": 331 },
+  { "path": "lib/dependencies/AMDRequireDependency.js", "time": 9088 },
+  { "path": "examples/named-chucks/README.md", "time": 778 },
+  { "path": "test/browsertest/library2config.js", "time": 5890 },
+  { "path": "test/browsertest/middlewareTest.js", "time": 3363 },
+  { "path": "lib/MemoryOutputFileSystem.js", "time": 2451 },
+  { "path": "lib/node/NodeSourceRealPathsPlugin.js", "time": 144 },
+  { "path": "lib/buildDeps.js", "time": 932 },
+  { "path": "lib/writeSource.js", "time": 5107 },
+  { "path": "lib/parse.js", "time": 5635 },
+  { "path": "lib/writeChunk.js", "time": 4841 },
+  { "path": "lib/execLoaders.js", "time": 73 }
+]

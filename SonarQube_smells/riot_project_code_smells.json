@@ -1,0 +1,6 @@
+[
+  {
+    "path": "src/core/manage-component-lifecycle.js",
+    "smells": ["javascript:S1788"]
+  }
+]

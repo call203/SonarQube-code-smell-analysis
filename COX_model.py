@@ -10,8 +10,8 @@ from lifelines import CoxPHFitter
 def readData():
     data = {}
 
-    szz_f = open('./SZZ_data.json')
-    code_smell_f = open('./project_code_smells.json')
+    szz_f = open('./szz/webtorrent_SZZ_data.json')
+    code_smell_f = open('./SonarQube_smells/webtorrent_project_code_smells.json')
 
     szz_data = json.load(szz_f)
     code_smell_data = json.load(code_smell_f)
@@ -30,7 +30,6 @@ def readData():
         else:
             data[path]['smells'] = item["smells"]   
     return data
-
 
 
 def formatData():
@@ -59,15 +58,14 @@ def formatData():
 
 
 
-
 def COX_model():
-
     data = formatData()
 
     df = pd.DataFrame(data)
+    print(df)
 
     cox = CoxPHFitter()
-    cox.fit(df, duration_col='time', event_col='event', formula='smells')
+    cox.fit(df, duration_col='time', event_col='event')
     cox.print_summary()   
     
 COX_model()

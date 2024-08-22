@@ -1,0 +1,23 @@
+[
+  {
+    "path": "test/docs-test.js",
+    "smells": ["javascript:S5869", "javascript:S2310"]
+  },
+  {
+    "path": "docs/components/quadtreeVisitParent.js",
+    "smells": ["javascript:S878", "javascript:S1121"]
+  },
+  { "path": "docs/components/deferRender.js", "smells": ["javascript:S3735"] },
+  { "path": "docs/components/PlotRender.js", "smells": ["javascript:S1186"] },
+  {
+    "path": "docs/components/quadtreeFindVisited.js",
+    "smells": [
+      "javascript:S878",
+      "javascript:S3504",
+      "javascript:S107",
+      "javascript:S1121",
+      "javascript:S3776"
+    ]
+  },
+  { "path": "docs/components/quadtreeNodes.js", "smells": ["javascript:S3735"] }
+]

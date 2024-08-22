@@ -1,0 +1,3207 @@
+[
+  {
+    "path": "packages/react-devtools-shared/src/symbolicateSource.js",
+    "time": 2906
+  },
+  {
+    "path": "packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMBrowser-test.js",
+    "time": 20336
+  },
+  { "path": "packages/react-devtools-core/package.json", "time": 2041 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/InspectedElement.css",
+    "time": 26300
+  },
+  { "path": "fixtures/flight/playwright.config.js", "time": 3129 },
+  { "path": "fixtures/dom/public/renderer.html", "time": 50819 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIncrementalErrorHandling-test.internal.js",
+    "time": 29351
+  },
+  { "path": "scripts/rollup/forks.js", "time": 52147 },
+  { "path": "yarn.lock", "time": 56494 },
+  {
+    "path": "packages/react-server-dom-webpack/src/ReactFlightWebpackReferences.js",
+    "time": 8523
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/HIR/Globals.ts",
+    "time": 5084
+  },
+  { "path": "compiler/yarn.lock", "time": 2564 },
+  {
+    "path": "packages/react-devtools-shared/src/backend/console.js",
+    "time": 13916
+  },
+  { "path": "packages/react-devtools-shared/src/hydration.js", "time": 42577 },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/merge-scopes-callback.expect.md",
+    "time": 703
+  },
+  { "path": "scripts/rollup/build.js", "time": 63149 },
+  {
+    "path": "compiler/apps/playground/components/Editor/Output.tsx",
+    "time": 12137
+  },
+  {
+    "path": "packages/react-devtools-extensions/webpack.backend.js",
+    "time": 45900
+  },
+  { "path": "packages/react-devtools/CHANGELOG.md", "time": 14282 },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/HIR/HIR.ts",
+    "time": 12000
+  },
+  {
+    "path": "packages/react-native-renderer/src/ReactFiberConfigFabric.js",
+    "time": 31173
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/main/index.js",
+    "time": 166
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/Inference/InferReferenceEffects.ts",
+    "time": 11716
+  },
+  { "path": "fixtures/flight-esm/yarn.lock", "time": 8995 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberBeginWork.js",
+    "time": 46719
+  },
+  { "path": "fixtures/legacy-jsx-runtimes/yarn.lock", "time": 32062 },
+  { "path": "fixtures/flight/yarn.lock", "time": 30758 },
+  { "path": "fixtures/stacks/yarn.lock", "time": 1317 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/constants.js",
+    "time": 10264
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/Entrypoint/Program.ts",
+    "time": 2351
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMComponent-test.js",
+    "time": 64995
+  },
+  { "path": ".github/workflows/commit_artifacts.yml", "time": 12120 },
+  {
+    "path": "packages/react-dom-bindings/src/client/ReactFiberConfigDOM.js",
+    "time": 36716
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/store-test.js",
+    "time": 18002
+  },
+  { "path": "scripts/rollup/build-all-release-channels.js", "time": 29785 },
+  { "path": "compiler/packages/snap/src/runner-watch.ts", "time": 2088 },
+  { "path": "packages/react-devtools-fusebox/src/frontend.js", "time": 1322 },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/Inference/InferReactivePlaces.ts",
+    "time": 4252
+  },
+  { "path": "packages/react-devtools/package.json", "time": 42929 },
+  { "path": "packages/react-server/src/ReactFlightServer.js", "time": 31543 },
+  { "path": "packages/react/src/ReactServer.js", "time": 1775 },
+  { "path": "packages/react-reconciler/src/ReactCurrentFiber.js", "time": 216 },
+  {
+    "path": "compiler/packages/eslint-plugin-react-compiler/src/rules/ReactCompilerRule.ts",
+    "time": 8334
+  },
+  { "path": "packages/react-reconciler/src/ReactFiberHooks.js", "time": 43442 },
+  { "path": ".github/ISSUE_TEMPLATE/config.yml", "time": 37534 },
+  { "path": "packages/react/src/ReactChildren.js", "time": 36698 },
+  { "path": "packages/react-client/src/ReactFlightClient.js", "time": 22945 },
+  {
+    "path": "packages/react-debug-tools/src/ReactDebugHooks.js",
+    "time": 48789
+  },
+  {
+    "path": "packages/react/src/__tests__/ReactChildren-test.js",
+    "time": 36653
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures/compiler/error.invalid-set-and-read-ref-during-render.expect.md",
+    "time": 5687
+  },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativePublicCompat.js",
+    "time": 10793
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/HIR/HIRBuilder.ts",
+    "time": 1324
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberTransition.js",
+    "time": 19537
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberErrorLogger.js",
+    "time": 1290
+  },
+  {
+    "path": "packages/react-server/src/ReactFlightReplyServer.js",
+    "time": 10519
+  },
+  {
+    "path": "packages/internal-test-utils/__tests__/ReactInternalTestUtils-test.js",
+    "time": 964
+  },
+  { "path": "compiler/Cargo.lock", "time": 6812 },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/SSA/EliminateRedundantPhi.ts",
+    "time": 13434
+  },
+  { "path": "compiler/docs/DESIGN_GOALS.md", "time": 9127 },
+  {
+    "path": "compiler/packages/eslint-plugin-react-compiler/README.md",
+    "time": 2898
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/CodegenReactiveFunction.ts",
+    "time": 3528
+  },
+  {
+    "path": "compiler/packages/react-compiler-healthcheck/src/checks/strictMode.ts",
+    "time": 342
+  },
+  { "path": ".eslintignore", "time": 41680 },
+  {
+    "path": "compiler/packages/eslint-plugin-react-compiler/package.json",
+    "time": 8262
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.css",
+    "time": 21
+  },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativeAttributePayloadFabric.js",
+    "time": 25
+  },
+  { "path": "packages/react-devtools-shell/webpack-server.js", "time": 17107 },
+  { "path": ".github/workflows/playground.yml", "time": 814 },
+  { "path": ".github/workflows/typescript.yml", "time": 1041 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Profiler/FlamegraphChartBuilder.js",
+    "time": 43943
+  },
+  { "path": "packages/react-devtools-shared/src/utils.js", "time": 27384 },
+  { "path": ".github/workflows/rust.yml", "time": 6331 },
+  { "path": "scripts/shared/pathsByLanguageVersion.js", "time": 56041 },
+  {
+    "path": "packages/react-dom-bindings/src/events/plugins/FormActionEventPlugin.js",
+    "time": 9087
+  },
+  { "path": "packages/react/package.json", "time": 89280 },
+  { "path": "CHANGELOG.md", "time": 24660 },
+  { "path": "fixtures/dom/src/react-loader.js", "time": 49101 },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativeRenderer.js",
+    "time": 24474
+  },
+  {
+    "path": "packages/react-server/src/ReactServerStreamConfigBun.js",
+    "time": 12354
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactComponent-test.js",
+    "time": 149
+  },
+  {
+    "path": "scripts/release/publish-commands/publish-to-npm.js",
+    "time": 27929
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFloat-test.js",
+    "time": 4509
+  },
+  { "path": "packages/internal-test-utils/internalAct.js", "time": 42986 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/useEffectEvent-test.js",
+    "time": 9569
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactUse-test.js",
+    "time": 9621
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactErrorBoundaries-test.internal.js",
+    "time": 65613
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactUpdates-test.js",
+    "time": 43934
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerSelectiveHydration-test.internal.js",
+    "time": 20640
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactCompositeComponentState-test.js",
+    "time": 64547
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFizzDeferredValue-test.js",
+    "time": 2242
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFizzShellHydration-test.js",
+    "time": 18795
+  },
+  { "path": "packages/react/src/jsx/ReactJSXElement.js", "time": 1177 },
+  { "path": "packages/react-dom/package.json", "time": 58583 },
+  { "path": "fixtures/flight/src/App.js", "time": 10222 },
+  { "path": "fixtures/nesting/README.md", "time": 32128 },
+  { "path": "packages/react-server/src/ReactFizzServer.js", "time": 19950 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactCompositeComponent-test.js",
+    "time": 46317
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/DOMPropertyOperations-test.js",
+    "time": 35305
+  },
+  { "path": ".nvmrc", "time": 9381 },
+  {
+    "path": "packages/react-dom-bindings/src/server/ReactDOMServerExternalRuntime.js",
+    "time": 11661
+  },
+  {
+    "path": "packages/react-server-dom-turbopack/src/__tests__/utils/TurbopackMock.js",
+    "time": 4419
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/ReactiveScopes/DeriveMinimalDependencies.ts",
+    "time": 9291
+  },
+  {
+    "path": "packages/react/src/__tests__/ReactES6Class-test.js",
+    "time": 80649
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerPartialHydration-test.internal.js",
+    "time": 35949
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/profilingCache-test.js",
+    "time": 25868
+  },
+  {
+    "path": "packages/react-devtools-shell/src/app/InspectableElements/Contexts.js",
+    "time": 13413
+  },
+  {
+    "path": "packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMForm-test.js",
+    "time": 494
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMForm-test.js",
+    "time": 8064
+  },
+  {
+    "path": "packages/react-dom-bindings/src/server/ReactFizzConfigDOM.js",
+    "time": 22197
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactServerRendering-test.js",
+    "time": 64218
+  },
+  { "path": "fixtures/dom/yarn.lock", "time": 28688 },
+  { "path": "packages/shared/ReactFeatureFlags.js", "time": 7992 },
+  {
+    "path": "packages/react-debug-tools/src/__tests__/ReactHooksInspectionIntegration-test.js",
+    "time": 38062
+  },
+  { "path": "fixtures/ssr/yarn.lock", "time": 23802 },
+  { "path": "fixtures/concurrent/time-slicing/yarn.lock", "time": 23607 },
+  {
+    "path": "packages/scheduler/src/__tests__/Scheduler-test.js",
+    "time": 38304
+  },
+  { "path": "packages/react-reconciler/src/ReactChildFiber.js", "time": 20284 },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/ReactiveScopes/CodegenReactiveFunction.ts",
+    "time": 735
+  },
+  {
+    "path": "packages/react/src/__tests__/ReactProfiler-test.internal.js",
+    "time": 51170
+  },
+  {
+    "path": "packages/react-debug-tools/src/__tests__/ReactHooksInspection-test.js",
+    "time": 531
+  },
+  {
+    "path": "packages/react-devtools-inline/__tests__/__e2e__/components.test.js",
+    "time": 19369
+  },
+  {
+    "path": "packages/react-devtools-inline/__tests__/__e2e__/devtools-utils.js",
+    "time": 19315
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/cache.js",
+    "time": 23476
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberHydrationContext.js",
+    "time": 8642
+  },
+  {
+    "path": "packages/react/src/__tests__/ReactElementClone-test.js",
+    "time": 51499
+  },
+  { "path": "scripts/flow/xplat.js", "time": 7879 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/Tree.js",
+    "time": 42865
+  },
+  { "path": ".circleci/config.yml", "time": 29063 },
+  { "path": "fixtures/flight/server/region.js", "time": 7002 },
+  { "path": "scripts/flags/flags.js", "time": 418 },
+  { "path": "fixtures/flight/server/global.js", "time": 3415 },
+  {
+    "path": "packages/react-server-dom-esm/src/ReactFlightESMReferences.js",
+    "time": 5358
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/hooks.js",
+    "time": 35883
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/HIR/BuildHIR.ts",
+    "time": 2812
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/profilerStore-test.js",
+    "time": 41382
+  },
+  {
+    "path": "packages/internal-test-utils/ReactInternalTestUtils.js",
+    "time": 7584
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/console-test.js",
+    "time": 15912
+  },
+  { "path": "scripts/jest/preprocessor.js", "time": 53951 },
+  {
+    "path": "scripts/jest/devtools/config.build-devtools-regression.js",
+    "time": 14951
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerIntegrationAttributes-test.js",
+    "time": 54270
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerIntegrationHooks-test.js",
+    "time": 46109
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerIntegrationElements-test.js",
+    "time": 54270
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerIntegrationSelect-test.js",
+    "time": 47333
+  },
+  {
+    "path": "packages/eslint-plugin-react-hooks/__tests__/ESLintRuleExhaustiveDeps-test.js",
+    "time": 33527
+  },
+  {
+    "path": "packages/shared/forks/ReactFeatureFlags.native-fb.js",
+    "time": 30698
+  },
+  { "path": "fixtures/attribute-behavior/src/App.js", "time": 56128 },
+  {
+    "path": "packages/react-refresh/src/__tests__/ReactFreshIntegration-test.js",
+    "time": 19315
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/__tests__/fixtures/compiler/bug-destructuring-same-property-identifier-names.js",
+    "time": 0
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/__tests__/fixtures/compiler/chained-assignment-context-variable.expect.md",
+    "time": 6031
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFizzServer-test.js",
+    "time": 6354
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/Components.js",
+    "time": 11375
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/utils.js",
+    "time": 38731
+  },
+  { "path": "README.md", "time": 37279 },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/Inference/DropManualMemoization.ts",
+    "time": 7295
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/Inference/InferReactivePlaces.ts",
+    "time": 955
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactSuspenseWithNoopRenderer-test.js",
+    "time": 20350
+  },
+  { "path": ".prettierrc.js", "time": 51704 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMSelect-test.js",
+    "time": 43481
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/Element.js",
+    "time": 33940
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/__tests__/fixtures/compiler/validate-no-set-state-in-render-unconditional-lambda-which-conditionally-sets-state-ok.expect.md",
+    "time": 76
+  },
+  { "path": "fixtures/ssr2/yarn.lock", "time": 18185 },
+  {
+    "path": "packages/react-server/src/forks/ReactFizzConfig.custom.js",
+    "time": 5092
+  },
+  { "path": "packages/shared/ReactComponentStackFrame.js", "time": 18186 },
+  {
+    "path": "packages/shared/forks/ReactFeatureFlags.native-fb-dynamic.js",
+    "time": 4830
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/store.js",
+    "time": 35899
+  },
+  { "path": "fixtures/expiration/yarn.lock", "time": 52246 },
+  { "path": "fixtures/packaging/brunch/prod/yarn.lock", "time": 52916 },
+  { "path": "fixtures/packaging/brunch/dev/yarn.lock", "time": 52916 },
+  { "path": "fixtures/attribute-behavior/yarn.lock", "time": 54218 },
+  { "path": "fixtures/fizz/yarn.lock", "time": 13659 },
+  { "path": "fixtures/packaging/browserify/prod/yarn.lock", "time": 52916 },
+  { "path": "fixtures/packaging/browserify/dev/yarn.lock", "time": 52916 },
+  {
+    "path": "packages/react-dom-bindings/src/client/validateDOMNesting.js",
+    "time": 5541
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/utils-test.js",
+    "time": 5041
+  },
+  {
+    "path": "fixtures/packaging/systemjs-builder/prod/yarn.lock",
+    "time": 52766
+  },
+  { "path": "fixtures/art/yarn.lock", "time": 28498 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFizzServerBrowser-test.js",
+    "time": 22796
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMAttribute-test.js",
+    "time": 17973
+  },
+  {
+    "path": "packages/react-devtools-shared/src/hookNamesCache.js",
+    "time": 19775
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/Inference/AnalyseFunctions.ts",
+    "time": 5113
+  },
+  { "path": "fixtures/flight/src/Button.js", "time": 3695 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactAsyncActions-test.js",
+    "time": 4009
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMInput-test.js",
+    "time": 76095
+  },
+  { "path": "packages/react-reconciler/src/ReactFiberLane.js", "time": 6910 },
+  {
+    "path": "packages/react-server-dom-turbopack/src/__tests__/ReactFlightDOMBrowser-test.js",
+    "time": 23
+  },
+  {
+    "path": "packages/react-server-dom-webpack/src/ReactFlightServerConfigWebpackBundler.js",
+    "time": 1970
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/contentScripts/proxy.js",
+    "time": 40456
+  },
+  {
+    "path": "packages/react-devtools-shared/src/backend/renderer.js",
+    "time": 37683
+  },
+  {
+    "path": "packages/react-dom-bindings/src/client/ReactDOMInput.js",
+    "time": 50888
+  },
+  {
+    "path": "compiler/packages/babel-plugin-react-forget/src/HIR/ObjectShape.ts",
+    "time": 4060
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/background/dynamicallyInjectContentScripts.js",
+    "time": 213
+  },
+  {
+    "path": "packages/react-server-dom-esm/src/ReactFlightDOMServerNode.js",
+    "time": 1639
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/background/index.js",
+    "time": 31
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberCommitWork.js",
+    "time": 21526
+  },
+  {
+    "path": "packages/scheduler/src/__tests__/SchedulerPostTask-test.js",
+    "time": 26687
+  },
+  { "path": "packages/react-devtools-extensions/src/main.js", "time": 29369 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementContext.js",
+    "time": 22023
+  },
+  {
+    "path": "packages/react-devtools-extensions/webpack.config.js",
+    "time": 18424
+  },
+  {
+    "path": "packages/react-dom-bindings/src/server/ReactFizzConfigDOMLegacy.js",
+    "time": 3212
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberThenable.js",
+    "time": 3785
+  },
+  { "path": "compiler/forget/packages/sprout/README.md", "time": 44 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberWorkLoop.js",
+    "time": 30068
+  },
+  {
+    "path": "compiler/forget/packages/babel-plugin-react-forget/src/SSA/EliminateRedundantPhi.ts",
+    "time": 0
+  },
+  {
+    "path": "packages/react-devtools-shell/src/app/SuspenseTree/index.js",
+    "time": 11160
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/__tests__/xGoogleIgnoreList-test.js",
+    "time": 52
+  },
+  {
+    "path": "packages/react/src/__tests__/ReactStrictMode-test.internal.js",
+    "time": 18702
+  },
+  { "path": "packages/react-devtools-core/webpack.backend.js", "time": 24162 },
+  {
+    "path": "packages/react-devtools-shared/src/backend/views/Highlighter/index.js",
+    "time": 33933
+  },
+  { "path": "packages/react-reconciler/src/ReactFiber.js", "time": 44828 },
+  {
+    "path": "compiler/forget/packages/babel-plugin-react-forget/src/__tests__/fixtures/compiler/useMemo-inverted-if.expect.md",
+    "time": 815
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/KeyValue.js",
+    "time": 37764
+  },
+  { "path": "packages/react-devtools-shared/src/bridge.js", "time": 35393 },
+  { "path": ".eslintrc.js", "time": 21609 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberClassComponent.js",
+    "time": 54733
+  },
+  { "path": "scripts/jest/setupTests.www.js", "time": 17349 },
+  {
+    "path": "scripts/rollup/shims/react-native/ReactNativeViewConfigRegistry.js",
+    "time": 41811
+  },
+  { "path": "compiler/forget/packages/snap/src/runner.ts", "time": 547 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/InspectedElement.js",
+    "time": 12548
+  },
+  {
+    "path": "compiler/forget/src/__tests__/test-utils/generateTestsFromFixtures.ts",
+    "time": 1010
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/backend.js",
+    "time": 27832
+  },
+  {
+    "path": "compiler/forget/src/__tests__/fixtures/compiler/_bug.uninitialized-declaration-in-reactive-scope.expect.md",
+    "time": 0
+  },
+  { "path": "scripts/flow/createFlowConfigs.js", "time": 27784 },
+  {
+    "path": "packages/react-devtools-extensions/src/background.js",
+    "time": 35411
+  },
+  { "path": "scripts/rollup/packaging.js", "time": 20329 },
+  { "path": "packages/react-dom/index.modern.fb.js", "time": 5306 },
+  { "path": "fixtures/flight/src/index.js", "time": 21477 },
+  {
+    "path": "packages/react-server-dom-webpack/src/ReactFlightDOMServerNode.js",
+    "time": 22680
+  },
+  { "path": "scripts/devtools/publish-release.js", "time": 1625 },
+  {
+    "path": "compiler/forget/src/__tests__/fixtures/compiler/_bug.inner-memo-value-not-promoted-to-outer-scope-dynamic.expect.md",
+    "time": 5
+  },
+  { "path": "packages/react-art/src/ReactFiberConfigART.js", "time": 33337 },
+  {
+    "path": "packages/react-devtools-shared/src/backend/agent.js",
+    "time": 18965
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIsomorphicAct-test.js",
+    "time": 15695
+  },
+  {
+    "path": "packages/react-dom-bindings/src/client/ReactDOMComponent.js",
+    "time": 52343
+  },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativeTypes.js",
+    "time": 20526
+  },
+  {
+    "path": "packages/react-dom-bindings/src/server/ReactDOMServerFormatConfig.js",
+    "time": 2974
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIncrementalUpdates-test.js",
+    "time": 85
+  },
+  {
+    "path": "packages/react-server-dom-webpack/src/ReactFlightWebpackNodeRegister.js",
+    "time": 1228
+  },
+  {
+    "path": "packages/react-dom-bindings/src/shared/ReactDOMUnknownPropertyHook.js",
+    "time": 46873
+  },
+  {
+    "path": "packages/react-dom/src/events/plugins/__tests__/ChangeEventPlugin-test.js",
+    "time": 46801
+  },
+  {
+    "path": "packages/react-devtools-shared/src/backend/profilingHooks.js",
+    "time": 10146
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberCompleteWork.js",
+    "time": 26039
+  },
+  { "path": "packages/react/src/ReactHooks.js", "time": 19848 },
+  { "path": "packages/react-server/src/ReactFizzHooks.js", "time": 4579 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFizzSuppressHydrationWarning-test.js",
+    "time": 451
+  },
+  { "path": "packages/use-subscription/README.md", "time": 8261 },
+  {
+    "path": "scripts/release/shared-commands/download-build-artifacts.js",
+    "time": 13010
+  },
+  { "path": "packages/react/src/ReactElementValidator.js", "time": 73986 },
+  {
+    "path": "packages/react-native-renderer/src/ReactFabricComponentTree.js",
+    "time": 94
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/preprocessData-test.js",
+    "time": 9882
+  },
+  { "path": "compiler/forget/src/__tests__/compiler-test.ts", "time": 3098 },
+  { "path": "compiler/forget/src/__tests__/hir-test.ts", "time": -9064 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactCache-test.js",
+    "time": 12072
+  },
+  {
+    "path": "compiler/forget/src/__tests__/fixtures/hir/allocating-primitive-as-dep.expect.md",
+    "time": 97
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIncrementalScheduling-test.js",
+    "time": 14
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberReconciler.js",
+    "time": 26055
+  },
+  {
+    "path": "packages/react-server-dom-webpack/src/ReactFlightWebpackNodeLoader.js",
+    "time": 9308
+  },
+  { "path": "packages/react-dom/server-rendering-stub.js", "time": 3067 },
+  {
+    "path": "compiler/forget/src/Inference/InferReferenceEffects.ts",
+    "time": 340
+  },
+  { "path": "fixtures/flight/server/cli.js", "time": 432 },
+  {
+    "path": "packages/react-devtools-extensions/src/contentScripts/prepareInjection.js",
+    "time": 3017
+  },
+  {
+    "path": "packages/react-server/src/ReactServerStreamConfigNode.js",
+    "time": 21287
+  },
+  { "path": "scripts/tasks/flow.js", "time": 41779 },
+  { "path": "packages/react-devtools/app.js", "time": 13874 },
+  {
+    "path": "compiler/forget/src/ReactiveScopes/PropagateScopeDependencies.ts",
+    "time": 1469
+  },
+  { "path": "packages/jest-react/src/internalAct.js", "time": 33911 },
+  { "path": "scripts/flow/react-native-host-hooks.js", "time": 25103 },
+  {
+    "path": "packages/react-devtools-shared/src/backend/views/TraceUpdates/canvas.js",
+    "time": 23814
+  },
+  { "path": "fixtures/flight/src/App.server.js", "time": 19652 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactUpdaters-test.internal.js",
+    "time": 15906
+  },
+  { "path": "packages/react-reconciler/src/ReactFiberAct.js", "time": 3126 },
+  {
+    "path": "packages/react-devtools-shell/src/perf-regression/apps/LargeSubtree.js",
+    "time": 22
+  },
+  { "path": "packages/react-devtools-shell/index.html", "time": 34519 },
+  {
+    "path": "fixtures/attribute-behavior/AttributeTableSnapshot.md",
+    "time": 46421
+  },
+  { "path": "packages/react-reconciler/README.md", "time": 18383 },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/TimelineProfiler-test.js",
+    "time": 7706
+  },
+  {
+    "path": "compiler/forget/src/__tests__/fixtures/hir/reactive-scope-grouping.expect.md",
+    "time": 137
+  },
+  {
+    "path": "compiler/forget/src/__tests__/fixtures/hir/component.expect.md",
+    "time": 1557
+  },
+  { "path": "fixtures/packaging/webpack-alias/prod/yarn.lock", "time": 45017 },
+  { "path": "fixtures/packaging/webpack/dev/yarn.lock", "time": 45016 },
+  { "path": "packages/react-reconciler/src/ReactFiberFlags.js", "time": 11308 },
+  { "path": "packages/react-devtools/CONTRIBUTING.md", "time": 11901 },
+  { "path": "fixtures/blocks/yarn.lock", "time": 22731 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberBeginWork.old.js",
+    "time": 41886
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberTransition.old.js",
+    "time": 6607
+  },
+  {
+    "path": "compiler/forget/src/__tests__/fixtures/hir/ssa-for-of.expect.md",
+    "time": 794
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMUseId-test.js",
+    "time": 9405
+  },
+  {
+    "path": "packages/react-noop-renderer/src/ReactNoopFlightServer.js",
+    "time": 18072
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberBeginWork.new.js",
+    "time": 11499
+  },
+  {
+    "path": "compiler/forget/src/__tests__/fixtures/hir/ssa-property.expect.md",
+    "time": 435
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberHooks.new.js",
+    "time": 10241
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberWorkLoop.old.js",
+    "time": 27696
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactOffscreen-test.js",
+    "time": 18171
+  },
+  { "path": "ReactVersions.js", "time": 181 },
+  {
+    "path": "packages/react-dom-bindings/src/server/ReactDOMFloatServer.js",
+    "time": 117
+  },
+  {
+    "path": "packages/react-server-dom-webpack/src/ReactFlightWebpackPlugin.js",
+    "time": 16464
+  },
+  {
+    "path": "compiler/forget/src/__tests__/fixtures/hir/ssa-complex-multiple-if.expect.md",
+    "time": 5
+  },
+  { "path": "packages/react-server/src/ReactFlightCache.js", "time": 13 },
+  {
+    "path": "packages/react-dom-bindings/src/server/ReactDOMLegacyServerStreamConfig.js",
+    "time": 11877
+  },
+  {
+    "path": "packages/eslint-plugin-react-hooks/src/ExhaustiveDeps.js",
+    "time": 31774
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberHooks.old.js",
+    "time": 32610
+  },
+  {
+    "path": "compiler/forget/src/MiddleEnd/SketchyCodeCheck.ts",
+    "time": -12581
+  },
+  {
+    "path": "scripts/release/shared-commands/get-build-id-for-commit.js",
+    "time": 14935
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberCommitWork.new.js",
+    "time": 8400
+  },
+  { "path": "compiler/forget/package.json", "time": 0 },
+  { "path": "compiler/forget/src/IR/FuncTopLevel.ts", "time": -12876 },
+  { "path": "compiler/forget/src/Diagnostic.ts", "time": -12876 },
+  { "path": "fixtures/fiber-debugger/yarn.lock", "time": 52113 },
+  { "path": "packages/react-refresh/src/ReactFreshRuntime.js", "time": 28846 },
+  { "path": "CONTRIBUTING.md", "time": 43909 },
+  {
+    "path": "packages/react-client/src/__tests__/ReactFlight-test.js",
+    "time": 5017
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactTestUtilsAct-test.js",
+    "time": 29621
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberWorkLoop.new.js",
+    "time": 17099
+  },
+  { "path": "scripts/devtools/prepare-release.js", "time": 4068 },
+  {
+    "path": "packages/react-server-dom-webpack/src/ReactFlightClientWebpackBundlerConfig.js",
+    "time": 21765
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactInternalTypes.js",
+    "time": 21006
+  },
+  { "path": "packages/react-cache/src/LRU.js", "time": 34100 },
+  { "path": "dangerfile.js", "time": 13996 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberTransition.new.js",
+    "time": 4677
+  },
+  {
+    "path": "packages/react-server-dom-webpack/src/ReactFlightDOMClient.js",
+    "time": 24816
+  },
+  { "path": "fixtures/flight/package.json", "time": 15585 },
+  { "path": "packages/react-devtools-core/README.md", "time": 3817 },
+  { "path": "fixtures/fizz/README.md", "time": 3171 },
+  {
+    "path": "packages/react-dom/src/server/ReactDOMServerFormatConfig.js",
+    "time": 12459
+  },
+  { "path": "packages/react/README.md", "time": 2558 },
+  { "path": "packages/react-devtools-shared/src/Logger.js", "time": 459 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberCompleteWork.new.js",
+    "time": 5276
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberClassUpdateQueue.old.js",
+    "time": 12440
+  },
+  {
+    "path": "packages/react-devtools-timeline/src/TimelineContext.js",
+    "time": 3653
+  },
+  {
+    "path": "packages/react-devtools-shared/src/registerDevToolsEventLogger.js",
+    "time": 5065
+  },
+  { "path": "packages/react-reconciler/src/ReactFiber.old.js", "time": 32340 },
+  { "path": "package.json", "time": 25492 },
+  {
+    "path": "packages/react-devtools-shared/src/backend/legacy/renderer.js",
+    "time": 26618
+  },
+  { "path": "scripts/error-codes/codes.json", "time": 15792 },
+  {
+    "path": "packages/react-devtools-shell/src/e2e-regression/app.js",
+    "time": 128
+  },
+  {
+    "path": "packages/react-server-dom-webpack/src/ReactFlightDOMServerBrowser.js",
+    "time": 22679
+  },
+  {
+    "path": "packages/use-sync-external-store/src/useSyncExternalStore.js",
+    "time": 4991
+  },
+  {
+    "path": "packages/react-devtools-inline/playwright.config.js",
+    "time": 4587
+  },
+  { "path": "scripts/jest/jest-cli.js", "time": 7076 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMSafariMicrotaskBug-test.js",
+    "time": 2735
+  },
+  {
+    "path": "packages/react-devtools-shared/src/backend/utils.js",
+    "time": 4775
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/ErrorBoundary/ErrorBoundary.js",
+    "time": 9247
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/TreeContext.js",
+    "time": 11976
+  },
+  { "path": "packages/react-devtools-shared/src/types.js", "time": 7327 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberHydrationContext.new.js",
+    "time": 2567
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberInterleavedUpdates.new.js",
+    "time": 10678
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberCacheComponent.new.js",
+    "time": 4055
+  },
+  { "path": "scripts/babel/transform-object-assign.js", "time": 1050 },
+  {
+    "path": "packages/eslint-plugin-react-hooks/src/RulesOfHooks.js",
+    "time": 28038
+  },
+  { "path": "packages/react-dom/src/client/ReactDOM.js", "time": 25100 },
+  {
+    "path": "packages/react-dom/src/client/ReactDOMComponent.js",
+    "time": 31725
+  },
+  {
+    "path": "packages/react-reconciler/src/forks/ReactFiberHostConfig.custom.js",
+    "time": 16863
+  },
+  { "path": "fixtures/ssr2/scripts/build.js", "time": 7201 },
+  { "path": "packages/react-dom/src/client/ReactDOMRoot.js", "time": 20578 },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/inspectedElement-test.js",
+    "time": 14421
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/__snapshots__/profilingCache-test.js.snap",
+    "time": 984
+  },
+  {
+    "path": "packages/react-dom/src/server/ReactDOMFizzServerNode.js",
+    "time": 8403
+  },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativeBridgeEventPlugin.js",
+    "time": 14620
+  },
+  {
+    "path": "packages/react-server-dom-relay/src/__tests__/ReactFlightDOMRelay-test.internal.js",
+    "time": 11692
+  },
+  {
+    "path": "packages/react-dom/src/client/ReactDOMHostConfig.js",
+    "time": 26634
+  },
+  {
+    "path": "packages/react/unstable-shared-subset.experimental.js",
+    "time": 11024
+  },
+  {
+    "path": "packages/use-sync-external-store/src/__tests__/useSyncExternalStoreShared-test.js",
+    "time": 3849
+  },
+  {
+    "path": "packages/react-devtools-shared/src/backend/StyleX/__tests__/utils-test.js",
+    "time": 1579
+  },
+  { "path": "fixtures/ssr2/server/render.js", "time": 5982 },
+  {
+    "path": "packages/react-native-renderer/src/ReactFabricEventEmitter.js",
+    "time": 14075
+  },
+  { "path": "packages/react-server/src/ReactFizzNewContext.js", "time": 6839 },
+  {
+    "path": "packages/react-dom/src/events/plugins/ChangeEventPlugin.js",
+    "time": 13443
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberNewContext.old.js",
+    "time": 25739
+  },
+  {
+    "path": "packages/react-devtools-inline/__tests__/__e2e__/profiler.test.js",
+    "time": 45
+  },
+  { "path": "scripts/rollup/wrappers.js", "time": 30933 },
+  { "path": "packages/react-devtools-shell/package.json", "time": 14084 },
+  {
+    "path": "packages/react-test-renderer/src/ReactTestRenderer.js",
+    "time": 15480
+  },
+  { "path": "packages/shared/invokeGuardedCallbackImpl.js", "time": 20605 },
+  { "path": "scripts/eslint/index.js", "time": 34517 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberHydrationContext.old.js",
+    "time": 24248
+  },
+  {
+    "path": "packages/react-interactions/events/src/dom/create-event-handle/Focus.js",
+    "time": 11694
+  },
+  { "path": "scripts/jest/matchers/toThrow.js", "time": 835 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactHooksWithNoopRenderer-test.js",
+    "time": 18574
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberTreeContext.new.js",
+    "time": 331
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Profiler/ProfilingImportExportButtons.js",
+    "time": 2620
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/root.css",
+    "time": 2618
+  },
+  {
+    "path": "scripts/release/prepare-release-from-npm-commands/update-stable-version-numbers.js",
+    "time": 25851
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Profiler/SnapshotCommitList.js",
+    "time": 5519
+  },
+  { "path": "scripts/error-codes/extract-errors.js", "time": 20927 },
+  {
+    "path": "packages/react-dom/src/test-utils/ReactTestUtils.js",
+    "time": 19788
+  },
+  { "path": "fixtures/ssr2/src/Html.js", "time": 3293 },
+  { "path": "scripts/rollup/bundles.js", "time": 13481 },
+  { "path": "packages/react-devtools/README.md", "time": 13542 },
+  { "path": "packages/react-devtools/OVERVIEW.md", "time": 18409 },
+  { "path": "scripts/merge-fork/replace-fork.js", "time": 11171 },
+  {
+    "path": "packages/react-devtools-scheduling-profiler/src/view-base/VerticalScrollView.js",
+    "time": 717
+  },
+  {
+    "path": "packages/react-devtools-scheduling-profiler/src/view-base/View.js",
+    "time": 9427
+  },
+  { "path": "packages/react-devtools-shared/src/backendAPI.js", "time": 5742 },
+  { "path": "scripts/rollup/utils.js", "time": 33093 },
+  { "path": "packages/react/index.js", "time": 3195 },
+  { "path": "packages/react-devtools-inline/package.json", "time": 18388 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMEventListener-test.js",
+    "time": 28900
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactUpdatePriority-test.js",
+    "time": 3316
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactHooks-test.internal.js",
+    "time": 21885
+  },
+  { "path": "fixtures/flight/config/webpack.config.js", "time": 6206 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberCompleteWork.old.js",
+    "time": 18523
+  },
+  {
+    "path": "packages/react-devtools-scheduling-profiler/src/import-worker/preprocessData.js",
+    "time": 408
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/__tests__/__source__/__compiled__/external/ComponentWithMultipleHooksPerLine.js",
+    "time": 1034
+  },
+  {
+    "path": "packages/react-devtools-scheduling-profiler/src/EventTooltip.js",
+    "time": 8
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/__tests__/__source__/__untransformed__/ComponentWithUseState.js",
+    "time": 986
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/__tests__/__source__/__untransformed__/ComponentWithUnnamedCustomHooks.js",
+    "time": 986
+  },
+  {
+    "path": "packages/react/src/forks/ReactSharedInternals.umd.js",
+    "time": 19929
+  },
+  {
+    "path": "packages/react-devtools-scheduling-profiler/package.json",
+    "time": 8575
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/parseHookNames/parseHookNames.js",
+    "time": 771
+  },
+  {
+    "path": "packages/react-native-renderer/src/__tests__/ReactFabric-test.internal.js",
+    "time": 3925
+  },
+  {
+    "path": "packages/react-devtools-scheduling-profiler/src/SchedulingProfiler.js",
+    "time": 361
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/__tests__/__source__/__compiled__/inline/index.js",
+    "time": 672
+  },
+  { "path": "packages/react-devtools-extensions/src/astUtils.js", "time": 791 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberThrow.new.js",
+    "time": 4534
+  },
+  {
+    "path": "packages/react-devtools-extensions/src/__tests__/__source__/__compiled__/bundle/index.js",
+    "time": 120
+  },
+  { "path": "scripts/print-warnings/print-warnings.js", "time": 332 },
+  { "path": "packages/react-devtools-extensions/package.json", "time": 10221 },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/profilingCharts-test.js",
+    "time": 1419
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/TabBar.css",
+    "time": 16821
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactSuspense-test.internal.js",
+    "time": 8446
+  },
+  { "path": "fixtures/ssr2/package.json", "time": 264 },
+  {
+    "path": "packages/react-native-renderer/src/ReactFabricHostConfig.js",
+    "time": 17158
+  },
+  { "path": "packages/react/src/ReactLazy.js", "time": 24629 },
+  {
+    "path": "packages/react-dom/src/server/ReactPartialRenderer.js",
+    "time": 29791
+  },
+  { "path": "scripts/jest/setupHostConfigs.js", "time": 5184 },
+  { "path": ".codesandbox/ci.json", "time": 4541 },
+  {
+    "path": "packages/react-reconciler/src/ReactUpdateQueue.old.js",
+    "time": 23467
+  },
+  { "path": "fixtures/ssr/src/components/App.js", "time": 19217 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberLane.new.js",
+    "time": 1687
+  },
+  {
+    "path": "packages/react-server/src/ReactFizzClassComponent.js",
+    "time": 165
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFizzServerNode-test.js",
+    "time": 652
+  },
+  { "path": "packages/react-devtools-inline/webpack.config.js", "time": 14762 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberCommitWork.old.js",
+    "time": 23498
+  },
+  { "path": "packages/scheduler/src/SchedulerMinHeap.js", "time": 14549 },
+  {
+    "path": "packages/react-refresh/src/__tests__/__snapshots__/ReactFreshBabelPlugin-test.js.snap",
+    "time": 15979
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerIntegrationNewContext-test.js",
+    "time": 18915
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Settings/SettingsContext.js",
+    "time": 15644
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactServerRenderingHydration-test.js",
+    "time": 7942
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMNativeEventHeuristic-test.js",
+    "time": 837
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFiberAsync-test.js",
+    "time": 7433
+  },
+  { "path": "packages/react-reconciler/src/ReactFiber.new.js", "time": 2516 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMTestSelectors-test.internal.js",
+    "time": 7132
+  },
+  {
+    "path": "scripts/rollup/shims/react-native/createReactNativeComponentClass.js",
+    "time": 25274
+  },
+  {
+    "path": "packages/react-devtools-scheduling-profiler/src/constants.js",
+    "time": 4542
+  },
+  {
+    "path": "packages/eslint-plugin-react-hooks/__tests__/ESLintRulesOfHooks-test.js",
+    "time": 11609
+  },
+  { "path": "packages/scheduler/src/SchedulerProfiling.js", "time": 9728 },
+  { "path": "packages/scheduler/src/forks/SchedulerDOM.js", "time": 21023 },
+  {
+    "path": "scripts/eslint-rules/__tests__/no-cross-fork-imports-test.internal.js",
+    "time": 7362
+  },
+  {
+    "path": "packages/react-noop-renderer/src/createReactNoop.js",
+    "time": 17660
+  },
+  {
+    "path": "packages/react-dom/src/events/ReactDOMEventListener.js",
+    "time": 24008
+  },
+  { "path": "scripts/release/get-build-id-for-commit.js", "time": 48 },
+  { "path": "scripts/release/shared-commands/parse-params.js", "time": 35 },
+  { "path": "scripts/release/publish.js", "time": 483 },
+  {
+    "path": "packages/react-test-renderer/src/ReactTestHostConfig.js",
+    "time": 9221
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/inspectedElementContext-test.js",
+    "time": 3
+  },
+  {
+    "path": "packages/react-server-native-relay/src/ReactFlightNativeRelayClientHostConfig.js",
+    "time": 1049
+  },
+  {
+    "path": "packages/react-server-dom-relay/src/ReactFlightDOMRelayClientHostConfig.js",
+    "time": 6146
+  },
+  { "path": "fixtures/flight/config/jest/cssTransform.js", "time": 1439 },
+  { "path": "fixtures/flight/server/handler.server.js", "time": 429 },
+  { "path": "scripts/flow/environment.js", "time": 26227 },
+  { "path": "packages/react-art/package.json", "time": 963 },
+  {
+    "path": "packages/react-reconciler/src/ReactChildFiber.old.js",
+    "time": 39590
+  },
+  { "path": "scripts/flow/config/flowconfig", "time": 5807 },
+  { "path": "fixtures/flight/server/index.js", "time": 43 },
+  { "path": "fixtures/flight/server/handler.js", "time": 186 },
+  {
+    "path": "packages/scheduler/src/forks/SchedulerFeatureFlags.www.js",
+    "time": 1957
+  },
+  {
+    "path": "packages/react-refresh/src/ReactFreshBabelPlugin.js",
+    "time": 12703
+  },
+  {
+    "path": "packages/react-dom/src/events/DOMPluginEventSystem.js",
+    "time": 2835
+  },
+  { "path": "scripts/jest/config.build.js", "time": 25800 },
+  {
+    "path": "packages/react-devtools-extensions/chrome/manifest.json",
+    "time": 817
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/storeComponentFilters-test.js",
+    "time": 49
+  },
+  {
+    "path": "fixtures/legacy-jsx-runtimes/react-17/react-17.test.js",
+    "time": 2
+  },
+  { "path": "scripts/prettier/index.js", "time": 31391 },
+  {
+    "path": "packages/react-devtools-extensions/popups/deadcode.html",
+    "time": 14976
+  },
+  { "path": "packages/react-devtools/app.html", "time": 5042 },
+  { "path": "packages/react-dom/src/events/SyntheticEvent.js", "time": 42879 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFiber-test.js",
+    "time": 19077
+  },
+  { "path": "packages/react-dom/src/client/ReactDOMInput.js", "time": 23855 },
+  {
+    "path": "packages/react-dom/src/events/__tests__/DOMPluginEventSystem-test.internal.js",
+    "time": 3683
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/KeyValue.css",
+    "time": 10308
+  },
+  {
+    "path": "packages/react-devtools-extensions/popups/shared.js",
+    "time": 13740
+  },
+  {
+    "path": "packages/react-dom/src/events/DOMEventProperties.js",
+    "time": 163
+  },
+  { "path": "scripts/release/README.md", "time": 12768 },
+  { "path": "packages/scheduler/package.json", "time": 13391 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/useMutableSource-test.internal.js",
+    "time": 1819
+  },
+  {
+    "path": "packages/react-dom/src/events/plugins/SimpleEventPlugin.js",
+    "time": 454
+  },
+  {
+    "path": "packages/react-dom/src/events/DOMModernPluginEventSystem.js",
+    "time": 318
+  },
+  {
+    "path": "packages/react-dom/src/events/DeprecatedDOMEventResponderSystem.js",
+    "time": 7601
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOM-test.js",
+    "time": 31939
+  },
+  { "path": "packages/react-debug-tools/package.json", "time": 14830 },
+  {
+    "path": "packages/react-dom/src/events/__tests__/DOMModernPluginEventSystem-test.internal.js",
+    "time": 3213
+  },
+  {
+    "path": "packages/react-dom/src/client/ReactDOMEventHandle.js",
+    "time": 23
+  },
+  { "path": "packages/shared/isValidElementType.js", "time": 18956 },
+  {
+    "path": "packages/react-dom/src/events/ReactDOMEventReplaying.js",
+    "time": 4055
+  },
+  { "path": "packages/react-dom/index.js", "time": 3871 },
+  {
+    "path": "packages/react-dom/src/events/plugins/__tests__/ModernSimpleEventPlugin-test.js",
+    "time": 125
+  },
+  {
+    "path": "packages/react-dom/src/events/plugins/ModernSimpleEventPlugin.js",
+    "time": 18
+  },
+  { "path": "packages/react-refresh/package.json", "time": 9619 },
+  { "path": "packages/shared/ConsolePatchingDev.js", "time": 1770 },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/__snapshots__/store-test.js.snap",
+    "time": 10079
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberDeprecatedEvents.old.js",
+    "time": 7153
+  },
+  {
+    "path": "packages/react-interactions/events/src/dom/PressLegacy.js",
+    "time": 4550
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Profiler/ProfilerContext.js",
+    "time": 9966
+  },
+  {
+    "path": "packages/react-dom/src/events/plugins/ModernEnterLeaveEventPlugin.js",
+    "time": 26
+  },
+  { "path": "fixtures/blocks/src/server/App.js", "time": 11 },
+  { "path": "fixtures/blocks/src/server/App.block.js", "time": 28 },
+  { "path": "fixtures/blocks/db.json", "time": 34 },
+  { "path": "fixtures/blocks/src/Comments.js", "time": 97 },
+  { "path": "packages/scheduler/src/Scheduler.js", "time": 14538 },
+  {
+    "path": "packages/react-dom/src/client/__tests__/trustedTypes-test.internal.js",
+    "time": 5238
+  },
+  {
+    "path": "packages/react-interactions/events/src/dom/__tests__/PressLegacy-test.internal.js",
+    "time": 3705
+  },
+  {
+    "path": "packages/react-dom/src/events/plugins/__tests__/LegacySelectEventPlugin-test.js",
+    "time": 20949
+  },
+  { "path": "packages/shared/enqueueTask.js", "time": 1740 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/DebugTracing-test.internal.js",
+    "time": 3
+  },
+  {
+    "path": "scripts/babel/__tests__/transform-test-gate-pragma-test.js",
+    "time": 3
+  },
+  { "path": "fixtures/stacks/BabelClass.js", "time": 6 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIncremental-test.internal.js",
+    "time": 31277
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/Element.css",
+    "time": 7440
+  },
+  {
+    "path": "packages/react-devtools-shared/src/backend/views/TraceUpdates/index.js",
+    "time": 4461
+  },
+  { "path": "fixtures/dom/src/components/Header.js", "time": 13697 },
+  {
+    "path": "packages/react-interactions/events/src/dom/__tests__/Input-test.internal.js",
+    "time": 6235
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactSuspenseWithNoopRenderer-test.internal.js",
+    "time": 6597
+  },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativeFiberInspector.js",
+    "time": 19
+  },
+  {
+    "path": "packages/react-dom/src/events/__tests__/DeprecatedDOMEventResponderSystem-test.internal.js",
+    "time": 5279
+  },
+  {
+    "path": "packages/react-flight-dom-webpack/src/ReactFlightClientWebpackBundlerConfig.js",
+    "time": 53
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDeprecationWarnings-test.internal.js",
+    "time": 5424
+  },
+  { "path": "packages/react/src/block.js", "time": 2183 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/HooksTree.js",
+    "time": 6575
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactHooksWithNoopRenderer-test.internal.js",
+    "time": 7254
+  },
+  { "path": "packages/legacy-events/PluginModuleType.js", "time": 12953 },
+  {
+    "path": "packages/react-flight-dom-webpack/src/ReactFlightDOMClient.js",
+    "time": 3025
+  },
+  { "path": "packages/react-reconciler/src/ReactFiberThrow.js", "time": 2254 },
+  { "path": "scripts/jest/setupEnvironment.js", "time": 14618 },
+  {
+    "path": "packages/react/src/__tests__/ReactElementValidator-test.internal.js",
+    "time": 27910
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/Components.css",
+    "time": 9579
+  },
+  { "path": "packages/react-dom/src/shared/DOMProperty.js", "time": 19380 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Profiler/ChartNode.js",
+    "time": 6716
+  },
+  {
+    "path": "packages/shared/forks/ReactFeatureFlags.persistent.js",
+    "time": 17716
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactExpiration-test.internal.js",
+    "time": 8322
+  },
+  {
+    "path": "packages/react-devtools-shell/src/app/ReactNativeWeb/index.js",
+    "time": 4270
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactBrowserEventEmitter-test.internal.js",
+    "time": 28222
+  },
+  { "path": "packages/react-devtools-inline/src/backend.js", "time": 4347 },
+  {
+    "path": "packages/react-devtools-shell/src/app/InspectableElements/UnserializableProps.js",
+    "time": 4013
+  },
+  { "path": "fixtures/dom/src/toWarnDev.js", "time": 5252 },
+  { "path": "fixtures/dom/package.json", "time": 8396 },
+  { "path": ".github/ISSUE_TEMPLATE/question.md", "time": 19 },
+  {
+    "path": "packages/react-interactions/events/src/dom/Hover.js",
+    "time": 6315
+  },
+  {
+    "path": "scripts/circleci/pack_and_store_devtools_artifacts.sh",
+    "time": 25
+  },
+  {
+    "path": "fixtures/dom/src/components/fixtures/buttons/index.js",
+    "time": 24125
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/DevTools.css",
+    "time": 7662
+  },
+  {
+    "path": "packages/react-devtools-shared/src/backend/types.js",
+    "time": 4946
+  },
+  { "path": "packages/react/src/React.js", "time": 11738 },
+  { "path": "packages/shared/consoleWithStackDev.js", "time": 69 },
+  {
+    "path": "packages/react-dom/src/shared/assertValidProps.js",
+    "time": 22638
+  },
+  { "path": "packages/react-interactions/events/src/dom/Tap.js", "time": 1940 },
+  {
+    "path": "packages/react-dom/src/shared/ReactDOMUnknownPropertyHook.js",
+    "time": 17833
+  },
+  {
+    "path": "packages/react-devtools-shared/src/__tests__/__snapshots__/inspectedElementContext-test.js.snap",
+    "time": 2615
+  },
+  { "path": "packages/react-reconciler/src/ReactFiberEvents.js", "time": 2174 },
+  { "path": "fixtures/ssr/src/index.js", "time": 6689 },
+  { "path": "fixtures/flight-browser/index.html", "time": 333 },
+  { "path": "packages/react-interactions/events/src/dom/Focus.js", "time": 24 },
+  { "path": "packages/react-is/src/__tests__/ReactIs-test.js", "time": 13052 },
+  {
+    "path": "packages/react-dom/src/client/ReactDOMComponentTree.js",
+    "time": 1224
+  },
+  { "path": "packages/react-devtools-extensions/README.md", "time": 1322 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/EditableName.css",
+    "time": 986
+  },
+  { "path": "packages/react-devtools-inline/README.md", "time": 1250 },
+  {
+    "path": "packages/react-interactions/events/src/dom/__tests__/Focus-test.internal.js",
+    "time": 1416
+  },
+  {
+    "path": "packages/babel-plugin-react-jsx/__tests__/TransformJSXToReactJSX-test.js",
+    "time": 1177
+  },
+  { "path": "packages/react-dom/src/client/ReactDOMFB.js", "time": 17092 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactScope-test.internal.js",
+    "time": 69
+  },
+  {
+    "path": "packages/react-dom/src/events/__tests__/EnterLeaveEventPlugin-test.js",
+    "time": 50285
+  },
+  {
+    "path": "packages/react-dom/src/events/EnterLeaveEventPlugin.js",
+    "time": 34240
+  },
+  {
+    "path": "packages/react-interactions/events/src/dom/shared/index.js",
+    "time": 269
+  },
+  {
+    "path": "packages/react-interactions/events/src/dom/Press.js",
+    "time": 4176
+  },
+  {
+    "path": "packages/react-interactions/accessibility/src/FocusTable.js",
+    "time": 139
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMTextarea-test.js",
+    "time": 53473
+  },
+  {
+    "path": "packages/react-native-renderer/src/__tests__/ReactNativeEvents-test.internal.js",
+    "time": 15761
+  },
+  {
+    "path": "packages/scheduler/src/__tests__/SchedulerProfiling-test.js",
+    "time": 91
+  },
+  { "path": "packages/react-reconciler/src/ReactFiberScope.js", "time": 462 },
+  {
+    "path": "packages/scheduler/src/__tests__/SchedulerBrowser-test.internal.js",
+    "time": 1197
+  },
+  { "path": "packages/react-devtools-extensions/src/utils.js", "time": 4291 },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Components/EditableValue.js",
+    "time": 4824
+  },
+  {
+    "path": "packages/react-devtools-shared/src/devtools/views/Tooltip.css",
+    "time": 3410
+  },
+  { "path": "packages/react-events/src/dom/Keyboard.js", "time": 1103 },
+  {
+    "path": "packages/react-devtools-shared/src/backend/describeComponentFrame.js",
+    "time": 1221
+  },
+  {
+    "path": "packages/react-dom/src/events/DOMEventResponderSystem.js",
+    "time": 1126
+  },
+  {
+    "path": "packages/use-subscription/src/__tests__/useSubscription-test.internal.js",
+    "time": 1219
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMFiberAsync-test.internal.js",
+    "time": 2675
+  },
+  { "path": "scripts/error-codes/README.md", "time": 3375 },
+  {
+    "path": "packages/react-events/src/dom/testing-library/domEnvironment.js",
+    "time": 198
+  },
+  { "path": "packages/react-events/src/dom/Press.js", "time": 2522 },
+  {
+    "path": "packages/react-events/src/dom/__tests__/Keyboard-test.internal.js",
+    "time": 436
+  },
+  {
+    "path": "packages/react-events/src/dom/__tests__/Hover-test.internal.js",
+    "time": 2647
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactSchedulerIntegration-test.internal.js",
+    "time": 876
+  },
+  { "path": "src/backend/views/Highlighter/index.js", "time": 93 },
+  {
+    "path": "packages/scheduler/src/forks/SchedulerHostConfig.default.js",
+    "time": 22
+  },
+  {
+    "path": "packages/react-events/src/dom/__tests__/Press-test.internal.js",
+    "time": 2673
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactSuspenseFuzz-test.internal.js",
+    "time": 5793
+  },
+  { "path": "shells/browser/shared/src/renderer.js", "time": 2312 },
+  { "path": "packages/events/ReactGenericBatching.js", "time": 830 },
+  { "path": "fixtures/dom/src/index.test.js", "time": 200 },
+  {
+    "path": "packages/react-reconciler/src/SchedulerWithReactIntegration.js",
+    "time": 1178
+  },
+  {
+    "path": "packages/react-dom/src/events/__tests__/SimpleEventPlugin-test.internal.js",
+    "time": 12417
+  },
+  {
+    "path": "packages/react/src/__tests__/ReactDOMTracing-test.internal.js",
+    "time": 58
+  },
+  {
+    "path": "packages/react-events/src/__tests__/Press-test.internal.js",
+    "time": 1758
+  },
+  { "path": "packages/react-events/src/Press.js", "time": 653 },
+  {
+    "path": "packages/react-fresh/src/__tests__/ReactFreshIntegration-test.js",
+    "time": 188
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMSuspensePlaceholder-test.js",
+    "time": 5715
+  },
+  { "path": "src/backend/legacy/renderer.js", "time": 1339 },
+  {
+    "path": "packages/react-fresh/src/__tests__/__snapshots__/ReactFreshBabelPlugin-test.js.snap",
+    "time": 191
+  },
+  { "path": "packages/react-events/src/Swipe.js", "time": 650 },
+  { "path": "packages/react-events/src/utils.js", "time": 961 },
+  { "path": "packages/react-events/src/Focus.js", "time": 755 },
+  { "path": "packages/react-fresh/src/ReactFreshRuntime.js", "time": 184 },
+  { "path": "packages/react-fresh/src/ReactFreshBabelPlugin.js", "time": 72 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberScheduler.js",
+    "time": 14229
+  },
+  { "path": "src/devtools/views/Profiler/CommitFlamegraph.js", "time": 1462 },
+  {
+    "path": "packages/shared/forks/ReactFeatureFlags.test-renderer.www.js",
+    "time": 7514
+  },
+  { "path": "shells/browser/chrome/build.js", "time": 2605 },
+  { "path": "shells/dev/src/backend.js", "time": 2179 },
+  { "path": ".flowconfig", "time": 2348 },
+  { "path": "src/devtools/views/Profiler/CommitTreeBuilder.js", "time": 764 },
+  { "path": "packages/events/TopLevelEventTypes.js", "time": 8302 },
+  { "path": "shells/browser/firefox/manifest.json", "time": 629 },
+  { "path": "packages/shared/ReactTypes.js", "time": 360 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberExpirationTime.js",
+    "time": 505
+  },
+  { "path": "src/devtools/store.js", "time": 1911 },
+  { "path": "src/__tests__/store-test.js", "time": 145 },
+  { "path": "src/backend/renderer.js", "time": 521 },
+  {
+    "path": "packages/react-events/src/__tests__/Focus-test.internal.js",
+    "time": 24
+  },
+  {
+    "path": "src/devtools/views/Profiler/SidebarSelectedFiberInfo.css",
+    "time": 106
+  },
+  { "path": "src/bridge.js", "time": 1706 },
+  { "path": "src/backend/views/Overlay.js", "time": 1427 },
+  { "path": "src/devtools/views/Components/Tree.js", "time": 1447 },
+  { "path": "src/devtools/views/Toggle.js", "time": 1201 },
+  { "path": "src/constants.js", "time": 1585 },
+  { "path": "src/devtools/views/Components/TreeContext.js", "time": 1316 },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberTreeReflection.js",
+    "time": 20465
+  },
+  { "path": "packages/react-events/src/Drag.js", "time": 114 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactTestUtils-test.js",
+    "time": 35902
+  },
+  { "path": "shells/browser/shared/src/main.js", "time": 1099 },
+  {
+    "path": "packages/react-dom/src/client/ReactInputSelection.js",
+    "time": 5511
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactNewContext-test.internal.js",
+    "time": 3360
+  },
+  {
+    "path": "packages/react-test-renderer/src/ReactShallowRenderer.js",
+    "time": 14165
+  },
+  { "path": "fixtures/dom/public/renderer.js", "time": 4417 },
+  {
+    "path": "packages/react-dom/src/server/DOMMarkupOperations.js",
+    "time": 5332
+  },
+  { "path": "src/devtools/views/Elements/KeyValue.css", "time": 428 },
+  { "path": "scripts/circleci/test_entry_point.sh", "time": 11352 },
+  { "path": "shells/dev/src/devtools.js", "time": 534 },
+  { "path": "src/devtools/views/Element.js", "time": 784 },
+  { "path": "packages/eslint-plugin-react-hooks/package.json", "time": 2853 },
+  {
+    "path": "scripts/release/shared-commands/test-packaging-fixture.js",
+    "time": 1964
+  },
+  { "path": "packages/eslint-plugin-react-hooks/README.md", "time": 46 },
+  { "path": "fixtures/tracing/script.js", "time": 3738 },
+  {
+    "path": "packages/scheduler/src/__tests__/SchedulerUMDBundle-test.internal.js",
+    "time": 3571
+  },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativeRendererSharedExports.js",
+    "time": 1
+  },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativeComponent.js",
+    "time": 4198
+  },
+  { "path": "packages/eslint-plugin-react-hooks/src/index.js", "time": 2736 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMHooks-test.js",
+    "time": 452
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberUnwindWork.js",
+    "time": 5355
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMRoot-test.js",
+    "time": 545
+  },
+  { "path": "packages/shared/ReactSharedInternals.js", "time": 5007 },
+  {
+    "path": "packages/react-reconciler/src/ReactStrictModeWarnings.js",
+    "time": 8706
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberLazyComponent.js",
+    "time": 18
+  },
+  { "path": "scripts/release/prepare-canary.js", "time": 1038 },
+  { "path": "packages/react-reconciler/src/ReactUpdateQueue.js", "time": 6111 },
+  { "path": "fixtures/tracing/index.html", "time": 36 },
+  { "path": "scripts/release/test.js", "time": 215 },
+  { "path": "fixtures/packaging/README.md", "time": 16416 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactLazy-test.internal.js",
+    "time": 833
+  },
+  { "path": "fixtures/art/VectorWidget.js", "time": 14303 },
+  {
+    "path": "packages/react-dom/src/server/ReactPartialRendererContext.js",
+    "time": 254
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerIntegrationHooks-test.internal.js",
+    "time": 506
+  },
+  { "path": "packages/shared/HostConfigWithNoHydration.js", "time": 4184 },
+  {
+    "path": "packages/react-dom/src/client/ReactDOMSelection.js",
+    "time": 1852
+  },
+  { "path": "packages/shared/ReactSymbols.js", "time": 6592 },
+  { "path": "packages/react-cache/package.json", "time": 5542 },
+  {
+    "path": "fixtures/unstable-async/suspense/src/components/UserPage.js",
+    "time": 1954
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMSuspensePlaceholder-test.internal.js",
+    "time": 118
+  },
+  {
+    "path": "fixtures/dom/src/components/fixtures/suspense/index.js",
+    "time": 103
+  },
+  { "path": "fixtures/unstable-async/suspense/src/index.js", "time": 909 },
+  {
+    "path": "fixtures/unstable-async/suspense/src/components/App.js",
+    "time": 456
+  },
+  { "path": "packages/shared/getComponentName.js", "time": 3700 },
+  {
+    "path": "packages/scheduler/src/__tests__/Scheduler-test.internal.js",
+    "time": 236
+  },
+  { "path": "packages/create-subscription/README.md", "time": 4568 },
+  {
+    "path": "packages/react-test-renderer/src/__tests__/ReactTestRendererAsync-test.js",
+    "time": 3147
+  },
+  { "path": "packages/scheduler/src/TracingSubscriptions.js", "time": 17 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactMount-test.js",
+    "time": 10832
+  },
+  { "path": "packages/shared/warningWithoutStack.js", "time": 1385 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactServerRenderingHydration.js",
+    "time": 1294
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberPendingPriority.js",
+    "time": 1433
+  },
+  { "path": "packages/react-art/src/ReactARTHostConfig.js", "time": 2278 },
+  { "path": "scripts/bench/build.js", "time": 11479 },
+  { "path": "fixtures/unstable-async/time-slicing/src/index.js", "time": 642 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactChildReconciler-test.js",
+    "time": 14615
+  },
+  { "path": "packages/shared/reactProdInvariant.js", "time": 3045 },
+  {
+    "path": "packages/react-dom/src/client/ReactDOMFiberOption.js",
+    "time": 15233
+  },
+  { "path": "fixtures/dom/src/components/fixtures/index.js", "time": 12070 },
+  { "path": "fixtures/dom/src/components/Iframe.js", "time": 256 },
+  { "path": "fixtures/unstable-async/suspense/public/index.html", "time": 267 },
+  {
+    "path": "packages/react-dom/src/client/ReactDOMFiberInput.js",
+    "time": 6114
+  },
+  {
+    "path": "packages/react-dom/src/events/SimpleEventPlugin.js",
+    "time": 1929
+  },
+  {
+    "path": "packages/react-dom/src/client/ReactDOMFiberComponent.js",
+    "time": 14270
+  },
+  {
+    "path": "packages/react/src/__tests__/createReactClassIntegration-test.js",
+    "time": 11511
+  },
+  {
+    "path": "fixtures/unstable-async/suspense/src/components/Spinner.css",
+    "time": 39
+  },
+  { "path": "packages/react/src/ReactElement.js", "time": 38121 },
+  {
+    "path": "packages/react-dom/src/events/SelectEventPlugin.js",
+    "time": 33838
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerIntegrationForms-test.js",
+    "time": 6022
+  },
+  { "path": "packages/react-scheduler/src/ReactScheduler.js", "time": 4368 },
+  { "path": "scripts/jest/matchers/toWarnDev.js", "time": 254 },
+  {
+    "path": "packages/react-dom/src/events/__tests__/SyntheticEvent-test.js",
+    "time": 21133
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIncrementalPerf-test.internal.js",
+    "time": 5478
+  },
+  { "path": "packages/react/src/forwardRef.js", "time": 2755 },
+  {
+    "path": "packages/react-reconciler/src/ReactProfilerTimer.js",
+    "time": 1340
+  },
+  { "path": "fixtures/attribute-behavior/README.md", "time": 7422 },
+  {
+    "path": "packages/react-dom/src/events/BeforeInputEventPlugin.js",
+    "time": 22868
+  },
+  { "path": "packages/react-dom/src/events/getEventTarget.js", "time": 3764 },
+  {
+    "path": "packages/react-scheduler/src/__tests__/ReactScheduler-test.js",
+    "time": 289
+  },
+  {
+    "path": "packages/simple-cache-provider/src/SimpleCacheProvider.js",
+    "time": 2
+  },
+  {
+    "path": "fixtures/dom/src/components/fixtures/text-inputs/index.js",
+    "time": 7723
+  },
+  {
+    "path": "packages/react-scheduler/src/__tests__/test_page.html",
+    "time": 743
+  },
+  {
+    "path": "packages/react-dom/src/events/DOMTopLevelEventTypes.js",
+    "time": 177
+  },
+  {
+    "path": "packages/react-dom/src/events/ReactBrowserEventEmitter.js",
+    "time": 159
+  },
+  { "path": "scripts/bench/README.md", "time": 8968 },
+  { "path": "packages/react-dom/src/events/TapEventPlugin.js", "time": 31090 },
+  { "path": "scripts/circleci/check_modules.sh", "time": 2805 },
+  {
+    "path": "packages/react-test-renderer/src/__tests__/ReactShallowRenderer-test.js",
+    "time": 2260
+  },
+  { "path": "packages/shared/forks/ReactFeatureFlags.www.js", "time": 2496 },
+  {
+    "path": "packages/react-dom/src/events/__tests__/ChangeEventPlugin-test.internal.js",
+    "time": 6452
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/__snapshots__/ReactIncrementalPerf-test.internal.js.snap",
+    "time": 7128
+  },
+  { "path": "scripts/rollup/results.json", "time": 1561 },
+  { "path": "packages/react-noop-renderer/src/ReactNoop.js", "time": 1020 },
+  {
+    "path": "scripts/release/build-commands/update-package-versions.js",
+    "time": 3892
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIncrementalTriangle-test.internal.js",
+    "time": 3291
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIncrementalSideEffects-test.internal.js",
+    "time": 5784
+  },
+  {
+    "path": "packages/react-dom/src/events/__tests__/BeforeInputEventPlugin-test.internal.js",
+    "time": 10263
+  },
+  {
+    "path": "packages/react-reconciler/src/ReactFiberNewContext.js",
+    "time": 355
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/refs-destruction-test.js",
+    "time": 17125
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerIntegrationFragment-test.js",
+    "time": 1814
+  },
+  { "path": "packages/react-test-renderer/package.json", "time": 6477 },
+  { "path": "scripts/tasks/eslint.js", "time": 1306 },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIncrementalErrorLogging-test.internal.js",
+    "time": 1517
+  },
+  {
+    "path": "packages/react-reconciler/src/__tests__/ReactIncrementalSideEffects-test.js",
+    "time": 12567
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/utils/ReactDOMServerIntegrationTestUtils.js",
+    "time": 1032
+  },
+  { "path": "packages/react-art/src/__tests__/ReactART-test.js", "time": 309 },
+  {
+    "path": "packages/react-dom/src/client/DOMPropertyOperations.js",
+    "time": 191
+  },
+  {
+    "path": "packages/shared/__tests__/ReactErrorUtils-test.internal.js",
+    "time": 1578
+  },
+  { "path": "scripts/rollup/plugins/use-forks-plugin.js", "time": 4 },
+  {
+    "path": "packages/react-dom/src/events/__tests__/SelectEventPlugin-test.internal.js",
+    "time": 18147
+  },
+  { "path": "packages/events/EventPluginRegistry.js", "time": 39113 },
+  {
+    "path": "packages/react/src/__tests__/ReactClassEquivalence-test.js",
+    "time": 3189
+  },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactTreeTraversal-test.internal.js",
+    "time": 18138
+  },
+  { "path": "packages/react-noop-renderer/package.json", "time": 362 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMServerIntegration-test.js",
+    "time": 6359
+  },
+  {
+    "path": "packages/react-dom/src/client/inputValueTracking.js",
+    "time": 2878
+  },
+  { "path": "packages/react-cs-renderer/src/ReactNativeCS.js", "time": 670 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactErrorBoundaries-test.js",
+    "time": 16800
+  },
+  {
+    "path": "fixtures/dom/src/components/fixtures/input-change-events/RadioGroupFixture.js",
+    "time": 2946
+  },
+  { "path": "packages/react-dom/server.browser.js", "time": 1848 },
+  {
+    "path": "packages/react-dom/src/shared/HTMLDOMPropertyConfig.js",
+    "time": 16156
+  },
+  {
+    "path": "packages/react-dom/src/events/__tests__/SyntheticWheelEvent-test.js",
+    "time": 38729
+  },
+  { "path": "packages/react-rt-renderer/src/ReactNativeRT.js", "time": 66 },
+  { "path": "scripts/release/build-commands/build-artifacts.js", "time": 570 },
+  {
+    "path": "packages/react-dom/src/__tests__/ReactDOMProduction-test.js",
+    "time": 10566
+  },
+  {
+    "path": "packages/react-dom/src/shared/isCustomComponent.js",
+    "time": 4215
+  },
+  { "path": "fixtures/dom/README.md", "time": 7027 },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativeFiberRenderer.js",
+    "time": 716
+  },
+  { "path": "packages/events/TouchHistoryMath.js", "time": 13286 },
+  { "path": "packages/react-art/npm/lib/Circle.art.js", "time": 665 },
+  { "path": "scripts/rollup/sync.js", "time": 3580 },
+  {
+    "path": "packages/react-native-renderer/src/ReactNativeFiberEntry.js",
+    "time": 6121
+  },
+  { "path": "packages/react-dom/src/ReactDOMFiberComponent.js", "time": 3859 },
+  {
+    "path": "src/renderers/shared/fiber/ReactFiberUpdateQueue.js",
+    "time": 7373
+  },
+  {
+    "path": "src/renderers/testing/__tests__/ReactShallowRenderer-test.js",
+    "time": 1878
+  },
+  { "path": "scripts/release-manager/package.json", "time": 6800 },
+  {
+    "path": "src/renderers/shared/fiber/ReactFiberReconciler.js",
+    "time": 4725
+  },
+  { "path": "src/renderers/dom/fiber/ReactDOMFiberEntry.js", "time": 4340 },
+  {
+    "path": "src/renderers/dom/shared/__tests__/ReactServerRendering-test.js",
+    "time": 1730
+  },
+  { "path": "fixtures/ssr/src/components/Chrome.js", "time": 2162 },
+  {
+    "path": "fixtures/dom/src/components/fixtures/textareas/index.js",
+    "time": 6643
+  },
+  {
+    "path": "src/renderers/shared/server/ReactPartialRenderer.js",
+    "time": 3498
+  },
+  {
+    "path": "fixtures/dom/src/components/fixtures/selects/index.js",
+    "time": 2160
+  },
+  {
+    "path": "src/renderers/dom/shared/eventPlugins/__tests__/EnterLeaveEventPlugin-test.js",
+    "time": 16920
+  },
+  {
+    "path": "fixtures/dom/src/components/fixtures/input-change-events/RangeKeyboardFixture.js",
+    "time": 2062
+  },
+  {
+    "path": "src/renderers/dom/shared/__tests__/ReactDOMServerIntegration-test.js",
+    "time": 4631
+  },
+  {
+    "path": "src/renderers/dom/shared/syntheticEvents/SyntheticDragEvent.js",
+    "time": 33052
+  },
+  { "path": "docs/_posts/2015-09-14-community-roundup-27.md", "time": 18038 },
+  { "path": "docs/docs/web-components.md", "time": 53 },
+  { "path": "www/src/css/algolia.css", "time": 120 },
+  { "path": "docs/contributing/how-to-contribute.md", "time": 6666 },
+  {
+    "path": "fixtures/dom/src/components/fixtures/custom-elements/index.js",
+    "time": 4
+  },
+  { "path": ".github/ISSUE_TEMPLATE.md", "time": 793 },
+  { "path": "www/gatsby-node.js", "time": 98 },
+  { "path": "www/src/utils/findSectionForPath.js", "time": 95 },
+  { "path": "www/src/layouts/index.js", "time": 76 },
+  { "path": "docs/docs/reference-react-dom.md", "time": 66 },
+  { "path": "docs/_js/examples/todo.js", "time": 8661 },
+  { "path": "docs/docs/reference-react.md", "time": 8230 },
+  { "path": "www/src/components/MarkdownPage/MarkdownPage.js", "time": 32 },
+  {
+    "path": "src/renderers/dom/shared/eventPlugins/SimpleEventPlugin.js",
+    "time": 43
+  },
+  { "path": "www/README.md", "time": 6 },
+  { "path": "docs/docs/installation.md", "time": 3874 },
+  { "path": "src/renderers/shared/fiber/ReactFiberScheduler.js", "time": 9364 },
+  { "path": "src/renderers/dom/fiber/ReactDOMFiberComponent.js", "time": 7415 },
+  { "path": "docs/docs/reference-react-component.md", "time": 4174 },
+  { "path": "src/renderers/shared/fiber/ReactFiberContext.js", "time": 1363 },
+  { "path": "docs/_posts/2017-09-26-react-v16.0.md", "time": 18 },
+  { "path": "docs/docs/portals.md", "time": 4 },
+  { "path": "docs/_config.yml", "time": 7538 },
+  {
+    "path": "docs/_posts/2017-09-08-dom-attributes-in-react-16.md",
+    "time": 406
+  },
+  { "path": "docs/docs/refs-and-the-dom.md", "time": 7874 },
+  {
+    "path": "src/renderers/testing/ReactTestRendererFiberEntry.js",
+    "time": 5208
+  },
+  {
+    "path": "src/renderers/shared/fiber/ReactFiberCompleteWork.js",
+    "time": 4700
+  },
+  { "path": "docs/tutorial/tutorial.md", "time": 4228 },
+  { "path": "scripts/fiber/tests-passing.txt", "time": 5140 },
+  { "path": "fixtures/art/package.json", "time": 3703 },
+  {
+    "path": "src/renderers/native/ReactNativeBridgeEventPlugin.js",
+    "time": 12116
+  },
+  { "path": "docs/docs/accessibility.md", "time": 1704 },
+  { "path": "scripts/bench/stats.js", "time": 2857 },
+  {
+    "path": "src/renderers/dom/shared/wrappers/__tests__/ReactDOMSelect-test.js",
+    "time": 3005
+  },
+  {
+    "path": "src/renderers/dom/shared/utils/isCustomComponent.js",
+    "time": 2684
+  },
+  {
+    "path": "src/renderers/shared/utils/__tests__/ReactErrorUtils-test.js",
+    "time": 5763
+  },
+  { "path": "src/renderers/native/ReactNativeEventEmitter.js", "time": 11853 },
+  { "path": "fixtures/attribute-behavior/.gitignore", "time": 7 },
+  { "path": "src/renderers/native/NativeMethodsMixin.js", "time": 11780 },
+  { "path": "src/renderers/__tests__/EventPluginHub-test.js", "time": 31881 },
+  {
+    "path": "src/renderers/dom/shared/eventPlugins/ChangeEventPlugin.js",
+    "time": 36338
+  },
+  { "path": "src/renderers/dom/shared/DOMProperty.js", "time": 7585 },
+  { "path": "src/renderers/shared/utils/ReactErrorUtils.js", "time": 18716 },
+  { "path": "src/renderers/native/findNodeHandle.js", "time": 11495 },
+  {
+    "path": "src/renderers/dom/shared/hooks/ReactDOMUnknownPropertyHook.js",
+    "time": 7007
+  },
+  { "path": "src/renderers/dom/ReactDOMServerBrowserEntry.js", "time": 188 },
+  { "path": "src/renderers/shared/fiber/ReactFiber.js", "time": 9721 },
+  { "path": "fixtures/fiber-debugger/src/Fibers.js", "time": 4340 },
+  {
+    "path": "fixtures/dom/src/components/fixtures/date-inputs/index.js",
+    "time": 167
+  },
+  { "path": "src/renderers/native/ReactNativeFiberEntry.js", "time": 4248 },
+  { "path": "src/renderers/shared/ReactDOMFrameScheduling.js", "time": 4614 },
+  { "path": "src/renderers/shared/fiber/ReactFiberBeginWork.js", "time": 6242 },
+  {
+    "path": "src/renderers/dom/shared/__tests__/ReactDOMComponent-test.js",
+    "time": 18047
+  },
+  {
+    "path": "src/renderers/shared/fiber/ReactFiberCommitWork.js",
+    "time": 9265
+  },
+  {
+    "path": "src/renderers/shared/fiber/ReactFiberTreeReflection.js",
+    "time": 5565
+  },
+  { "path": "scripts/jest/test-framework-setup.js", "time": 1 },
+  { "path": "src/renderers/dom/shared/inputValueTracking.js", "time": 5830 },
+  {
+    "path": "src/renderers/dom/stack/client/ReactDOMComponent.js",
+    "time": 18774
+  },
+  { "path": "fixtures/dom/public/react-loader.js", "time": 4510 },
+  { "path": "src/renderers/shared/fiber/ReactChildFiber.js", "time": 6244 },
+  {
+    "path": "src/renderers/__tests__/ReactChildReconciler-test.js",
+    "time": 5022
+  },
+  {
+    "path": "src/renderers/native/ReactNativeReconcileTransaction.js",
+    "time": 10767
+  },
+  {
+    "path": "src/renderers/dom/test/__tests__/ReactTestUtils-test.js",
+    "time": 16798
+  },
+  { "path": "docs/docs/thinking-in-react.md", "time": 3362 },
+  { "path": "docs/_data/nav_docs.yml", "time": 5706 },
+  {
+    "path": "src/isomorphic/classic/__tests__/createReactClassIntegration-test.js",
+    "time": 1703
+  },
+  {
+    "path": "src/renderers/dom/shared/CSSPropertyOperations.js",
+    "time": 26077
+  },
+  { "path": "src/renderers/native/ReactNativeFiber.js", "time": 3076 },
+  { "path": "docs/_data/authors.yml", "time": 8086 },
+  { "path": "src/isomorphic/modern/class/ReactBaseClasses.js", "time": 21065 },
+  { "path": "docs/docs/addons-animation.md", "time": 5467 },
+  {
+    "path": "src/renderers/__tests__/ReactHostOperationHistoryHook-test.js",
+    "time": 2014
+  },
+  {
+    "path": "src/renderers/dom/shared/__tests__/ReactDOMTextComponent-test.js",
+    "time": 30395
+  },
+  {
+    "path": "src/renderers/native/ReactNativeViewConfigRegistry.js",
+    "time": 2244
+  },
+  {
+    "path": "src/renderers/shared/stack/reconciler/CallbackQueue.js",
+    "time": 28688
+  },
+  { "path": "scripts/rollup/modules.js", "time": 1226 },
+  { "path": "src/renderers/dom/fiber/ReactDOMFiber.js", "time": 5944 },
+  { "path": "docs/docs/higher-order-components.md", "time": 4084 },
+  { "path": "src/renderers/native/NativeMethodsMixinUtils.js", "time": 457 },
+  { "path": "docs/docs/optimizing-performance.md", "time": 4701 },
+  {
+    "path": "src/renderers/dom/fiber/wrappers/ReactDOMFiberSelect.js",
+    "time": 3903
+  },
+  { "path": "src/renderers/native/ReactNativeBaseComponent.js", "time": 8921 },
+  { "path": "docs/_js/live_editor.js", "time": 28669 },
+  { "path": "docs/docs/jsx-in-depth.md", "time": 4414 },
+  { "path": "docs/contributing/codebase-overview.md", "time": 4453 },
+  { "path": "src/__mocks__/UIManager.js", "time": 15 },
+  {
+    "path": "src/renderers/shared/fiber/__tests__/ReactCoroutine-test.js",
+    "time": 2007
+  },
+  {
+    "path": "src/renderers/native/__tests__/ReactNativeMount-test.js",
+    "time": 1174
+  },
+  { "path": "src/renderers/shared/ReactDebugTool.js", "time": 3517 },
+  { "path": "docs/warnings/dont-call-proptypes.md", "time": 158 },
+  {
+    "path": "src/isomorphic/modern/class/__tests__/ReactES6Class-test.js",
+    "time": 19659
+  },
+  { "path": "docs/docs/lifting-state-up.md", "time": 981 },
+  { "path": "src/test/ReactTestUtils.js", "time": 14976 },
+  { "path": "docs/docs/addons-two-way-binding-helpers.md", "time": 22885 },
+  { "path": "scripts/circleci/upload_build.sh", "time": 2970 },
+  {
+    "path": "src/renderers/dom/shared/eventPlugins/TapEventPlugin.js",
+    "time": 21376
+  },
+  { "path": "docs/contributing/design-principles.md", "time": 6339 },
+  { "path": "src/renderers/art/ReactARTFiber.js", "time": 2728 },
+  {
+    "path": "src/renderers/shared/shared/event/EventPropagators.js",
+    "time": 33119
+  },
+  {
+    "path": "src/renderers/dom/stack/client/wrappers/ReactDOMInput.js",
+    "time": 30717
+  },
+  { "path": "docs/contributing/implementation-notes.md", "time": 3993 },
+  { "path": "src/renderers/__tests__/ReactIdentity-test.js", "time": 12045 },
+  { "path": "scripts/release-manager/commands/version.js", "time": 1587 },
+  {
+    "path": "src/renderers/shared/stack/reconciler/ReactUpdateQueue.js",
+    "time": 507
+  },
+  {
+    "path": "src/renderers/dom/fiber/wrappers/ReactDOMFiberInput.js",
+    "time": 2615
+  },
+  { "path": "docs/_layouts/default.html", "time": 32927 },
+  {
+    "path": "src/renderers/__tests__/ReactCompositeComponent-test.js",
+    "time": 10941
+  },
+  { "path": "scripts/fiber/record-tests", "time": 2773 },
+  { "path": "src/renderers/__tests__/refs-test.js", "time": 1525 },
+  {
+    "path": "src/renderers/__tests__/ReactStatelessComponent-test.js",
+    "time": 999
+  },
+  {
+    "path": "src/isomorphic/classic/types/__tests__/ReactPropTypesProduction-test.js",
+    "time": 1367
+  },
+  {
+    "path": "src/renderers/native/ReactNativeAttributePayload.js",
+    "time": 7195
+  },
+  { "path": "docs/_posts/2016-11-16-react-v15.4.0.md", "time": 2142 },
+  { "path": "docs/docs/introducing-jsx.md", "time": 2684 },
+  { "path": "src/renderers/testing/ReactTestRendererFiber.js", "time": 412 },
+  {
+    "path": "src/isomorphic/classic/types/__tests__/ReactPropTypes-test.js",
+    "time": 80
+  },
+  { "path": "scripts/fiber/tests-passing-except-dev.txt", "time": 1981 },
+  {
+    "path": "src/renderers/dom/shared/utils/ReactControlledValuePropTypes.js",
+    "time": 18161
+  },
+  { "path": "src/shared/utils/traverseAllChildren.js", "time": 14 },
+  {
+    "path": "src/renderers/shared/stack/reconciler/instantiateReactComponent.js",
+    "time": 19483
+  },
+  {
+    "path": "src/renderers/dom/__tests__/ReactDOMProduction-test.js",
+    "time": 7319
+  },
+  { "path": "docs/css/react.scss", "time": 32213 },
+  {
+    "path": "src/renderers/shared/fiber/ReactFiberDevToolsHook.js",
+    "time": 67
+  },
+  { "path": "src/shared/utils/getComponentName.js", "time": 2078 },
+  { "path": "docs/community/conferences.md", "time": 2089 },
+  {
+    "path": "docs/_posts/2016-07-13-mixins-considered-harmful.md",
+    "time": 4656
+  },
+  { "path": "examples/fiber/debugger/yarn.lock", "time": 114 },
+  {
+    "path": "src/renderers/dom/shared/__tests__/ReactDOMSVG-test.js",
+    "time": 14870
+  },
+  { "path": "src/isomorphic/classic/types/ReactPropTypes.js", "time": 9909 },
+  { "path": "examples/fiber/debugger/.gitignore", "time": 1908 },
+  { "path": "scripts/jest/ts-preprocessor.js", "time": 10573 },
+  { "path": "src/renderers/shared/stack/reconciler/ReactRef.js", "time": 2860 },
+  { "path": "docs/docs/typechecking-with-proptypes.md", "time": 1940 },
+  { "path": "docs/_posts/2016-09-28-our-first-50000-stars.md", "time": 2360 },
+  { "path": "scripts/jest/environment.js", "time": 3189 },
+  {
+    "path": "src/renderers/shared/stack/reconciler/ReactChildReconciler.js",
+    "time": 9350
+  },
+  {
+    "path": "src/renderers/dom/fiber/__tests__/ReactDOMFiber-test.js",
+    "time": 1
+  },
+  { "path": "src/renderers/noop/ReactNoop.js", "time": 169 },
+  { "path": "scripts/fiber/tests-failing.txt", "time": 13 },
+  { "path": "docs/warnings/refs-must-have-owner.md", "time": 3402 },
+  {
+    "path": "src/renderers/shared/stack/reconciler/__tests__/ReactCompositeComponent-test.js",
+    "time": 18308
+  },
+  { "path": "grunt/config/browserify.js", "time": 18476 },
+  {
+    "path": "src/renderers/dom/shared/eventPlugins/__tests__/SimpleEventPlugin-test.js",
+    "time": 5471
+  },
+  { "path": "docs/js/react.js", "time": 144 },
+  { "path": "docs/docs/reference-pure-render-mixin.md", "time": 759 },
+  {
+    "path": "src/renderers/dom/shared/wrappers/__tests__/ReactDOMOption-test.js",
+    "time": 45
+  },
+  { "path": "src/test/reactComponentExpect.js", "time": 8039 },
+  {
+    "path": "src/renderers/shared/stack/reconciler/ReactCompositeComponent.js",
+    "time": 27572
+  },
+  { "path": "src/renderers/dom/shared/ReactDOMComponentTree.js", "time": 8943 },
+  { "path": "gulp/tasks/eslint.js", "time": 3044 },
+  { "path": "src/renderers/dom/shared/ReactEventListener.js", "time": 288 },
+  { "path": "docs/docs/addons-test-utils.md", "time": 433 },
+  { "path": "src/renderers/native/ReactNativeMount.js", "time": 4795 },
+  {
+    "path": "src/renderers/shared/fiber/ReactFiberClassComponent.js",
+    "time": 71
+  },
+  {
+    "path": "src/renderers/dom/shared/wrappers/__tests__/ReactDOMInput-test.js",
+    "time": 7083
+  },
+  {
+    "path": "src/renderers/shared/stack/reconciler/__tests__/refs-destruction-test.js",
+    "time": 5967
+  },
+  { "path": "src/renderers/dom/shared/validateDOMNesting.js", "time": 14137 },
+  { "path": "docs/docs/forms.md", "time": 121 },
+  { "path": "docs/docs/reconciliation.md", "time": 116 },
+  { "path": "docs/docs/hello-world.md", "time": 25 },
+  { "path": "src/isomorphic/children/ReactChildren.js", "time": 24243 },
+  { "path": "docs/docs/lists-and-keys.md", "time": 25 },
+  { "path": "src/renderers/native/__mocks__/UIManager.js", "time": 4408 },
+  {
+    "path": "src/renderers/shared/stack/reconciler/ReactInstanceType.js",
+    "time": 1221
+  },
+  {
+    "path": "src/renderers/shared/stack/event/ReactSyntheticEventType.js",
+    "time": 977
+  },
+  {
+    "path": "src/renderers/dom/client/wrappers/__tests__/ReactDOMInput-test.js",
+    "time": 27095
+  },
+  { "path": "docs/docs/ref-01-top-level-api.md", "time": 9155 },
+  { "path": "docs/docs/08.1-more-about-refs.md", "time": 8890 },
+  { "path": "grunt/tasks/npm-react-native.js", "time": 4052 },
+  { "path": "docs/docs/05-reusable-components.md", "time": 4955 },
+  { "path": "docs/docs/tutorial.it-IT.md", "time": 835 },
+  { "path": "src/renderers/dom/client/utils/setTextContent.js", "time": 14550 },
+  { "path": ".travis.yml", "time": 3864 },
+  { "path": "docs/docs/07-forms.ko-KR.md", "time": 7847 },
+  { "path": "docs/_posts/2013-06-05-why-react.md", "time": 11549 },
+  { "path": "docs/tips/02-inline-styles.ru-RU.md", "time": 124 },
+  { "path": "docs/tips/01-introduction.ru-RU.md", "time": 24 },
+  {
+    "path": "src/renderers/shared/stack/reconciler/ReactOwner.js",
+    "time": 381
+  },
+  {
+    "path": "src/renderers/dom/client/eventPlugins/TapEventPlugin.js",
+    "time": 16340
+  },
+  { "path": "docs/docs/09.2-package-management.md", "time": 3525 },
+  { "path": "src/umd/ReactUMDEntry.js", "time": 3911 },
+  { "path": "src/shared/types/ReactPropTypeLocationNames.js", "time": 103 },
+  {
+    "path": "src/renderers/dom/client/ReactBrowserEventEmitter.js",
+    "time": 23287
+  },
+  { "path": "src/renderers/dom/shared/HTMLDOMPropertyConfig.js", "time": 8024 },
+  { "path": "src/renderers/shared/ReactPerf.js", "time": 1970 },
+  { "path": "src/isomorphic/hooks/ReactComponentTreeHook.js", "time": 284 },
+  {
+    "path": "src/renderers/dom/client/eventPlugins/SelectEventPlugin.js",
+    "time": 23010
+  },
+  { "path": "docs/docs/10.1-animation.ja-JP.md", "time": 9639 },
+  {
+    "path": "src/renderers/testing/__tests__/ReactTestRenderer-test.js",
+    "time": 1574
+  },
+  { "path": "src/renderers/testing/ReactTestMount.js", "time": 1749 },
+  { "path": "src/isomorphic/classic/element/ReactElement.js", "time": 18910 },
+  {
+    "path": "src/renderers/shared/hooks/__tests__/ReactComponentTreeHook-test.js",
+    "time": 355
+  },
+  {
+    "path": "src/renderers/shared/hooks/ReactChildrenMutationWarningHook.js",
+    "time": 284
+  },
+  {
+    "path": "src/renderers/shared/stack/reconciler/ReactUpdates.js",
+    "time": 6048
+  },
+  {
+    "path": "src/renderers/shared/stack/reconciler/__tests__/ReactUpdates-test.js",
+    "time": 27226
+  },
+  { "path": "docs/_posts/2016-08-05-relay-state-of-the-state.md", "time": 4 },
+  { "path": "packages/react-addons/package.json", "time": 1 },
+  {
+    "path": "src/renderers/dom/client/wrappers/ReactDOMInput.js",
+    "time": 23358
+  },
+  {
+    "path": "src/renderers/shared/stack/event/eventPlugins/ResponderEventPlugin.js",
+    "time": 11743
+  },
+  {
+    "path": "src/isomorphic/classic/__tests__/ReactContextValidator-test.js",
+    "time": 1535
+  },
+  {
+    "path": "docs/_posts/2016-07-22-create-apps-with-no-configuration.md",
+    "time": 4
+  },
+  { "path": ".babelrc", "time": 3480 },
+  {
+    "path": "src/renderers/shared/stack/event/EventPluginHub.js",
+    "time": 26904
+  },
+  {
+    "path": "src/renderers/dom/server/ReactServerRenderingTransaction.js",
+    "time": 20564
+  },
+  { "path": "src/shared/utils/flattenChildren.js", "time": 25840 },
+  { "path": "src/renderers/dom/shared/ReactDOMComponent.js", "time": 8855 },
+  { "path": "src/renderers/dom/client/ReactMount.js", "time": 17299 },
+  {
+    "path": "src/isomorphic/classic/class/__tests__/ReactClassMixin-test.js",
+    "time": 5
+  },
+  {
+    "path": "src/renderers/shared/stack/reconciler/__tests__/ReactMultiChildReconcile-test.js",
+    "time": 19681
+  },
+  { "path": "examples/webcomponents/index.html", "time": 5317 },
+  { "path": "docs/docs/tutorial.ko-KR.md", "time": 11007 },
+  {
+    "path": "src/renderers/dom/client/wrappers/ReactDOMTextarea.js",
+    "time": 8885
+  },
+  { "path": "src/renderers/dom/client/utils/DOMLazyTree.js", "time": 3886 },
+  { "path": "docs/docs/10.10-shallow-compare.md", "time": 4479 },
+  { "path": "scripts/bench/extract-component.js", "time": 5280 },
+  {
+    "path": "src/addons/transitions/ReactCSSTransitionGroupChild.js",
+    "time": 9527
+  },
+  {
+    "path": "src/renderers/shared/fiber/isomorphic/ReactCoroutine.js",
+    "time": 44
+  },
+  {
+    "path": "src/isomorphic/classic/element/__tests__/ReactElement-test.js",
+    "time": 6366
+  },
+  {
+    "path": "src/isomorphic/classic/element/__tests__/ReactElementClone-test.js",
+    "time": 8592
+  },
+  { "path": "src/test/__tests__/ReactTestUtils-test.js", "time": 10889 },
+  { "path": "src/addons/ReactComponentWithPureRenderMixin.js", "time": 18334 },
+  {
+    "path": "src/isomorphic/devtools/__tests__/ReactComponentTreeDevtool-test.js",
+    "time": 655
+  },
+  {
+    "path": "src/isomorphic/devtools/ReactComponentTreeDevtool.js",
+    "time": 532
+  },
+  { "path": "src/renderers/dom/shared/DOMPropertyOperations.js", "time": 4733 },
+  { "path": "src/isomorphic/ReactDebugTool.js", "time": 410 },
+  { "path": "src/isomorphic/ReactPerf.js", "time": 201 },
+  { "path": "docs/index.md", "time": 9334 },
+  { "path": "docs/docs/02-displaying-data.ru-RU.md", "time": 205 },
+  { "path": "docs/docs/09.1-language-tooling.md", "time": 502 },
+  {
+    "path": "src/renderers/shared/reconciler/ReactReconciler.js",
+    "time": 10843
+  },
+  { "path": "src/renderers/dom/shared/ReactDOMDebugTool.js", "time": 2832 },
+  { "path": "src/isomorphic/children/onlyChild.js", "time": 24939 },
+  { "path": "docs/_posts/2014-11-24-react-js-conf-updates.md", "time": 12299 },
+  { "path": "docs/docs/09.3-environments.md", "time": 2 },
+  { "path": "src/test/__tests__/ReactDefaultPerf-test.js", "time": 4126 },
+  { "path": "docs/_posts/2016-04-07-react-v15.md", "time": 18 },
+  {
+    "path": "src/renderers/dom/client/wrappers/ReactDOMOption.js",
+    "time": 8786
+  },
+  { "path": "docs/docs/07-forms.md", "time": 6817 },
+  { "path": "src/renderers/shared/event/EventPluginUtils.js", "time": 3674 },
+  { "path": "examples/basic-click-counter/index.html", "time": 6662 },
+  { "path": "docs/_layouts/docs.html", "time": 14785 },
+  {
+    "path": "src/renderers/shared/reconciler/ReactUpdateQueue.js",
+    "time": 6986
+  },
+  { "path": "docs/docs/10.4-test-utils.it-IT.md", "time": 4077 },
+  { "path": "src/renderers/dom/shared/SVGDOMPropertyConfig.js", "time": 97 },
+  {
+    "path": "src/renderers/dom/shared/devtools/ReactDOMSVGDeprecatedAttributeDevtool.js",
+    "time": 171
+  },
+  { "path": "src/renderers/dom/server/ReactMarkupChecksum.js", "time": 5890 },
+  { "path": "src/renderers/shared/reconciler/ReactOwner.js", "time": 24344 },
+  { "path": "docs/_posts/2016-03-07-react-v15-rc1.md", "time": 13 },
+  { "path": "src/isomorphic/modern/class/ReactComponent.js", "time": 10006 },
+  {
+    "path": "src/renderers/dom/client/syntheticEvents/SyntheticEvent.js",
+    "time": 22764
+  },
+  { "path": "docs/docs/ref-08-reconciliation.md", "time": 17902 },
+  { "path": ".eslintrc", "time": 6554 },
+  {
+    "path": "src/renderers/shared/reconciler/__tests__/ReactMultiChildText-test.js",
+    "time": 3420
+  },
+  { "path": "docs/_posts/2015-12-16-ismounted-antipattern.md", "time": 1829 },
+  { "path": "src/renderers/dom/server/ReactServerRendering.js", "time": 3440 },
+  { "path": "docs/html-jsx.md", "time": 8183 },
+  { "path": "docs/docs/tutorial.zh-CN.md", "time": 3262 },
+  { "path": "src/renderers/dom/shared/ReactDOMTextComponent.js", "time": 8059 },
+  { "path": "src/renderers/shared/event/EventPluginHub.js", "time": 18464 },
+  { "path": "src/renderers/dom/client/utils/getEventTarget.js", "time": 23657 },
+  {
+    "path": "src/renderers/dom/client/wrappers/ReactDOMSelect.js",
+    "time": 6092
+  },
+  { "path": "docs/_posts/2013-09-24-community-roundup-8.md", "time": 20745 },
+  { "path": "src/addons/link/ReactLink.js", "time": 17330 },
+  { "path": "examples/jquery-bootstrap/js/app.js", "time": 22164 },
+  { "path": "docs/docs/04-multiple-components.md", "time": 22266 },
+  { "path": "docs/docs/02-displaying-data.ja-JP.md", "time": 5083 },
+  { "path": "docs/js/react-dom.js", "time": 2552 },
+  { "path": "docs/tips/12-initial-ajax.md", "time": 14419 },
+  {
+    "path": "src/renderers/shared/reconciler/__tests__/ReactCompositeComponent-test.js",
+    "time": 8597
+  },
+  { "path": "docs/docs/tutorial.md", "time": 17287 },
+  { "path": "docs/_posts/2014-02-15-community-roundup-16.md", "time": 5946 },
+  { "path": "docs/_posts/2015-02-18-react-conf-roundup-2015.md", "time": 7343 },
+  {
+    "path": "docs/_posts/2015-12-18-react-components-elements-and-instances.md",
+    "time": 72
+  },
+  {
+    "path": "docs/_posts/2015-03-19-building-the-facebook-news-feed-with-relay.md",
+    "time": 5305
+  },
+  {
+    "path": "src/renderers/shared/reconciler/ReactCompositeComponent.js",
+    "time": 5222
+  },
+  { "path": "docs/docs/getting-started.md", "time": 17491 },
+  { "path": "src/isomorphic/classic/class/ReactClass.js", "time": 8396 },
+  {
+    "path": "src/renderers/dom/client/__tests__/ReactDOMTreeTraversal-test.js",
+    "time": 935
+  },
+  { "path": "docs/docs/tutorial.ja-JP.md", "time": 6245 },
+  { "path": "docs/docs/ref-04-tags-and-attributes.md", "time": 2909 },
+  { "path": "starter/README.md", "time": 5418 },
+  { "path": "docs/docs/06-transferring-props.md", "time": 4107 },
+  { "path": "docs/docs/02.2-jsx-spread.md", "time": 8494 },
+  {
+    "path": "src/renderers/dom/client/ReactReconcileTransaction.js",
+    "time": 14154
+  },
+  {
+    "path": "src/renderers/shared/event/eventPlugins/ResponderEventPlugin.js",
+    "time": 288
+  },
+  { "path": "docs/docs/10.3-class-name-manipulation.md", "time": 188 },
+  {
+    "path": "src/addons/transitions/__tests__/ReactCSSTransitionGroup-test.js",
+    "time": 15142
+  },
+  {
+    "path": "src/renderers/dom/shared/__tests__/DOMPropertyOperations-test.js",
+    "time": 5528
+  },
+  { "path": "docs/docs/10.4-test-utils.md", "time": 9789 },
+  { "path": "src/addons/ReactFragment.js", "time": 6296 },
+  { "path": "grunt/tasks/eslint.js", "time": 3574 },
+  {
+    "path": "src/renderers/shared/reconciler/__tests__/ReactEmptyComponent-test.js",
+    "time": 8190
+  },
+  {
+    "path": "src/renderers/shared/reconciler/ReactMultiChild.js",
+    "time": 4513
+  },
+  {
+    "path": "src/renderers/dom/client/eventPlugins/ChangeEventPlugin.js",
+    "time": 20226
+  },
+  { "path": "src/shared/utils/ReactErrorUtils.js", "time": 1511 },
+  { "path": "docs/docs/11-advanced-performance.md", "time": 3790 },
+  { "path": "docs/_posts/2015-10-07-react-v0.14.md", "time": 37 },
+  { "path": "src/renderers/dom/ReactDOM.js", "time": 15254 },
+  { "path": "docs/_posts/2015-09-10-react-v0.14-rc1.md", "time": 638 },
+  { "path": "docs/docs/ref-02-component-api.md", "time": 4837 },
+  { "path": "docs/docs/videos.md", "time": 7273 },
+  { "path": "docs/docs/ref-05-events.md", "time": 9770 },
+  { "path": "src/addons/__tests__/ReactFragment-test.js", "time": 4708 },
+  {
+    "path": "src/isomorphic/classic/element/__tests__/ReactElementValidator-test.js",
+    "time": 6882
+  },
+  { "path": "docs/docs/10.1-animation.md", "time": 3376 },
+  { "path": "src/test/ReactDefaultPerf.js", "time": 18250 },
+  { "path": "src/renderers/dom/client/ReactDOMSelection.js", "time": 12389 },
+  {
+    "path": "src/renderers/shared/reconciler/shouldUpdateReactComponent.js",
+    "time": 16148
+  },
+  { "path": "src/addons/transitions/ReactCSSTransitionGroup.js", "time": 2368 },
+  { "path": "src/renderers/dom/client/ReactEventListener.js", "time": 12860 },
+  { "path": "packages/react-codemod/package.json", "time": 3889 },
+  {
+    "path": "src/isomorphic/classic/class/__tests__/ReactClass-test.js",
+    "time": 4017
+  },
+  { "path": "src/shared/utils/__tests__/adler32-test.js", "time": 952 },
+  { "path": "src/addons/ReactWithAddons.js", "time": 10321 },
+  {
+    "path": "src/renderers/dom/client/__tests__/findDOMNode-test.js",
+    "time": 5546
+  },
+  { "path": "src/renderers/shared/event/EventPropagators.js", "time": 19537 },
+  { "path": "packages/react/react.js", "time": 1561 },
+  { "path": "src/renderers/dom/shared/CSSProperty.js", "time": 13541 },
+  {
+    "path": "packages/react-codemod/transforms/utils/ReactUtils.js",
+    "time": 6
+  },
+  { "path": "docs/_posts/2015-08-11-relay-technical-preview.md", "time": 23 },
+  {
+    "path": "src/renderers/dom/client/__tests__/ReactBrowserEventEmitter-test.js",
+    "time": 10143
+  },
+  { "path": "docs/tips/03-if-else-in-JSX.ko-KR.md", "time": 29 },
+  {
+    "path": "src/renderers/shared/reconciler/ReactChildReconciler.js",
+    "time": 5746
+  },
+  { "path": "docs/_posts/2015-07-03-react-v0.14-beta-1.md", "time": 294 },
+  {
+    "path": "docs/docs/03-interactivity-and-dynamic-uis.ja-JP.md",
+    "time": 330
+  },
+  { "path": "docs/docs/09-tooling-integration.ja-JP.md", "time": 23 },
+  {
+    "path": "src/isomorphic/deprecated/__tests__/cloneWithProps-test.js",
+    "time": 13267
+  },
+  {
+    "path": "src/renderers/dom/server/__tests__/ReactServerRendering-test.js",
+    "time": 11830
+  },
+  { "path": "packages/react/addons.js", "time": 13895 },
+  { "path": "grunt/tasks/npm-react-addons.js", "time": 315 },
+  { "path": "docs/docs/ref-09-glossary.md", "time": 5986 },
+  {
+    "path": "src/renderers/dom/client/__tests__/ReactMount-test.js",
+    "time": 2490
+  },
+  { "path": "docs/docs/10.7-update.md", "time": 4806 },
+  { "path": "src/shared/utils/deprecated.js", "time": 145 },
+  { "path": "docs/_posts/2015-05-01-graphql-introduction.md", "time": 1206 },
+  { "path": "docs/docs/getting-started.ja-JP.md", "time": 2014 },
+  {
+    "path": "src/isomorphic/modern/class/__tests__/ReactTypeScriptClass-test.ts",
+    "time": 2044
+  },
+  { "path": "docs/tips/13-false-in-jsx.md", "time": 14139 },
+  { "path": "src/renderers/dom/shared/ReactDefaultInjection.js", "time": 3057 },
+  { "path": "npm-react/README.md", "time": 21 },
+  {
+    "path": "src/isomorphic/modern/element/__tests__/ReactJSXElementValidator-test.js",
+    "time": 1987
+  },
+  {
+    "path": "src/isomorphic/classic/element/ReactElementValidator.js",
+    "time": 2689
+  },
+  {
+    "path": "src/renderers/dom/client/wrappers/LinkedValueUtils.js",
+    "time": 11437
+  },
+  { "path": "Gruntfile.js", "time": 932 },
+  { "path": "test/index.html", "time": 13488 },
+  { "path": "src/classic/class/ReactClass.js", "time": 4917 },
+  { "path": "src/classic/types/ReactPropTypes.js", "time": 5055 },
+  {
+    "path": "src/core/__tests__/ReactCompositeComponent-test.js",
+    "time": 17016
+  },
+  {
+    "path": "src/classic/element/__tests__/ReactElementValidator-test.js",
+    "time": 1624
+  },
+  { "path": "src/core/__tests__/ReactMultiChildText-test.js", "time": 16271 },
+  {
+    "path": "src/core/__tests__/ReactComponentLifeCycle-test.js",
+    "time": 2204
+  },
+  { "path": "src/classic/element/ReactElementValidator.js", "time": 3931 },
+  { "path": "docs/docs/10.5-clone-with-props.md", "time": 6608 },
+  {
+    "path": "src/browser/ui/__tests__/ReactDOMComponent-test.js",
+    "time": 15360
+  },
+  { "path": "docs/tips/17-children-undefined.md", "time": 7121 },
+  {
+    "path": "src/modern/class/__tests__/ReactCoffeeScriptClass-test.coffee",
+    "time": 700
+  },
+  { "path": "src/browser/ui/dom/components/ReactDOMOption.js", "time": 9601 },
+  { "path": "src/browser/ui/ReactDOMComponent.js", "time": 15908 },
+  { "path": "src/browser/ui/React.js", "time": 13021 },
+  { "path": "src/browser/ui/dom/DOMChildrenOperations.js", "time": 14741 },
+  { "path": "src/addons/transitions/ReactTransitionGroup.js", "time": 9913 },
+  { "path": "src/addons/update.js", "time": 1868 },
+  { "path": "src/browser/ui/dom/components/ReactDOMSelect.js", "time": 14526 },
+  { "path": "src/utils/CallbackQueue.js", "time": 8609 },
+  { "path": "docs/docs/02.1-jsx-in-depth.md", "time": 3459 },
+  { "path": "npm-react-codemod/package.json", "time": 0 },
+  { "path": "src/classic/class/__tests__/ReactClass-test.js", "time": 168 },
+  { "path": "npm-react/package.json", "time": 11325 },
+  { "path": "src/browser/ui/ReactDOMTextComponent.js", "time": 9168 },
+  {
+    "path": "vendor/fbtransform/transforms/__tests__/react-test.js",
+    "time": 6403
+  },
+  { "path": "examples/basic-jsx/index.html", "time": 10550 },
+  {
+    "path": "src/addons/__tests__/ReactComponentWithPureRenderMixin-test.js",
+    "time": 187
+  },
+  { "path": "src/browser/eventPlugins/TapEventPlugin.js", "time": 3381 },
+  { "path": "src/browser/ui/ReactMount.js", "time": 2834 },
+  { "path": "bin/jsx", "time": 575 },
+  { "path": "npm-jsx_orphaned_brackets_transformer/package.json", "time": 888 },
+  { "path": "src/utils/__tests__/shallowEqual-test.js", "time": 153 },
+  { "path": "src/utils/shallowEqual.js", "time": 1343 },
+  { "path": "src/core/shouldUpdateReactComponent.js", "time": 1562 },
+  { "path": "src/classic/element/ReactElement.js", "time": 3698 },
+  { "path": "docs/docs/ref-03-component-specs.md", "time": 11395 },
+  { "path": "src/modern/class/ReactComponent.js", "time": 1247 },
+  { "path": "docs/_posts/2013-10-3-community-roundup-9.md", "time": 12357 },
+  { "path": "docs/_posts/2015-01-27-react-v0.13.0-beta-1.md", "time": 676 },
+  {
+    "path": "docs/_posts/2015-02-24-streamlining-react-elements.md",
+    "time": 2
+  },
+  { "path": "docs/_layouts/single.html", "time": 15262 },
+  { "path": "vendor/fbtransform/visitors.js", "time": 4171 },
+  { "path": "src/utils/cloneWithProps.js", "time": 9909 },
+  { "path": "examples/jquery-mobile/js/app.js", "time": 9672 },
+  { "path": "src/classic/class/__tests__/ReactBind-test.js", "time": 796 },
+  { "path": "main.js", "time": 6602 },
+  { "path": "vendor/fbtransform/syntax.js", "time": 2010 },
+  {
+    "path": "src/browser/__tests__/ReactBrowserEventEmitter-test.js",
+    "time": 5925
+  },
+  {
+    "path": "npm-jsx_orphaned_brackets_transformer/transforms/react.js",
+    "time": 265
+  },
+  { "path": "docs/Gemfile.lock", "time": 4417 },
+  { "path": "src/browser/ui/ReactDOMIDOperations.js", "time": 8763 },
+  { "path": "src/vendor/core/warning.js", "time": 1223 },
+  { "path": "src/core/ReactEmptyComponent.js", "time": 7418 },
+  { "path": "docs/docs/02-displaying-data.zh-CN.md", "time": 2431 },
+  { "path": "docs/docs/10.7-pure-render-mixin.md", "time": 5016 },
+  { "path": "src/browser/ui/dom/DOMPropertyOperations.js", "time": 14808 },
+  { "path": "src/core/ReactCompositeComponent.js", "time": 10776 },
+  { "path": "src/browser/ui/ReactDefaultInjection.js", "time": 12683 },
+  { "path": "src/core/ReactUpdateQueue.js", "time": 165 },
+  { "path": "src/modern/class/ReactComponentBase.js", "time": 240 },
+  { "path": "src/modern/class/__tests__/ReactES6Class-test.js", "time": 48 },
+  {
+    "path": "src/browser/ui/dom/components/__tests__/LocalEventTrapMixin-test.js",
+    "time": 3
+  },
+  {
+    "path": "src/browser/ui/dom/components/LocalEventTrapMixin.js",
+    "time": 5300
+  },
+  { "path": "src/browser/ui/dom/setInnerHTML.js", "time": 6497 },
+  { "path": "src/browser/ui/dom/CSSProperty.js", "time": 12659 },
+  { "path": "LICENSE", "time": 2091 },
+  { "path": "src/browser/findDOMNode.js", "time": 122 },
+  { "path": "grunt/tasks/version-check.js", "time": 8974 },
+  {
+    "path": "docs/_posts/2014-12-19-react-js-conf-diversity-scholarship.md",
+    "time": 1
+  },
+  { "path": "docs/docs/10-addons.md", "time": 3228 },
+  { "path": "docs/docs/10.6-update.md", "time": 6766 },
+  {
+    "path": "src/browser/ui/__tests__/ReactDOMTextComponent-test.js",
+    "time": 448
+  },
+  {
+    "path": "src/addons/link/__tests__/LinkedStateMixin-test.js",
+    "time": 10249
+  },
+  { "path": "src/browser/server/ReactServerRendering.js", "time": 6265 },
+  { "path": "src/core/ReactElement.js", "time": 2245 },
+  { "path": "src/browser/ui/dom/CSSPropertyOperations.js", "time": 10224 },
+  {
+    "path": "src/browser/ui/dom/components/__tests__/ReactDOMSelect-test.js",
+    "time": 9793
+  },
+  { "path": "src/utils/__tests__/traverseAllChildren-test.js", "time": 316 },
+  { "path": "docs/tips/03-if-else-in-JSX.md", "time": 71 },
+  { "path": "src/core/__tests__/ReactElement-test.js", "time": 1481 },
+  {
+    "path": "src/addons/link/__tests__/ReactLinkPropTypes-test.js",
+    "time": 4642
+  },
+  { "path": "vendor/browser-transforms.js", "time": 9290 },
+  { "path": "src/core/ReactLegacyElement.js", "time": 1464 },
+  {
+    "path": "docs/_posts/2014-10-14-introducting-react-elements.md",
+    "time": 29
+  },
+  { "path": "docs/_posts/2014-09-24-testing-flux-applications.md", "time": 59 },
+  { "path": "src/utils/adler32.js", "time": 10296 },
+  { "path": "docs/_includes/nav_docs.html", "time": 7436 },
+  { "path": "docs/docs/09.4-test-utils.md", "time": 5162 },
+  { "path": "docs/docs/flux-todo-list.md", "time": 918 },
+  { "path": "src/browser/ui/dom/DOMProperty.js", "time": 6677 },
+  { "path": "src/utils/flattenChildren.js", "time": 10060 },
+  { "path": "docs/docs/09.1-animation.md", "time": 5610 },
+  { "path": "docs/_js/html-jsx.js", "time": 6115 },
+  { "path": "src/test/ReactDefaultPerfAnalysis.js", "time": 4842 },
+  { "path": "grunt/tasks/jsx.js", "time": 10589 },
+  {
+    "path": "src/browser/syntheticEvents/SyntheticKeyboardEvent.js",
+    "time": 9983
+  },
+  { "path": "examples/todomvc-flux/js/stores/TodoStore.js", "time": 3022 },
+  { "path": "docs/_posts/2014-07-28-community-roundup-20.md", "time": 14 },
+  { "path": "src/vendor/core/dom/focusNode.js", "time": 3384 },
+  { "path": "src/core/ReactUpdates.js", "time": 9239 },
+  { "path": "src/core/ReactContext.js", "time": 5883 },
+  { "path": "docs/_posts/2014-07-13-react-v0.11-rc1.md", "time": 99 },
+  { "path": "docs/docs/09.6-update.md", "time": 3436 },
+  { "path": "examples/todomvc-flux/index.html", "time": 2552 },
+  { "path": "docs/docs/07-working-with-the-browser.md", "time": 4229 },
+  { "path": "src/core/ReactPropTypes.js", "time": 4899 },
+  { "path": "docs/_posts/2014-03-14-community-roundup-18.md", "time": 2586 },
+  {
+    "path": "examples/todomvc-flux/js/components/Header.react.js",
+    "time": 2238
+  },
+  { "path": "docs/_posts/2014-06-27-community-roundup-19.md", "time": 1 },
+  { "path": "src/browser/ui/ReactEventListener.js", "time": 112 },
+  { "path": "examples/ballmer-peak/example.js", "time": 9096 },
+  {
+    "path": "src/browser/ui/dom/components/__tests__/ReactDOMInput-test.js",
+    "time": 5199
+  },
+  {
+    "path": "src/browser/eventPlugins/__tests__/EnterLeaveEventPlugin-test.js",
+    "time": 3640
+  },
+  { "path": "src/core/__tests__/ReactPropTypes-test.js", "time": 4283 },
+  { "path": "src/browser/ui/dom/getEventModifierState.js", "time": 799 },
+  { "path": "src/browser/ui/dom/components/ReactDOMImg.js", "time": 174 },
+  {
+    "path": "src/core/__tests__/ReactCompositeComponentMixin-test.js",
+    "time": 7657
+  },
+  {
+    "path": "src/browser/ui/ReactComponentBrowserEnvironment.js",
+    "time": 2326
+  },
+  { "path": "examples/todomvc-flux/package.json", "time": 1117 },
+  { "path": "src/addons/transitions/ReactTransitionEvents.js", "time": 5759 },
+  { "path": "src/utils/escapeTextForBrowser.js", "time": 8022 },
+  { "path": "perf/tests/todolist-add.js", "time": 2617 },
+  { "path": "docs/docs/07.1-more-about-refs.md", "time": 6575 },
+  { "path": "src/core/ReactEventEmitterMixin.js", "time": 5551 },
+  {
+    "path": "src/browser/ui/dom/__tests__/CSSPropertyOperations-test.js",
+    "time": 7219
+  },
+  { "path": "grunt/tasks/npm-react.js", "time": 1248 },
+  {
+    "path": "src/vendor/immutable/__tests__/ImmutableObject-test.js",
+    "time": 266
+  },
+  { "path": "src/browser/ReactDOM.js", "time": 7247 },
+  { "path": "vendor/fbtransform/transforms/react.js", "time": 1780 },
+  {
+    "path": "src/browser/ui/dom/__tests__/DOMPropertyOperations-test.js",
+    "time": 6839
+  },
+  { "path": "src/utils/__tests__/cloneWithProps-test.js", "time": 1455 },
+  { "path": "vendor/fbtransform/transforms/xjs.js", "time": 5617 },
+  { "path": "docs/_posts/2014-02-24-community-roundup-17.md", "time": 1 },
+  { "path": "examples/todomvc-backbone/README.md", "time": 4009 },
+  { "path": "src/event/EventPluginRegistry.js", "time": 5329 },
+  { "path": "src/utils/ReactChildren.js", "time": 4712 },
+  { "path": "src/browser/dom/DefaultDOMPropertyConfig.js", "time": 5539 },
+  { "path": "src/vendor/core/invariant.js", "time": 53 },
+  { "path": "src/browser/ReactEventTopLevelCallback.js", "time": 2184 },
+  { "path": "npm-jsx_whitespace_transform/transforms/react.js", "time": 455 },
+  { "path": "src/browser/dom/DOMChildrenOperations.js", "time": 4858 },
+  { "path": "npm-jsx_whitespace_transform/run", "time": 416 },
+  { "path": "src/browser/ReactMount.js", "time": 5270 },
+  { "path": "src/event/__tests__/EventPluginHub-test.js", "time": 987 },
+  { "path": "docs/_js/jsx-compiler.js", "time": 1230 },
+  { "path": "src/core/ReactComponent.js", "time": 5380 },
+  { "path": "docs/docs/complementary-tools.md", "time": 123 },
+  { "path": "src/core/__tests__/ReactMultiChild-test.js", "time": 2179 },
+  { "path": "src/core/ReactEventEmitter.js", "time": 4152 },
+  { "path": "src/core/__tests__/ReactRenderDocument-test.js", "time": 3646 },
+  { "path": "src/dom/DOMPropertyOperations.js", "time": 6006 },
+  { "path": "src/core/ReactInstanceHandles.js", "time": 5235 },
+  { "path": "docs/_posts/2013-11-05-thinking-in-react.md", "time": 1651 },
+  {
+    "path": "src/eventPlugins/__tests__/EnterLeaveEventPlugin-test.js",
+    "time": 84
+  },
+  {
+    "path": "src/event/synthetic/__tests__/SyntheticWheelEvent-test.js",
+    "time": 5113
+  },
+  { "path": "src/eventPlugins/EnterLeaveEventPlugin.js", "time": 4780 },
+  {
+    "path": "src/dom/components/__tests__/ReactDOMInput-test.js",
+    "time": 2495
+  },
+  { "path": "src/vendor/core/dom/getUnboundedScrollPosition.js", "time": 1590 },
+  { "path": "src/core/ReactDefaultInjection.js", "time": 3202 },
+  { "path": "src/eventPlugins/ChangeEventPlugin.js", "time": 4618 },
+  { "path": "src/dom/getTextContentAccessor.js", "time": 5267 },
+  { "path": "docs/tips/15-expose-component-functions.md", "time": 48 },
+  { "path": "src/eventPlugins/SelectEventPlugin.js", "time": 2042 },
+  { "path": "src/core/__tests__/ReactInstanceHandles-test.js", "time": 4226 },
+  { "path": "src/eventPlugins/SimpleEventPlugin.js", "time": 4709 },
+  { "path": "docs/_js/es5-sham.js", "time": 2 },
+  { "path": "src/core/ReactOwner.js", "time": 5095 },
+  {
+    "path": "src/addons/transitions/__tests__/ReactTransitionGroup-test.js",
+    "time": 1047
+  },
+  { "path": "src/utils/traverseAllChildren.js", "time": 3899 },
+  { "path": "docs/_posts/2013-12-23-community-roundup-12.md", "time": 1 },
+  { "path": "src/dom/DefaultDOMPropertyConfig.js", "time": 3294 },
+  { "path": "src/dom/components/ReactDOMSelect.js", "time": 2093 },
+  { "path": "src/addons/transitions/ReactTransitionKeySet.js", "time": 2500 },
+  { "path": "grunt/tasks/webdriver-jasmine.js", "time": 530 },
+  { "path": "src/test/getTestDocument.js", "time": 1943 },
+  { "path": "src/event/synthetic/SyntheticEvent.js", "time": 4057 },
+  { "path": "src/core/__tests__/ReactMountDestruction-test.js", "time": 4282 },
+  { "path": "test/lib/jasmine-execute.js", "time": 417 },
+  { "path": "examples/transitions/transition.css", "time": 866 },
+  { "path": "test/lib/reportTestResults.browser.js", "time": 0 },
+  { "path": "docs/_css/react.scss", "time": 3696 },
+  { "path": "src/event/synthetic/SyntheticWheelEvent.js", "time": 3761 },
+  { "path": "docs/cookbook/06-style-prop-value-px.md", "time": 26 },
+  { "path": "docs/cookbook/07-children-prop-type.md", "time": 8 },
+  { "path": "docs/docs/09-addons.md", "time": 244 },
+  { "path": "src/vendor/core/getMarkupWrap.js", "time": 1792 },
+  { "path": "grunt/config/jsx/jsx.js", "time": 3054 },
+  { "path": "src/core/ReactNativeComponent.js", "time": 2282 },
+  { "path": "src/dom/components/ReactDOMInput.js", "time": 1366 },
+  { "path": "src/core/ReactMount.js", "time": 1565 },
+  { "path": "examples/todomvc-backbone/js/app.js", "time": 2410 },
+  { "path": "src/core/__tests__/ReactComponent-test.js", "time": 1418 },
+  { "path": "examples/basic-jsx-precompile/index.html", "time": 1613 },
+  { "path": "examples/basic-jsx-external/index.html", "time": 1352 },
+  { "path": "src/core/__tests__/refs-test.js", "time": 349 },
+  { "path": "grunt/tasks/phantom.js", "time": 891 },
+  { "path": "src/event/synthetic/SyntheticMouseEvent.js", "time": 163 },
+  { "path": "docs/docs/jsx-is-not-html.md", "time": 45 },
+  { "path": "src/eventPlugins/TextChangeEventPlugin.js", "time": 113 },
+  { "path": "docs/_posts/2013-06-03-why-react.md", "time": 14 },
+  { "path": "docs/Rakefile", "time": 26 },
+  { "path": "docs/docs/component-data.md", "time": 4 },
+  { "path": "docs/_js/examples/timer.js", "time": 1 }
+]

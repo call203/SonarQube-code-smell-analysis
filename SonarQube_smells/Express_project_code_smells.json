@@ -1,0 +1,352 @@
+[
+  { "path": "test/res.clearCookie.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/app.router.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/res.send.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "lib/response.js",
+    "smells": [
+      "javascript:S6535",
+      "javascript:S3504",
+      "javascript:S1121",
+      "javascript:S3358",
+      "javascript:S3776"
+    ]
+  },
+  {
+    "path": "test/res.location.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/res.cookie.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/Router.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "test/app.listen.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/router/route.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/utils.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/res.format.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "lib/router/index.js",
+    "smells": [
+      "javascript:S3504",
+      "javascript:S2392",
+      "javascript:S1121",
+      "javascript:S6557",
+      "javascript:S3776",
+      "javascript:S2814"
+    ]
+  },
+  { "path": "test/Route.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/params/index.js",
+    "smells": ["javascript:S3504", "javascript:S1121"]
+  },
+  {
+    "path": "test/res.sendFile.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/res.download.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/express.json.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/express.raw.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/express.text.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/express.urlencoded.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/res.status.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "lib/application.js",
+    "smells": ["javascript:S6557", "javascript:S3504"]
+  },
+  {
+    "path": "test/config.js",
+    "smells": ["javascript:S2004", "javascript:S1186", "javascript:S3504"]
+  },
+  { "path": "lib/view.js", "smells": ["javascript:S3504"] },
+  { "path": "test/utils.js", "smells": ["javascript:S3504"] },
+  { "path": "test/res.append.js", "smells": ["javascript:S3504"] },
+  { "path": "test/app.locals.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/downloads/index.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/req.ip.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "test/app.request.js", "smells": ["javascript:S3504"] },
+  { "path": "test/app.response.js", "smells": ["javascript:S3504"] },
+  { "path": "test/app.all.js", "smells": ["javascript:S3504"] },
+  { "path": "test/app.use.js", "smells": ["javascript:S3504"] },
+  { "path": "test/app.engine.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/app.param.js",
+    "smells": ["javascript:S2004", "javascript:S3504", "javascript:S1121"]
+  },
+  { "path": "test/app.routes.error.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/req.query.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/req.acceptsLanguage.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "test/req.acceptsLanguages.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "examples/hello-world/index.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/hello-world.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/res.json.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/res.jsonp.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "examples/route-map/index.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/express.static.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "test/support/utils.js", "smells": ["javascript:S3504"] },
+  { "path": "test/exports.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/middleware.basic.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/req.acceptsCharset.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/req.acceptsCharsets.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/req.hostname.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  { "path": "lib/express.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/error-pages/index.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/error/index.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/request.js", "smells": ["javascript:S3504"] },
+  { "path": "test/res.attachment.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/res.render.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/app.render.js",
+    "smells": ["javascript:S2004", "javascript:S4144", "javascript:S3504"]
+  },
+  { "path": "lib/middleware/query.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/view-constructor/github-view.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/res.set.js", "smells": ["javascript:S3504"] },
+  { "path": "lib/middleware/init.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/view-locals/index.js",
+    "smells": ["javascript:S3504", "javascript:S125"]
+  },
+  { "path": "examples/auth/index.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/ejs/index.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/markdown/index.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/mvc/index.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/mvc/lib/boot.js",
+    "smells": ["javascript:S3504", "javascript:S2814"]
+  },
+  {
+    "path": "examples/route-separation/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/search/index.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "lib/router/layer.js",
+    "smells": ["javascript:S3504", "javascript:S1121"]
+  },
+  {
+    "path": "test/req.range.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  { "path": "test/req.is.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/static-files/index.js", "smells": ["javascript:S3504"] },
+  { "path": "test/res.redirect.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.get.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/cookies.js", "smells": ["javascript:S3504"] },
+  { "path": "test/res.vary.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/cookie-sessions/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/acceptance/cookie-sessions.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/req.host.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/req.protocol.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "test/req.secure.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  { "path": "test/res.get.js", "smells": ["javascript:S3504"] },
+  { "path": "test/res.links.js", "smells": ["javascript:S3504"] },
+  { "path": "test/app.options.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.fresh.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.stale.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/support/tmpl.js",
+    "smells": ["javascript:S6535", "javascript:S3504"]
+  },
+  {
+    "path": "examples/multi-router/controllers/api_v1.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/multi-router/controllers/api_v2.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/multi-router/index.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/multi-router.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/auth.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/downloads.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/params.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/resource.js", "smells": ["javascript:S3504"] },
+  { "path": "test/res.sendStatus.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/req.subdomains.js",
+    "smells": ["javascript:S3504", "javascript:S2004"]
+  },
+  {
+    "path": "examples/route-separation/user.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "test/acceptance/route-separation.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/app.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.acceptsEncodings.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/vhost/index.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/vhost.js", "smells": ["javascript:S3504"] },
+  { "path": "test/app.route.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/resource/index.js",
+    "smells": ["javascript:S2870", "javascript:S3504", "javascript:S4619"]
+  },
+  { "path": "test/app.head.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/markdown.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.acceptsEncoding.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.baseUrl.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/acceptance/content-negotiation.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/acceptance/ejs.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/mvc.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/web-service.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "test/req.ips.js",
+    "smells": ["javascript:S2004", "javascript:S3504"]
+  },
+  {
+    "path": "examples/content-negotiation/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/cookies/index.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/online/index.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/view-constructor/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/web-service/index.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/session/index.js", "smells": ["javascript:S3504"] },
+  { "path": "examples/session/redis.js", "smells": ["javascript:S3504"] },
+  { "path": "benchmarks/middleware.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.signedCookies.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.accepts.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/search/public/client.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/static-files/public/css/style.css",
+    "smells": ["css:S4658"]
+  },
+  {
+    "path": "examples/route-middleware/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "test/res.locals.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/route-map.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/content-negotiation/db.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/content-negotiation/users.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/view-locals/user.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/error.js", "smells": ["javascript:S3504"] },
+  { "path": "test/acceptance/error-pages.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/mvc/controllers/user/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/mvc/controllers/pet/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/mvc/controllers/user-pet/index.js",
+    "smells": ["javascript:S3504"]
+  },
+  { "path": "examples/mvc/db.js", "smells": ["javascript:S3504"] },
+  { "path": "test/res.type.js", "smells": ["javascript:S3504"] },
+  { "path": "test/regression.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.route.js", "smells": ["javascript:S3504"] },
+  { "path": "test/app.del.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.param.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.xhr.js", "smells": ["javascript:S3504"] },
+  { "path": "test/req.path.js", "smells": ["javascript:S3504"] },
+  {
+    "path": "examples/route-separation/post.js",
+    "smells": ["javascript:S3504"]
+  }
+]

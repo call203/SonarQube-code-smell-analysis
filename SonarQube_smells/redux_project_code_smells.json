@@ -1,0 +1,105 @@
+[
+  {
+    "path": "examples/async/src/containers/App.js",
+    "smells": ["javascript:S3358"]
+  },
+  {
+    "path": "examples/real-world/src/components/Explore.js",
+    "smells": ["javascript:S6772"]
+  },
+  {
+    "path": "examples/todomvc/src/components/MainSection.spec.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "examples/todos-with-undo/src/components/Link.js",
+    "smells": ["javascript:S6844"]
+  },
+  {
+    "path": "examples/todos-with-undo/src/containers/AddTodo.js",
+    "smells": ["javascript:S6861", "javascript:S6774"]
+  },
+  {
+    "path": "examples/tree-view/src/containers/Node.js",
+    "smells": ["javascript:S6844", "javascript:S6774"]
+  },
+  { "path": "src/types/store.ts", "smells": ["typescript:S6569"] },
+  {
+    "path": "test/typescript/enhancers.ts",
+    "smells": [
+      "typescript:S2004",
+      "typescript:S1854",
+      "typescript:S1788",
+      "typescript:S4144"
+    ]
+  },
+  { "path": "test/applyMiddleware.spec.ts", "smells": ["typescript:S2004"] },
+  { "path": "examples/counter-ts/src/App.tsx", "smells": ["typescript:S6772"] },
+  { "path": "examples/counter/src/App.js", "smells": ["javascript:S6772"] },
+  {
+    "path": "test/typescript/actionCreators.ts",
+    "smells": ["typescript:S1854"]
+  },
+  { "path": "test/typescript/middleware.ts", "smells": ["typescript:S1854"] },
+  { "path": "website/src/pages/errors.js", "smells": ["javascript:S6477"] },
+  {
+    "path": "docs/components/DetailedExplanation.jsx",
+    "smells": ["javascript:S6774"]
+  },
+  {
+    "path": "website/src/pages/index.js",
+    "smells": ["javascript:S6479", "javascript:S6747"]
+  },
+  {
+    "path": "test/createStore.spec.ts",
+    "smells": [
+      "typescript:S4623",
+      "typescript:S1854",
+      "typescript:S1186",
+      "typescript:S6331",
+      "typescript:S2004"
+    ]
+  },
+  { "path": "test/compose.spec.ts", "smells": ["typescript:S2004"] },
+  { "path": "test/combineReducers.spec.ts", "smells": ["typescript:S2004"] },
+  {
+    "path": "test/typescript/reducers.ts",
+    "smells": ["typescript:S6564", "typescript:S1854"]
+  },
+  {
+    "path": "examples/todomvc/src/components/Link.js",
+    "smells": ["javascript:S6844"]
+  },
+  {
+    "path": "examples/todos/src/containers/AddTodo.js",
+    "smells": ["javascript:S6774"]
+  },
+  {
+    "path": "test/typescript/injectedDispatch.ts",
+    "smells": ["typescript:S1854"]
+  },
+  {
+    "path": "examples/real-world/src/containers/App.js",
+    "smells": ["javascript:S6774"]
+  },
+  {
+    "path": "examples/shopping-cart/src/reducers/products.spec.js",
+    "smells": ["javascript:S2004"]
+  },
+  {
+    "path": "examples/real-world/src/components/List.js",
+    "smells": ["javascript:S6775"]
+  },
+  {
+    "path": "examples/todos-with-undo/src/containers/UndoRedo.js",
+    "smells": ["javascript:S6861", "javascript:S6774"]
+  },
+  {
+    "path": "examples/universal/webpack.config.js",
+    "smells": ["javascript:S3504"]
+  },
+  {
+    "path": "examples/async/src/components/Posts.js",
+    "smells": ["javascript:S6479"]
+  }
+]
